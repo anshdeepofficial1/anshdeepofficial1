@@ -68,7 +68,7 @@ def render_heatmap(payload: dict) -> None:
 <style>.mono{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}.muted{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}}</style>
 <rect x=".5" y=".5" width="859" height="179" rx="18" fill="#0d1117" stroke="#30363d"/>
 <text x="24" y="24" class="mono" font-size="11" font-weight="700" fill="#39d353">LIVE CONTRIBUTIONS</text>
-<text x="836" y="24" class="muted" font-size="10" text-anchor="end">{esc(username)} · {esc(payload.get("source","github"))}</text>
+<text x="836" y="24" class="muted" font-size="10" text-anchor="end">{esc(username)} · auto refresh</text>
 {month_text}{''.join(cells)}
 <text x="24" y="164" class="muted" font-size="10">{esc(footer)}</text>
 <text x="836" y="164" class="muted" font-size="10" text-anchor="end">current {stats.get("current_streak",0)}d · longest {stats.get("longest_streak",0)}d</text>

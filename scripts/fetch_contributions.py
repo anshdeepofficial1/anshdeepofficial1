@@ -11,7 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 
 USERNAME = os.getenv("GITHUB_USERNAME", "anshdeepofficial1").strip()
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()\nCONTRIBUTION_TOTAL_OFFSET = int(os.getenv("CONTRIBUTION_TOTAL_OFFSET", "0") or 0)
 OUT = Path("data/contributions.json")
 PUBLIC_URL = f"https://github.com/users/{USERNAME}/contributions"
 GRAPHQL_URL = "https://api.github.com/graphql"
@@ -105,7 +105,7 @@ def fetch_graphql() -> dict | None:
         raise RuntimeError(f"GitHub GraphQL returned errors: {body['errors']}")
 
     calendar = body["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-    colors = [str(c).lower() for c in calendar.get("colors", [])]
+    colors = [str(c).lower() for c in calendar.get("colors", [])]\n    dark_palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
     days = []
     for week in calendar.get("weeks", []):
         for day in week.get("contributionDays", []):
@@ -129,7 +129,7 @@ def fetch_graphql() -> dict | None:
         "public_url": PUBLIC_URL,
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "days": sorted(days, key=lambda x: x["date"]),
-        "stats": _stats(days, forced_total=int(calendar["totalContributions"])),
+        "stats": _stats(days, forced_total=int(calendar["totalContributions"]) + CONTRIBUTION_TOTAL_OFFSET),\n        "total_offset": CONTRIBUTION_TOTAL_OFFSET,
     }
 
 

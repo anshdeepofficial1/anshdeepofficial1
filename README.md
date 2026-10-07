@@ -52,4 +52,4 @@ I build practical products across **mobile, web, AI and creative tooling**, with
 
 <sub>Contribution data is generated from GitHub’s public contribution calendar and refreshed automatically by GitHub Actions. No personal access token or hosted profile-stats service is used.</sub>
 
-<!-- profile-art:v1 -->
+<!-- profile-art:v2:workflow-ready -->

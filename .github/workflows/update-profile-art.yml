@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_USERNAME: anshdeepofficial1
-      GITHUB_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}\n      CONTRIBUTION_TOTAL_OFFSET: "198"
 
     steps:
       - name: Checkout profile repo

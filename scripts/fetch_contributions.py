@@ -11,13 +11,17 @@ import requests
 from bs4 import BeautifulSoup
 
 USERNAME = os.getenv("GITHUB_USERNAME", "anshdeepofficial1").strip()
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()\nCONTRIBUTION_TOTAL_OFFSET = int(os.getenv("CONTRIBUTION_TOTAL_OFFSET", "0") or 0)
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()
+CONTRIBUTION_TOTAL_OFFSET = int(os.getenv("CONTRIBUTION_TOTAL_OFFSET", "0") or 0)
+
 OUT = Path("data/contributions.json")
 PUBLIC_URL = f"https://github.com/users/{USERNAME}/contributions"
 GRAPHQL_URL = "https://api.github.com/graphql"
 
+DARK_PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 
-def _stats(days: list[dict], forced_total: int | None = None) -> dict:
+
+def build_stats(days: list[dict], forced_total: int | None = None) -> dict:
     active_dates = {
         datetime.strptime(item["date"], "%Y-%m-%d").date()
         for item in days
@@ -95,41 +99,53 @@ def fetch_graphql() -> dict | None:
         headers={
             "Authorization": f"Bearer {GITHUB_TOKEN}",
             "Accept": "application/vnd.github+json",
-            "User-Agent": "anshdeep-profile-readme/2.0",
+            "User-Agent": "anshdeep-profile-readme/3.0",
         },
         json={"query": query, "variables": {"login": USERNAME}},
     )
     response.raise_for_status()
     body = response.json()
+
     if body.get("errors"):
         raise RuntimeError(f"GitHub GraphQL returned errors: {body['errors']}")
 
     calendar = body["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-    colors = [str(c).lower() for c in calendar.get("colors", [])]\n    dark_palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+    source_colors = [str(c).lower() for c in calendar.get("colors", [])]
+
     days = []
     for week in calendar.get("weeks", []):
         for day in week.get("contributionDays", []):
-            color = str(day.get("color") or "#161b22")
-            try:
-                level = colors.index(color.lower()) + 1 if color.lower() in colors else (1 if int(day["contributionCount"]) > 0 else 0)
-            except ValueError:
-                level = 1 if int(day["contributionCount"]) > 0 else 0
+            count = int(day.get("contributionCount") or 0)
+            source_color = str(day.get("color") or "").lower()
+
+            if count <= 0:
+                level = 0
+            elif source_color in source_colors:
+                level = source_colors.index(source_color) + 1
+            else:
+                level = 1
+
             level = max(0, min(4, level))
             days.append({
                 "date": day["date"],
-                "count": int(day["contributionCount"]),
-                "color": color,
+                "count": count,
+                "color": DARK_PALETTE[level],
                 "level": level,
                 "weekday": int(day.get("weekday", 0)),
             })
+
+    raw_total = int(calendar["totalContributions"])
+    corrected_total = raw_total + CONTRIBUTION_TOTAL_OFFSET
 
     return {
         "username": USERNAME,
         "source": "github-graphql",
         "public_url": PUBLIC_URL,
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "raw_total": raw_total,
+        "total_offset": CONTRIBUTION_TOTAL_OFFSET,
         "days": sorted(days, key=lambda x: x["date"]),
-        "stats": _stats(days, forced_total=int(calendar["totalContributions"]) + CONTRIBUTION_TOTAL_OFFSET),\n        "total_offset": CONTRIBUTION_TOTAL_OFFSET,
+        "stats": build_stats(days, forced_total=corrected_total),
     }
 
 
@@ -145,14 +161,19 @@ def fetch_html() -> dict:
         PUBLIC_URL,
         timeout=30,
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; anshdeep-profile-readme/2.0)",
+            "User-Agent": "Mozilla/5.0 (compatible; anshdeep-profile-readme/3.0)",
             "Accept": "text/html,application/xhtml+xml",
         },
     )
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
+
     page_text = soup.get_text(" ", strip=True)
-    total_match = re.search(r"([\d,]+)\s+contributions?\s+in\s+the\s+last\s+year", page_text, flags=re.I)
+    total_match = re.search(
+        r"([\d,]+)\s+contributions?\s+in\s+the\s+last\s+year",
+        page_text,
+        flags=re.I,
+    )
     page_total = int(total_match.group(1).replace(",", "")) if total_match else None
 
     tooltips: dict[str, str] = {}
@@ -163,12 +184,13 @@ def fetch_html() -> dict:
 
     days = []
     seen = set()
-    palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+
     for node in soup.select("[data-date][data-level]"):
         day_date = node.get("data-date")
         if not day_date or day_date in seen:
             continue
         seen.add(day_date)
+
         try:
             level = max(0, min(4, int(node.get("data-level", "0"))))
         except ValueError:
@@ -180,6 +202,7 @@ def fetch_html() -> dict:
             if raw is not None and str(raw).isdigit():
                 count = int(raw)
                 break
+
         if count is None:
             count = _parse_count(node.get("aria-label"))
         if count is None and node.get("id"):
@@ -192,19 +215,23 @@ def fetch_html() -> dict:
             "date": day_date,
             "count": count,
             "level": level,
-            "color": palette[level],
+            "color": DARK_PALETTE[level],
         })
 
     if not days:
         raise RuntimeError("Could not parse GitHub contribution calendar")
+
+    corrected_total = (page_total + CONTRIBUTION_TOTAL_OFFSET) if page_total is not None else None
 
     return {
         "username": USERNAME,
         "source": "github-public-html",
         "public_url": PUBLIC_URL,
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "raw_total": page_total,
+        "total_offset": CONTRIBUTION_TOTAL_OFFSET,
         "days": sorted(days, key=lambda x: x["date"]),
-        "stats": _stats(days, forced_total=page_total),
+        "stats": build_stats(days, forced_total=corrected_total),
     }
 
 
@@ -220,7 +247,11 @@ def main() -> None:
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"wrote {OUT} via {payload['source']} with total={payload['stats'].get('total')}")
+    print(
+        f"wrote {OUT} via {payload['source']} "
+        f"raw={payload.get('raw_total')} offset={payload.get('total_offset')} "
+        f"total={payload['stats'].get('total')}"
+    )
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ INFO = Path("assets/info-card.svg")
 WIDTH, HEIGHT = 860, 180
 CELL, GAP = 11, 4
 X0, Y0 = 43, 40
-FALLBACK = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 
 
 def esc(value: object) -> str:
@@ -29,7 +29,8 @@ def render_heatmap(payload: dict) -> None:
     current_week_start = latest - timedelta(days=(latest.weekday() + 1) % 7)
     start = current_week_start - timedelta(weeks=52)
 
-    labels, last_month = [], None
+    labels = []
+    last_month = None
     for week in range(53):
         d = start + timedelta(weeks=week)
         key = (d.year, d.month)
@@ -43,11 +44,16 @@ def render_heatmap(payload: dict) -> None:
             d = start + timedelta(days=week * 7 + row)
             item = day_map.get(d.isoformat(), {})
             level = max(0, min(4, int(item.get("level", 0))))
-            color = item.get("color") or FALLBACK[level]
-            x, y = X0 + week * (CELL + GAP), Y0 + row * (CELL + GAP)
+            color = item.get("color") or PALETTE[level]
+            x = X0 + week * (CELL + GAP)
+            y = Y0 + row * (CELL + GAP)
             begin = 0.08 + (week + row) * 0.011
             count = item.get("count")
-            title = d.isoformat() if count is None else f"{int(count)} {'contribution' if int(count)==1 else 'contributions'} on {d.isoformat()}"
+            title = (
+                d.isoformat()
+                if count is None
+                else f"{int(count)} {'contribution' if int(count) == 1 else 'contributions'} on {d.isoformat()}"
+            )
             cells.append(
                 f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" fill="{esc(color)}" opacity="0">'
                 f'<title>{esc(title)}</title>'
@@ -58,20 +64,28 @@ def render_heatmap(payload: dict) -> None:
 
     month_text = "".join(
         f'<text x="{X0 + week * (CELL + GAP)}" y="31" class="muted" font-size="9">{esc(label)}</text>'
-        for week, label in labels if X0 + week * (CELL + GAP) < 815
+        for week, label in labels
+        if X0 + week * (CELL + GAP) < 815
     )
-    stats = payload.get("stats", {})
-    total = stats.get("total")
-    footer = f"{int(total):,} contributions in the last year" if total is not None else f"{stats.get('active_days', 0)} active days"
+
+    legend = []
+    for i, color in enumerate(PALETTE):
+        legend.append(f'<rect x="{712 + i * 15}" y="155" width="10" height="10" rx="2" fill="{color}"/>')
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">
-<style>.mono{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}.muted{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}}</style>
+<style>
+.mono{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}
+.muted{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}}
+</style>
 <rect x=".5" y=".5" width="859" height="179" rx="18" fill="#0d1117" stroke="#30363d"/>
 <text x="24" y="24" class="mono" font-size="11" font-weight="700" fill="#39d353">LIVE CONTRIBUTIONS</text>
 <text x="836" y="24" class="muted" font-size="10" text-anchor="end">{esc(username)} · auto refresh</text>
-{month_text}{''.join(cells)}
-<text x="24" y="164" class="muted" font-size="10">{esc(footer)}</text>
-<text x="836" y="164" class="muted" font-size="10" text-anchor="end">current {stats.get("current_streak",0)}d · longest {stats.get("longest_streak",0)}d</text>
+{month_text}
+{''.join(cells)}
+<text x="24" y="164" class="muted" font-size="10">365-day activity · refreshed daily</text>
+<text x="680" y="164" class="muted" font-size="9">Less</text>
+{''.join(legend)}
+<text x="792" y="164" class="muted" font-size="9">More</text>
 </svg>'''
     HEATMAP.write_text(svg + "\n", encoding="utf-8")
 
@@ -93,7 +107,14 @@ def render_info(payload: dict) -> None:
         x = 274 + i * 31
         h = max(4, int(72 * value / max_value))
         y = 346 - h
-        bars.append(f'<rect x="{x}" y="{y}" width="17" height="{h}" rx="4" fill="#238636" opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="{1.15+i*.08:.2f}s" fill="freeze"/><animate attributeName="height" from="0" to="{h}" dur=".45s" begin="{1.15+i*.08:.2f}s" fill="freeze"/><animate attributeName="y" from="346" to="{y}" dur=".45s" begin="{1.15+i*.08:.2f}s" fill="freeze"/></rect><text x="{x+8.5}" y="364" text-anchor="middle" class="muted" font-size="7">{esc(month[5:])}</text>')
+        begin = 1.15 + i * 0.08
+        bars.append(
+            f'<rect x="{x}" y="{y}" width="17" height="{h}" rx="4" fill="#238636" opacity="0">'
+            f'<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="{begin:.2f}s" fill="freeze"/>'
+            f'<animate attributeName="height" from="0" to="{h}" dur=".45s" begin="{begin:.2f}s" fill="freeze"/>'
+            f'<animate attributeName="y" from="346" to="{y}" dur=".45s" begin="{begin:.2f}s" fill="freeze"/>'
+            f'</rect><text x="{x+8.5}" y="364" text-anchor="middle" class="muted" font-size="7">{esc(month[5:])}</text>'
+        )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="490" height="390" viewBox="0 0 490 390">
 <style>
@@ -110,29 +131,35 @@ def render_info(payload: dict) -> None:
 
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".2s" fill="freeze"/>
 <text x="26" y="68" class="key">ANSHDEEP SINGH</text>
-<text x="26" y="88" class="val">Developer · Data Science · Android · Web · AI</text></g>
+<text x="26" y="88" class="val">Developer · Data Science · Android · Web · AI</text>
+</g>
 
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".4s" fill="freeze"/>
 <rect x="24" y="105" width="102" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
 <text x="36" y="126" class="key">CONTRIB</text><text x="36" y="157" class="big">{total:,}</text>
 <rect x="134" y="105" width="102" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="146" y="126" class="key">ACTIVE</text><text x="146" y="157" class="big">{active}</text>
+<text x="146" y="126" class="key">ACTIVE DAYS</text><text x="146" y="157" class="big">{active}</text>
 <rect x="244" y="105" width="102" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="256" y="126" class="key">STREAK</text><text x="256" y="157" class="big">{current}d</text>
+<text x="256" y="126" class="key">CURRENT</text><text x="256" y="157" class="big">{current}d</text>
 <rect x="354" y="105" width="112" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
 <text x="366" y="126" class="key">LONGEST</text><text x="366" y="157" class="big">{longest}d</text>
 </g>
 
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".72s" fill="freeze"/>
 <rect x="24" y="194" width="206" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="36" y="216" class="key">BEST DAY</text><text x="36" y="244" class="big">{best_count}</text><text x="91" y="244" class="muted" font-size="9">{esc(best_date)}</text>
+<text x="36" y="216" class="key">BEST DAY</text>
+<text x="36" y="244" class="big">{best_count}</text>
+<text x="91" y="244" class="muted" font-size="9">{esc(best_date)}</text>
+
 <rect x="238" y="194" width="228" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="250" y="216" class="key">PRIMARY BUILD</text><text x="250" y="242" class="val">AniDash · VYBE · Copy Cloud</text><text x="250" y="260" class="muted" font-size="9">mobile · web · AI · creative tooling</text>
+<text x="250" y="216" class="key">BUILD MODE</text>
+<text x="250" y="242" class="val">ship → measure → refine</text>
+<text x="250" y="260" class="muted" font-size="9">product-minded · UI-focused · iterative</text>
 </g>
 
 <text x="24" y="302" class="key">LAST 6 MONTHS</text>
 <line x1="24" y1="346" x2="248" y2="346" stroke="#21262d"/>
-<text x="24" y="326" class="muted" font-size="9">activity</text>
+<text x="24" y="326" class="muted" font-size="9">activity volume</text>
 {''.join(bars)}
 <line x1="262" y1="346" x2="468" y2="346" stroke="#21262d"/>
 <circle cx="28" cy="371" r="4" fill="#39d353"><animate attributeName="opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></circle>

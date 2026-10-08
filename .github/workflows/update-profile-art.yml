@@ -10,13 +10,15 @@ name: Update profile art
       - README.md
       - scripts/fetch_contributions.py
       - scripts/render_heatmap_svg.py
+      - scripts/fetch_project_metrics.py
+      - scripts/render_project_dashboard.py
       - .github/workflows/update-profile-art.yml
 
 permissions:
   contents: write
 
 jobs:
-  heatmap:
+  profile:
     runs-on: ubuntu-latest
     env:
       GITHUB_USERNAME: anshdeepofficial1
@@ -35,21 +37,27 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Fetch exact contribution calendar
+      - name: Fetch contribution calendar
         run: python scripts/fetch_contributions.py
 
-      - name: Render profile dashboard
+      - name: Render contribution dashboard
         run: python scripts/render_heatmap_svg.py
+
+      - name: Fetch live project metrics
+        run: python scripts/fetch_project_metrics.py
+
+      - name: Render project dashboard and activity
+        run: python scripts/render_project_dashboard.py
 
       - name: Commit refreshed profile art
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json assets/contrib-heatmap.svg assets/info-card.svg
+          git add             data/contributions.json             data/projects.json             assets/contrib-heatmap.svg             assets/info-card.svg             assets/project-dashboard.svg             assets/recent-activity.svg
           if git diff --cached --quiet; then
             echo "No profile data changes to commit."
             exit 0
           fi
-          git commit -m "chore: refresh profile dashboard [skip ci]"
+          git commit -m "chore: refresh live profile data [skip ci]"
           git push

@@ -2,7 +2,7 @@
 
 # Anshdeep Singh
 
-<code>developer@github:~$ building mobile · web · AI · creative products</code>
+<code>developer@github:~$ building useful products with code, design and automation</code>
 
 <br><br>
 
@@ -25,7 +25,7 @@
 <table>
   <tr>
     <td valign="top" width="43%">
-      <img src="./assets/brand-panel.svg" width="370" alt="Animated rotating project showcase: AniDash, Copy Cloud and VYBE" />
+      <img src="./assets/brand-panel.svg" width="370" alt="Animated rotating showcase for AniDash, Copy Cloud and VYBE" />
     </td>
     <td valign="top" width="57%">
       <img src="./assets/info-card.svg" width="490" alt="Live neofetch-style GitHub statistics dashboard" />
@@ -35,33 +35,48 @@
 
 <br>
 
-### <code>anshdeep@github ~ $ ./workspace --overview</code>
+### <code>anshdeep@github ~ $ projects --live</code>
 
-<img src="./assets/stack-board.svg" width="860" alt="Current projects, tech stack and focus areas" />
+<img src="./assets/project-dashboard.svg" width="860" alt="Live metrics for featured GitHub projects" />
+
+<sub>
+<a href="https://github.com/anshdeepofficial1/AniDash">AniDash</a> ·
+<a href="https://github.com/anshdeepofficial1/VYBE">VYBE</a> ·
+<a href="https://github.com/anshdeepofficial1/Copy-Cloud">Copy Cloud</a>
+</sub>
+
+<br><br>
+
+### <code>anshdeep@github ~ $ git log --recent --projects</code>
+
+<img src="./assets/recent-activity.svg" width="860" alt="Recent development activity across featured projects" />
+
+<br><br>
+
+### <code>anshdeep@github ~ $ ./toolchain --profile</code>
+
+<img src="./assets/stack-board.svg" width="860" alt="Development toolchain, platforms and build principles" />
 
 </div>
 
 <br>
 
-### <code>anshdeep@github ~ $ ls ./featured</code>
-
-| Project | Build |
-| --- | --- |
-| **[AniDash](https://github.com/anshdeepofficial1/AniDash)** | Multi-platform anime experience with discovery, tracking and an integrated AI layer. |
-| **[VYBE](https://github.com/anshdeepofficial1/VYBE)** | Modern Android music player focused on a polished, smooth listening experience. |
-| **[Copy Cloud](https://github.com/anshdeepofficial1/Copy-Cloud)** | Fast cross-device text and file transfer utility with a clean web experience. |
-| **[Portfolio](https://github.com/anshdeepofficial1/Portfolio)** | Coding + editing portfolio and public showcase of my work. |
-
 ### <code>anshdeep@github ~ $ cat profile.txt</code>
 
-I build practical products across **Android, web, AI and creative tooling** with a strong focus on clean UI, useful automation and production-ready experiences. I’m pursuing **BCA (Hons.) with Research in Data Science** and continuously shipping projects that combine engineering with design.
+I like turning rough ideas into **polished, shippable software**: define the flow, make it reliable, automate repetitive work, then keep refining the details. I’m pursuing **BCA (Hons.) with Research in Data Science** while building and maintaining real products across different platforms.
 
-> **Profile dashboard:** contribution data refreshes daily through GitHub Actions. The contribution total and calendar are pulled from GitHub itself, with the built-in Actions token used when available — no personal access token or hosted stats service.
+The visuals above are self-contained SVGs committed to this repository. Contribution data and project activity refresh automatically through GitHub Actions, so the profile stays current without relying on hosted profile-stat widgets.
 
 <div align="center">
 
-<sub>Made as a self-contained terminal-style GitHub profile · animated SVG · live contribution data</sub>
+<br>
+
+<code>anshdeep@github:~$ <b>_</b></code>
+
+<br><br>
+
+<sub>terminal profile · live repository data · animated SVG · automated refresh</sub>
 
 </div>
 
-<!-- profile-art:v3:dashboard -->
+<!-- profile-art:v4:live-workspace -->

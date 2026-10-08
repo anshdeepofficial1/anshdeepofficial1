@@ -86,30 +86,16 @@ def one_project(item: dict) -> dict:
 
 def build_recent(projects: list[dict], limit: int = 6) -> list[dict]:
     selected = []
-    leftovers = []
 
     for project in projects:
-        commits = project.get("commits") or []
-        if commits:
-            first = dict(commits[0])
-            first["project"] = project["label"]
-            first["repo"] = project["repo"]
-            selected.append(first)
-            for commit in commits[1:]:
-                extra = dict(commit)
-                extra["project"] = project["label"]
-                extra["repo"] = project["repo"]
-                leftovers.append(extra)
-
-    leftovers.sort(key=lambda x: x.get("date") or "", reverse=True)
-    for item in leftovers:
-        if len(selected) >= limit:
-            break
-        selected.append(item)
+        for commit in (project.get("commits") or [])[:2]:
+            item = dict(commit)
+            item["project"] = project["label"]
+            item["repo"] = project["repo"]
+            selected.append(item)
 
     selected.sort(key=lambda x: x.get("date") or "", reverse=True)
     return selected[:limit]
-
 
 def main() -> None:
     projects = [one_project(item) for item in PROJECTS]

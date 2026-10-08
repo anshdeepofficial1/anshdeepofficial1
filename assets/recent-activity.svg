@@ -29,30 +29,30 @@
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
-          <text x="52" y="140" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="140" class="bright" font-size="10">fix(desktop): streamline settings shortcuts and direct navigation on de…</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">a1bca7c · Oct 08</text>
+          <text x="52" y="140" class="repo" font-size="9">VYBE</text>
+          <text x="145" y="140" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">642a597 · Sep 29</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="174" class="bright" font-size="10">fix(desktop): eliminate settings auto-exit bug, remove popup slide anim…</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">90158f6 · Oct 08</text>
+          <text x="52" y="174" class="repo" font-size="9">Copy Cloud</text>
+          <text x="145" y="174" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">db6f0d6 · Sep 29</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>
           <circle cx="34" cy="205" r="4" fill="#39d353"/>
           <text x="52" y="208" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="208" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
-          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">642a597 · Sep 29</text>
+          <text x="145" y="208" class="bright" font-size="10">chore: update VYBE GitHub links</text>
+          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">2013fc4 · Sep 29</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.71s" fill="freeze"/>
           <circle cx="34" cy="239" r="4" fill="#39d353"/>
           <text x="52" y="242" class="repo" font-size="9">Copy Cloud</text>
-          <text x="145" y="242" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
-          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">db6f0d6 · Sep 29</text>
+          <text x="145" y="242" class="bright" font-size="10">chore: update official profile links</text>
+          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">0597e0c · Sep 29</text>
         </g>
 <text x="24" y="272" class="muted" font-size="9">showing a mixed timeline across the featured repositories</text>
 <rect x="808" y="260" width="8" height="14" rx="1" fill="#39d353"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>

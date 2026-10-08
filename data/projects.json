@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-08T13:04:44+00:00",
+  "generated_at": "2026-10-08T13:05:51+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -151,22 +151,6 @@
       "repo": "AniDash"
     },
     {
-      "sha": "a1bca7c",
-      "message": "fix(desktop): streamline settings shortcuts and direct navigation on desktop",
-      "date": "2026-10-08T06:43:28Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a1bca7c87d3f33052ab9f12e0940e8abffd4e29a",
-      "project": "AniDash",
-      "repo": "AniDash"
-    },
-    {
-      "sha": "90158f6",
-      "message": "fix(desktop): eliminate settings auto-exit bug, remove popup slide animation for seamless tab switching, and polish sidebar routing",
-      "date": "2026-10-08T06:42:25Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/90158f64f3ae467c61c85837e3a6da15d3063edb",
-      "project": "AniDash",
-      "repo": "AniDash"
-    },
-    {
       "sha": "642a597",
       "message": "chore: update GitHub sponsor handle",
       "date": "2026-09-29T13:42:01Z",
@@ -179,6 +163,22 @@
       "message": "chore: update GitHub sponsor handle",
       "date": "2026-09-29T13:41:18Z",
       "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/db6f0d6a5574af9202b32663783c04fb356ba420",
+      "project": "Copy Cloud",
+      "repo": "Copy-Cloud"
+    },
+    {
+      "sha": "2013fc4",
+      "message": "chore: update VYBE GitHub links",
+      "date": "2026-09-29T13:37:48Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/2013fc4b24b92cc4f28ec1c324658ca42a23ab7a",
+      "project": "VYBE",
+      "repo": "VYBE"
+    },
+    {
+      "sha": "0597e0c",
+      "message": "chore: update official profile links",
+      "date": "2026-09-29T13:36:11Z",
+      "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/0597e0ceaed6a1727ef4381d28fa9a01cbddcede",
       "project": "Copy Cloud",
       "repo": "Copy-Cloud"
     }

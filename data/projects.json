@@ -1,0 +1,186 @@
+{
+  "username": "anshdeepofficial1",
+  "generated_at": "2026-10-08T13:04:44+00:00",
+  "active_project": "AniDash",
+  "projects": [
+    {
+      "repo": "AniDash",
+      "label": "AniDash",
+      "url": "https://github.com/anshdeepofficial1/AniDash",
+      "homepage": "https://anidashweb.vercel.app",
+      "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
+      "language": "Dart",
+      "stars": 15,
+      "forks": 0,
+      "issues": 1,
+      "pushed_at": "2026-10-08T07:10:33Z",
+      "release": {
+        "tag": "v1.19.1",
+        "name": "AniDash v1.19.1 - Settings Navigation Fix & Desktop Player Community Hub",
+        "published_at": "2026-10-08T07:05:59Z",
+        "downloads": 6,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.19.1"
+      },
+      "commits": [
+        {
+          "sha": "70e8e98",
+          "message": "fix(desktop): responsive settings category switching, Material InkWell taps, and desktop player theater view with full comments and world chat",
+          "date": "2026-10-08T07:10:23Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/70e8e98af805009bc30e8d534cf3f55c1e2d0d5f"
+        },
+        {
+          "sha": "ba9e9fe",
+          "message": "fix(desktop): fix settings navigation redirection, enable desktop comments and world chat under player, bump to 1.19.1",
+          "date": "2026-10-08T07:00:36Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/ba9e9feee2adf8b59ac76949b2da0491c1ad9728"
+        },
+        {
+          "sha": "a1bca7c",
+          "message": "fix(desktop): streamline settings shortcuts and direct navigation on desktop",
+          "date": "2026-10-08T06:43:28Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a1bca7c87d3f33052ab9f12e0940e8abffd4e29a"
+        },
+        {
+          "sha": "90158f6",
+          "message": "fix(desktop): eliminate settings auto-exit bug, remove popup slide animation for seamless tab switching, and polish sidebar routing",
+          "date": "2026-10-08T06:42:25Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/90158f64f3ae467c61c85837e3a6da15d3063edb"
+        }
+      ]
+    },
+    {
+      "repo": "VYBE",
+      "label": "VYBE",
+      "url": "https://github.com/anshdeepofficial1/VYBE",
+      "homepage": "https://vybetune.vercel.app/",
+      "description": "VYBE — a modern Android music player",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "issues": 3,
+      "pushed_at": "2026-10-05T16:47:32Z",
+      "release": {
+        "tag": "v0.13.0",
+        "name": "VYBE 0.13.0 - Major Discovery Update",
+        "published_at": "2026-09-08T10:09:47Z",
+        "downloads": 20,
+        "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.13.0"
+      },
+      "commits": [
+        {
+          "sha": "642a597",
+          "message": "chore: update GitHub sponsor handle",
+          "date": "2026-09-29T13:42:01Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/642a59777f9674e1e8bdae9d5b8ba6b2660b578e"
+        },
+        {
+          "sha": "2013fc4",
+          "message": "chore: update VYBE GitHub links",
+          "date": "2026-09-29T13:37:48Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/2013fc4b24b92cc4f28ec1c324658ca42a23ab7a"
+        },
+        {
+          "sha": "14743a5",
+          "message": "chore: update VYBE GitHub links",
+          "date": "2026-09-29T13:37:45Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/14743a592b6d9e44587dfb9d21cbd5dda6c224f6"
+        },
+        {
+          "sha": "a363e13",
+          "message": "chore: update VYBE GitHub links",
+          "date": "2026-09-29T13:37:40Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/a363e138b713029f08c2d505de8294a41ae1f22d"
+        }
+      ]
+    },
+    {
+      "repo": "Copy-Cloud",
+      "label": "Copy Cloud",
+      "url": "https://github.com/anshdeepofficial1/Copy-Cloud",
+      "homepage": "https://copycloud.me",
+      "description": "A modern, secure, and user-friendly web application for transferring text and files between devices without requiring login or registration. Built with vanilla JavaScript, Supabase, and Tailwind CSS.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "pushed_at": "2026-09-29T13:41:18Z",
+      "release": null,
+      "commits": [
+        {
+          "sha": "db6f0d6",
+          "message": "chore: update GitHub sponsor handle",
+          "date": "2026-09-29T13:41:18Z",
+          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/db6f0d6a5574af9202b32663783c04fb356ba420"
+        },
+        {
+          "sha": "0597e0c",
+          "message": "chore: update official profile links",
+          "date": "2026-09-29T13:36:11Z",
+          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/0597e0ceaed6a1727ef4381d28fa9a01cbddcede"
+        },
+        {
+          "sha": "1bdc1ec",
+          "message": "chore: update official profile links",
+          "date": "2026-09-29T13:36:04Z",
+          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/1bdc1ecc4902d827d4fe2c44e7e56474d653d5a4"
+        },
+        {
+          "sha": "3e60c28",
+          "message": "chore: update official profile links",
+          "date": "2026-09-29T13:36:00Z",
+          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/3e60c28b95b8a803ba0efba283d4198909599587"
+        }
+      ]
+    }
+  ],
+  "recent_activity": [
+    {
+      "sha": "70e8e98",
+      "message": "fix(desktop): responsive settings category switching, Material InkWell taps, and desktop player theater view with full comments and world chat",
+      "date": "2026-10-08T07:10:23Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/70e8e98af805009bc30e8d534cf3f55c1e2d0d5f",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "ba9e9fe",
+      "message": "fix(desktop): fix settings navigation redirection, enable desktop comments and world chat under player, bump to 1.19.1",
+      "date": "2026-10-08T07:00:36Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/ba9e9feee2adf8b59ac76949b2da0491c1ad9728",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "a1bca7c",
+      "message": "fix(desktop): streamline settings shortcuts and direct navigation on desktop",
+      "date": "2026-10-08T06:43:28Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a1bca7c87d3f33052ab9f12e0940e8abffd4e29a",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "90158f6",
+      "message": "fix(desktop): eliminate settings auto-exit bug, remove popup slide animation for seamless tab switching, and polish sidebar routing",
+      "date": "2026-10-08T06:42:25Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/90158f64f3ae467c61c85837e3a6da15d3063edb",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "642a597",
+      "message": "chore: update GitHub sponsor handle",
+      "date": "2026-09-29T13:42:01Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/642a59777f9674e1e8bdae9d5b8ba6b2660b578e",
+      "project": "VYBE",
+      "repo": "VYBE"
+    },
+    {
+      "sha": "db6f0d6",
+      "message": "chore: update GitHub sponsor handle",
+      "date": "2026-09-29T13:41:18Z",
+      "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/db6f0d6a5574af9202b32663783c04fb356ba420",
+      "project": "Copy Cloud",
+      "repo": "Copy-Cloud"
+    }
+  ]
+}

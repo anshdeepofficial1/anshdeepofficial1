@@ -16,15 +16,15 @@
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
           <text x="52" y="72" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="72" class="bright" font-size="10">fix(desktop): responsive settings category switching, Material InkWell…</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">70e8e98 · Oct 08</text>
+          <text x="145" y="72" class="bright" font-size="10">fix(updater): strictly require platform-specific asset before prompting…</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">12976dc · Oct 08</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
           <text x="52" y="106" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="106" class="bright" font-size="10">fix(desktop): fix settings navigation redirection, enable desktop comme…</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">ba9e9fe · Oct 08</text>
+          <text x="145" y="106" class="bright" font-size="10">chore(installer): bump installer version to 1.19.2</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">d737c10 · Oct 08</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>

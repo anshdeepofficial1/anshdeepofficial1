@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-11T12:50:55+00:00",
+  "generated_at": "2026-10-12T15:26:17+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,16 +12,28 @@
       "language": "Dart",
       "stars": 17,
       "forks": 0,
-      "issues": 1,
-      "pushed_at": "2026-10-10T13:01:34Z",
+      "issues": 2,
+      "pushed_at": "2026-10-12T03:18:52Z",
       "release": {
-        "tag": "v1.19.4",
-        "name": "AniDash v1.19.4",
-        "published_at": "2026-10-10T13:02:11Z",
-        "downloads": 390,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.19.4"
+        "tag": "v1.19.6",
+        "name": "AniDash v1.19.6",
+        "published_at": "2026-10-12T03:18:52Z",
+        "downloads": 239,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.19.6"
       },
       "commits": [
+        {
+          "sha": "8571565",
+          "message": "fix: stabilize selected-source playback and skip markers",
+          "date": "2026-10-12T03:17:49Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/857156563e638bb3530c029897d30670e7e36ea3"
+        },
+        {
+          "sha": "96a5179",
+          "message": "fix: stabilize anime sources and episode playback",
+          "date": "2026-10-11T17:29:32Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/96a51797c2e30001ebf72e7d99492f6e957245e2"
+        },
         {
           "sha": "22661aa",
           "message": "release: AniDash v1.19.4 fast stream fetching, auto-skip recap & mobile details layout",
@@ -33,18 +45,6 @@
           "message": "release: AniDash v1.19.3 Windows desktop polish",
           "date": "2026-10-10T08:54:43Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/9b804733b3e41f2486cba9452076a7a16bf57318"
-        },
-        {
-          "sha": "12976dc",
-          "message": "fix(updater): strictly require platform-specific asset before prompting update and correct macOS DMG URL",
-          "date": "2026-10-08T19:55:47Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/12976dcccd115e726df29c23fe5a3dce83719c2e"
-        },
-        {
-          "sha": "d737c10",
-          "message": "chore(installer): bump installer version to 1.19.2",
-          "date": "2026-10-08T19:51:56Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/d737c102374d9313adb973b9aed69525adee1f3c"
         }
       ]
     },
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "22661aa",
-      "message": "release: AniDash v1.19.4 fast stream fetching, auto-skip recap & mobile details layout",
-      "date": "2026-10-10T13:01:16Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/22661aab26730c57c2fae9f02ed231f8255ad696",
+      "sha": "8571565",
+      "message": "fix: stabilize selected-source playback and skip markers",
+      "date": "2026-10-12T03:17:49Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/857156563e638bb3530c029897d30670e7e36ea3",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "9b80473",
-      "message": "release: AniDash v1.19.3 Windows desktop polish",
-      "date": "2026-10-10T08:54:43Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/9b804733b3e41f2486cba9452076a7a16bf57318",
+      "sha": "96a5179",
+      "message": "fix: stabilize anime sources and episode playback",
+      "date": "2026-10-11T17:29:32Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/96a51797c2e30001ebf72e7d99492f6e957245e2",
       "project": "AniDash",
       "repo": "AniDash"
     },

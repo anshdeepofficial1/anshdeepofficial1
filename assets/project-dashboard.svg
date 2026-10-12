@@ -27,12 +27,12 @@
           <text x="109" y="137" class="key">FORKS</text>
           <text x="109" y="161" class="metric">0</text>
           <text x="178" y="137" class="key">ISSUES</text>
-          <text x="178" y="161" class="metric">1</text>
+          <text x="178" y="161" class="metric">2</text>
 
           <line x1="40" y1="178" x2="270" y2="178" stroke="#21262d"/>
           <text x="40" y="199" class="key">LATEST RELEASE</text>
-          <text x="40" y="222" class="bright" font-size="12" font-weight="700">v1.19.4</text>
-          <text x="270" y="222" text-anchor="end" class="muted" font-size="8">Oct 10</text>
+          <text x="40" y="222" class="bright" font-size="12" font-weight="700">v1.19.6</text>
+          <text x="270" y="222" text-anchor="end" class="muted" font-size="8">Oct 12</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".35s" begin="0.36s" fill="freeze"/>

@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-13T14:12:28+00:00",
+  "generated_at": "2026-10-14T11:52:43+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,18 +10,24 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 17,
+      "stars": 18,
       "forks": 1,
-      "issues": 3,
-      "pushed_at": "2026-10-13T02:46:25Z",
+      "issues": 1,
+      "pushed_at": "2026-10-14T11:23:58Z",
       "release": {
-        "tag": "v1.19.7",
-        "name": "AniDash v1.19.7 — Stronger Streaming",
-        "published_at": "2026-10-13T02:46:26Z",
-        "downloads": 196,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.19.7"
+        "tag": "v1.20.0",
+        "name": "AniDash v1.20.0 — Stronger Playback & Downloads",
+        "published_at": "2026-10-14T11:23:58Z",
+        "downloads": 19,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.20.0"
       },
       "commits": [
+        {
+          "sha": "a265e79",
+          "message": "Release AniDash 1.20.0",
+          "date": "2026-10-14T11:23:00Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a265e79c87b30790e7d544c5f5c7de4bc0c248ce"
+        },
         {
           "sha": "2cb7946",
           "message": "release: harden streaming and refine app controls",
@@ -39,12 +45,6 @@
           "message": "fix: stabilize anime sources and episode playback",
           "date": "2026-10-11T17:29:32Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/96a51797c2e30001ebf72e7d99492f6e957245e2"
-        },
-        {
-          "sha": "22661aa",
-          "message": "release: AniDash v1.19.4 fast stream fetching, auto-skip recap & mobile details layout",
-          "date": "2026-10-10T13:01:16Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/22661aab26730c57c2fae9f02ed231f8255ad696"
         }
       ]
     },
@@ -58,7 +58,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 3,
-      "pushed_at": "2026-10-08T16:46:09Z",
+      "pushed_at": "2026-10-13T20:24:29Z",
       "release": {
         "tag": "v0.13.0",
         "name": "VYBE 0.13.0 - Major Discovery Update",
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "2cb7946",
-      "message": "release: harden streaming and refine app controls",
-      "date": "2026-10-13T02:45:27Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/2cb7946000527ee8477ce1539d1836fcf07bcddb",
+      "sha": "a265e79",
+      "message": "Release AniDash 1.20.0",
+      "date": "2026-10-14T11:23:00Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a265e79c87b30790e7d544c5f5c7de4bc0c248ce",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "8571565",
-      "message": "fix: stabilize selected-source playback and skip markers",
-      "date": "2026-10-12T03:17:49Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/857156563e638bb3530c029897d30670e7e36ea3",
+      "sha": "2cb7946",
+      "message": "release: harden streaming and refine app controls",
+      "date": "2026-10-13T02:45:27Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/2cb7946000527ee8477ce1539d1836fcf07bcddb",
       "project": "AniDash",
       "repo": "AniDash"
     },

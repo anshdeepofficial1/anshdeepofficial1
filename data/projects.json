@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-14T11:52:43+00:00",
+  "generated_at": "2026-10-15T11:29:53+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,16 +12,22 @@
       "language": "Dart",
       "stars": 18,
       "forks": 1,
-      "issues": 1,
-      "pushed_at": "2026-10-14T11:23:58Z",
+      "issues": 3,
+      "pushed_at": "2026-10-15T11:29:25Z",
       "release": {
-        "tag": "v1.20.0",
-        "name": "AniDash v1.20.0 — Stronger Playback & Downloads",
-        "published_at": "2026-10-14T11:23:58Z",
-        "downloads": 19,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.20.0"
+        "tag": "v1.20.1",
+        "name": "AniDash v1.20.1 — Streaming Stability Fix",
+        "published_at": "2026-10-15T06:15:45Z",
+        "downloads": 109,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.20.1"
       },
       "commits": [
+        {
+          "sha": "9814856",
+          "message": "fix(android): stabilize streaming playback in 1.20.1",
+          "date": "2026-10-15T06:14:43Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/9814856fefe4c3c162d59922ac6c1781a79cb201"
+        },
         {
           "sha": "a265e79",
           "message": "Release AniDash 1.20.0",
@@ -39,12 +45,6 @@
           "message": "fix: stabilize selected-source playback and skip markers",
           "date": "2026-10-12T03:17:49Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/857156563e638bb3530c029897d30670e7e36ea3"
-        },
-        {
-          "sha": "96a5179",
-          "message": "fix: stabilize anime sources and episode playback",
-          "date": "2026-10-11T17:29:32Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/96a51797c2e30001ebf72e7d99492f6e957245e2"
         }
       ]
     },
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "a265e79",
-      "message": "Release AniDash 1.20.0",
-      "date": "2026-10-14T11:23:00Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a265e79c87b30790e7d544c5f5c7de4bc0c248ce",
+      "sha": "9814856",
+      "message": "fix(android): stabilize streaming playback in 1.20.1",
+      "date": "2026-10-15T06:14:43Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/9814856fefe4c3c162d59922ac6c1781a79cb201",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "2cb7946",
-      "message": "release: harden streaming and refine app controls",
-      "date": "2026-10-13T02:45:27Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/2cb7946000527ee8477ce1539d1836fcf07bcddb",
+      "sha": "a265e79",
+      "message": "Release AniDash 1.20.0",
+      "date": "2026-10-14T11:23:00Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a265e79c87b30790e7d544c5f5c7de4bc0c248ce",
       "project": "AniDash",
       "repo": "AniDash"
     },

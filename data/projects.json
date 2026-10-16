@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-15T11:29:53+00:00",
+  "generated_at": "2026-10-16T11:25:03+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 18,
+      "stars": 19,
       "forks": 1,
-      "issues": 3,
-      "pushed_at": "2026-10-15T11:29:25Z",
+      "issues": 2,
+      "pushed_at": "2026-10-16T11:09:18Z",
       "release": {
-        "tag": "v1.20.1",
-        "name": "AniDash v1.20.1 — Streaming Stability Fix",
-        "published_at": "2026-10-15T06:15:45Z",
-        "downloads": 109,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.20.1"
+        "tag": "v1.20.5",
+        "name": "AniDash v1.20.5",
+        "published_at": "2026-10-16T11:09:19Z",
+        "downloads": 22,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.20.5"
       },
       "commits": [
         {
-          "sha": "9814856",
-          "message": "fix(android): stabilize streaming playback in 1.20.1",
-          "date": "2026-10-15T06:14:43Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/9814856fefe4c3c162d59922ac6c1781a79cb201"
+          "sha": "821b7d4",
+          "message": "fix: stabilize progress alerts and player controls",
+          "date": "2026-10-16T10:40:29Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/821b7d4eaef89e95c3301c3c7c6c5f7f707405b6"
         },
         {
-          "sha": "a265e79",
-          "message": "Release AniDash 1.20.0",
-          "date": "2026-10-14T11:23:00Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a265e79c87b30790e7d544c5f5c7de4bc0c248ce"
+          "sha": "fdaa5d5",
+          "message": "feat: keep Android updates on installed APK variant",
+          "date": "2026-10-16T05:59:11Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/fdaa5d5597f2127e72e03891f895cc2a4ec0f6c8"
         },
         {
-          "sha": "2cb7946",
-          "message": "release: harden streaming and refine app controls",
-          "date": "2026-10-13T02:45:27Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/2cb7946000527ee8477ce1539d1836fcf07bcddb"
+          "sha": "82a5620",
+          "message": "release: AniDash 1.20.4 playback and library reliability",
+          "date": "2026-10-16T05:46:04Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/82a56208cc1802f0e1ac3b7102148fc83fdc48f8"
         },
         {
-          "sha": "8571565",
-          "message": "fix: stabilize selected-source playback and skip markers",
-          "date": "2026-10-12T03:17:49Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/857156563e638bb3530c029897d30670e7e36ea3"
+          "sha": "b70f4ae",
+          "message": "ci: isolate live README badge updates from main branch history",
+          "date": "2026-10-15T17:54:55Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/b70f4aef3b6f4835bdbead7795cc01c09f8c2e2b"
         }
       ]
     },
@@ -58,7 +58,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 3,
-      "pushed_at": "2026-10-13T20:24:29Z",
+      "pushed_at": "2026-10-15T16:26:07Z",
       "release": {
         "tag": "v0.13.0",
         "name": "VYBE 0.13.0 - Major Discovery Update",
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "9814856",
-      "message": "fix(android): stabilize streaming playback in 1.20.1",
-      "date": "2026-10-15T06:14:43Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/9814856fefe4c3c162d59922ac6c1781a79cb201",
+      "sha": "821b7d4",
+      "message": "fix: stabilize progress alerts and player controls",
+      "date": "2026-10-16T10:40:29Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/821b7d4eaef89e95c3301c3c7c6c5f7f707405b6",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "a265e79",
-      "message": "Release AniDash 1.20.0",
-      "date": "2026-10-14T11:23:00Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a265e79c87b30790e7d544c5f5c7de4bc0c248ce",
+      "sha": "fdaa5d5",
+      "message": "feat: keep Android updates on installed APK variant",
+      "date": "2026-10-16T05:59:11Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/fdaa5d5597f2127e72e03891f895cc2a4ec0f6c8",
       "project": "AniDash",
       "repo": "AniDash"
     },

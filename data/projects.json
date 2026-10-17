@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-16T11:25:03+00:00",
+  "generated_at": "2026-10-17T10:44:53+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,18 +10,30 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 19,
+      "stars": 20,
       "forks": 1,
-      "issues": 2,
-      "pushed_at": "2026-10-16T11:09:18Z",
+      "issues": 1,
+      "pushed_at": "2026-10-17T05:30:13Z",
       "release": {
-        "tag": "v1.20.5",
-        "name": "AniDash v1.20.5",
-        "published_at": "2026-10-16T11:09:19Z",
-        "downloads": 22,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.20.5"
+        "tag": "v1.20.7",
+        "name": "AniDash v1.20.7",
+        "published_at": "2026-10-17T05:30:14Z",
+        "downloads": 120,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v1.20.7"
       },
       "commits": [
+        {
+          "sha": "cb96f3a",
+          "message": "release: AniDash 1.20.7 playback and AnyCore fixes",
+          "date": "2026-10-17T05:01:33Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/cb96f3a3e2a95ee6855d6191ee821e3d5e9dd533"
+        },
+        {
+          "sha": "166a857",
+          "message": "release: stabilize progress metadata and 120s buffering",
+          "date": "2026-10-16T15:15:47Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/166a857bb75b88c54036093a501c1077bfb0e479"
+        },
         {
           "sha": "821b7d4",
           "message": "fix: stabilize progress alerts and player controls",
@@ -33,18 +45,6 @@
           "message": "feat: keep Android updates on installed APK variant",
           "date": "2026-10-16T05:59:11Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/fdaa5d5597f2127e72e03891f895cc2a4ec0f6c8"
-        },
-        {
-          "sha": "82a5620",
-          "message": "release: AniDash 1.20.4 playback and library reliability",
-          "date": "2026-10-16T05:46:04Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/82a56208cc1802f0e1ac3b7102148fc83fdc48f8"
-        },
-        {
-          "sha": "b70f4ae",
-          "message": "ci: isolate live README badge updates from main branch history",
-          "date": "2026-10-15T17:54:55Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/b70f4aef3b6f4835bdbead7795cc01c09f8c2e2b"
         }
       ]
     },
@@ -58,7 +58,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 3,
-      "pushed_at": "2026-10-15T16:26:07Z",
+      "pushed_at": "2026-10-16T16:42:25Z",
       "release": {
         "tag": "v0.13.0",
         "name": "VYBE 0.13.0 - Major Discovery Update",
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "821b7d4",
-      "message": "fix: stabilize progress alerts and player controls",
-      "date": "2026-10-16T10:40:29Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/821b7d4eaef89e95c3301c3c7c6c5f7f707405b6",
+      "sha": "cb96f3a",
+      "message": "release: AniDash 1.20.7 playback and AnyCore fixes",
+      "date": "2026-10-17T05:01:33Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/cb96f3a3e2a95ee6855d6191ee821e3d5e9dd533",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "fdaa5d5",
-      "message": "feat: keep Android updates on installed APK variant",
-      "date": "2026-10-16T05:59:11Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/fdaa5d5597f2127e72e03891f895cc2a4ec0f6c8",
+      "sha": "166a857",
+      "message": "release: stabilize progress metadata and 120s buffering",
+      "date": "2026-10-16T15:15:47Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/166a857bb75b88c54036093a501c1077bfb0e479",
       "project": "AniDash",
       "repo": "AniDash"
     },

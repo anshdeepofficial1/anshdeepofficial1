@@ -15,37 +15,37 @@
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
-          <text x="52" y="72" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="72" class="bright" font-size="10">feat: AniDash v2.0.0 (Generation 2) - exact stream skip markers, instan…</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">3fe8a6c · Oct 18</text>
+          <text x="52" y="72" class="repo" font-size="9">VYBE</text>
+          <text x="145" y="72" class="bright" font-size="10">release: VYBE 0.14.0 instant playback and immersive artwork</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">399d677 · Oct 18</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
           <text x="52" y="106" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="106" class="bright" font-size="10">feat: v1.30.0 release - parallel JustAnime intro/outro fetch, 3s skip b…</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">e7bd1e2 · Oct 17</text>
+          <text x="145" y="106" class="bright" font-size="10">chore(release): prepare AniDash v2.1.1 with AniYomi extension installer…</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">dadfb61 · Oct 18</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
-          <text x="52" y="140" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="140" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">642a597 · Sep 29</text>
+          <text x="52" y="140" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="140" class="bright" font-size="10">fix(extensions): resolve Issue #36 - support unchecksummed AniYomi exte…</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">b47a4b3 · Oct 18</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">Copy Cloud</text>
+          <text x="52" y="174" class="repo" font-size="9">VYBE</text>
           <text x="145" y="174" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">db6f0d6 · Sep 29</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">642a597 · Sep 29</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>
           <circle cx="34" cy="205" r="4" fill="#39d353"/>
-          <text x="52" y="208" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="208" class="bright" font-size="10">chore: update VYBE GitHub links</text>
-          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">2013fc4 · Sep 29</text>
+          <text x="52" y="208" class="repo" font-size="9">Copy Cloud</text>
+          <text x="145" y="208" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
+          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">db6f0d6 · Sep 29</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.71s" fill="freeze"/>

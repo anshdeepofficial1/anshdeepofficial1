@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-18T11:05:41+00:00",
+  "generated_at": "2026-10-19T13:16:23+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,39 +12,39 @@
       "language": "Dart",
       "stars": 20,
       "forks": 1,
-      "issues": 5,
-      "pushed_at": "2026-10-18T06:29:14Z",
+      "issues": 4,
+      "pushed_at": "2026-10-19T04:52:19Z",
       "release": {
-        "tag": "v2.0.0",
-        "name": "AniDash v2.0.0",
-        "published_at": "2026-10-18T06:29:14Z",
-        "downloads": 119,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.0.0"
+        "tag": "v2.1.1",
+        "name": "AniDash v2.1.1",
+        "published_at": "2026-10-18T14:26:26Z",
+        "downloads": 436,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.1"
       },
       "commits": [
+        {
+          "sha": "dadfb61",
+          "message": "chore(release): prepare AniDash v2.1.1 with AniYomi extension installer fix",
+          "date": "2026-10-18T14:05:24Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/dadfb61677fda990793f1523daf94d26a5cb50b0"
+        },
+        {
+          "sha": "b47a4b3",
+          "message": "fix(extensions): resolve Issue #36 - support unchecksummed AniYomi extensions, repo fallback apkUrl, and safe package installer handoff",
+          "date": "2026-10-18T12:47:15Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/b47a4b3756c0e7ec8ad3fc10f5080df5d66e83d9"
+        },
+        {
+          "sha": "b1a329a",
+          "message": "feat: AniDash v2.1.0 - screen wakelock, 300s buffer reservoir, accurate skip boundaries, and UI refinements",
+          "date": "2026-10-18T12:11:34Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/b1a329ac7552a1a4543bd913e0d8658cda172efe"
+        },
         {
           "sha": "3fe8a6c",
           "message": "feat: AniDash v2.0.0 (Generation 2) - exact stream skip markers, instant playback engine, and refined seekbar",
           "date": "2026-10-18T06:01:04Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/3fe8a6c0aaf6acd41e3e7202b6496fd4a5cbb535"
-        },
-        {
-          "sha": "e7bd1e2",
-          "message": "feat: v1.30.0 release - parallel JustAnime intro/outro fetch, 3s skip button sync, 55s next ep prompt",
-          "date": "2026-10-17T18:43:38Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/e7bd1e270f7d3a306488f308629214deea0e68ce"
-        },
-        {
-          "sha": "08669a5",
-          "message": "fix: match intro/outro colors to theme, fix seek auto-skip, reset next episode progress, and release v1.20.9",
-          "date": "2026-10-17T17:28:25Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/08669a576fff58e8cba6ccbfac864401c88464df"
-        },
-        {
-          "sha": "a43ad9a",
-          "message": "fix: resolve episode 1 identity bug, polish intro/outro/recap skip, and release v1.20.8",
-          "date": "2026-10-17T13:59:47Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a43ad9a641135060c66de16b35cf3cde1f927d22"
         }
       ]
     },
@@ -58,15 +58,21 @@
       "stars": 0,
       "forks": 0,
       "issues": 3,
-      "pushed_at": "2026-10-16T16:42:25Z",
+      "pushed_at": "2026-10-18T14:42:37Z",
       "release": {
-        "tag": "v0.13.0",
-        "name": "VYBE 0.13.0 - Major Discovery Update",
-        "published_at": "2026-09-08T10:09:47Z",
-        "downloads": 20,
-        "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.13.0"
+        "tag": "v0.14.0",
+        "name": "VYBE 0.14.0 - Instant Playback and Immersive Artwork",
+        "published_at": "2026-10-18T14:42:37Z",
+        "downloads": 3,
+        "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.0"
       },
       "commits": [
+        {
+          "sha": "399d677",
+          "message": "release: VYBE 0.14.0 instant playback and immersive artwork",
+          "date": "2026-10-18T14:33:21Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/399d6771ff3f2a533ca2d5b2758af3b8fb516b84"
+        },
         {
           "sha": "642a597",
           "message": "chore: update GitHub sponsor handle",
@@ -84,12 +90,6 @@
           "message": "chore: update VYBE GitHub links",
           "date": "2026-09-29T13:37:45Z",
           "url": "https://github.com/anshdeepofficial1/VYBE/commit/14743a592b6d9e44587dfb9d21cbd5dda6c224f6"
-        },
-        {
-          "sha": "a363e13",
-          "message": "chore: update VYBE GitHub links",
-          "date": "2026-09-29T13:37:40Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/a363e138b713029f08c2d505de8294a41ae1f22d"
         }
       ]
     },
@@ -135,18 +135,26 @@
   ],
   "recent_activity": [
     {
-      "sha": "3fe8a6c",
-      "message": "feat: AniDash v2.0.0 (Generation 2) - exact stream skip markers, instant playback engine, and refined seekbar",
-      "date": "2026-10-18T06:01:04Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/3fe8a6c0aaf6acd41e3e7202b6496fd4a5cbb535",
+      "sha": "399d677",
+      "message": "release: VYBE 0.14.0 instant playback and immersive artwork",
+      "date": "2026-10-18T14:33:21Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/399d6771ff3f2a533ca2d5b2758af3b8fb516b84",
+      "project": "VYBE",
+      "repo": "VYBE"
+    },
+    {
+      "sha": "dadfb61",
+      "message": "chore(release): prepare AniDash v2.1.1 with AniYomi extension installer fix",
+      "date": "2026-10-18T14:05:24Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/dadfb61677fda990793f1523daf94d26a5cb50b0",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "e7bd1e2",
-      "message": "feat: v1.30.0 release - parallel JustAnime intro/outro fetch, 3s skip button sync, 55s next ep prompt",
-      "date": "2026-10-17T18:43:38Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/e7bd1e270f7d3a306488f308629214deea0e68ce",
+      "sha": "b47a4b3",
+      "message": "fix(extensions): resolve Issue #36 - support unchecksummed AniYomi extensions, repo fallback apkUrl, and safe package installer handoff",
+      "date": "2026-10-18T12:47:15Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/b47a4b3756c0e7ec8ad3fc10f5080df5d66e83d9",
       "project": "AniDash",
       "repo": "AniDash"
     },
@@ -165,14 +173,6 @@
       "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/db6f0d6a5574af9202b32663783c04fb356ba420",
       "project": "Copy Cloud",
       "repo": "Copy-Cloud"
-    },
-    {
-      "sha": "2013fc4",
-      "message": "chore: update VYBE GitHub links",
-      "date": "2026-09-29T13:37:48Z",
-      "url": "https://github.com/anshdeepofficial1/VYBE/commit/2013fc4b24b92cc4f28ec1c324658ca42a23ab7a",
-      "project": "VYBE",
-      "repo": "VYBE"
     },
     {
       "sha": "0597e0c",

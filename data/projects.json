@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-20T11:37:16+00:00",
+  "generated_at": "2026-10-21T11:49:41+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,12 +13,12 @@
       "stars": 20,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-10-20T05:00:15Z",
+      "pushed_at": "2026-10-21T04:59:11Z",
       "release": {
         "tag": "v2.1.2",
         "name": "AniDash v2.1.2",
         "published_at": "2026-10-19T17:59:44Z",
-        "downloads": 382,
+        "downloads": 712,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.2"
       },
       "commits": [
@@ -55,15 +55,15 @@
       "homepage": "https://vybetune.vercel.app/",
       "description": "VYBE — a modern Android music player",
       "language": "Kotlin",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "issues": 3,
-      "pushed_at": "2026-10-20T02:03:55Z",
+      "pushed_at": "2026-10-20T16:46:37Z",
       "release": {
         "tag": "v0.14.0",
         "name": "VYBE 0.14.0 - Instant Playback and Immersive Artwork",
         "published_at": "2026-10-18T14:42:37Z",
-        "downloads": 69,
+        "downloads": 202,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.0"
       },
       "commits": [

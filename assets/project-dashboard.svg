@@ -32,7 +32,7 @@
           <line x1="40" y1="178" x2="270" y2="178" stroke="#21262d"/>
           <text x="40" y="199" class="key">LATEST RELEASE</text>
           <text x="40" y="222" class="bright" font-size="12" font-weight="700">v2.1.2</text>
-          <text x="270" y="222" text-anchor="end" class="muted" font-size="8">Oct 21</text>
+          <text x="270" y="222" text-anchor="end" class="muted" font-size="8">Oct 22</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".35s" begin="0.36s" fill="freeze"/>

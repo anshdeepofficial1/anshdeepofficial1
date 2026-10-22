@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-21T11:49:41+00:00",
+  "generated_at": "2026-10-22T11:53:13+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,12 +13,12 @@
       "stars": 20,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-10-21T04:59:11Z",
+      "pushed_at": "2026-10-22T05:00:36Z",
       "release": {
         "tag": "v2.1.2",
         "name": "AniDash v2.1.2",
         "published_at": "2026-10-19T17:59:44Z",
-        "downloads": 712,
+        "downloads": 994,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.2"
       },
       "commits": [
@@ -63,7 +63,7 @@
         "tag": "v0.14.0",
         "name": "VYBE 0.14.0 - Instant Playback and Immersive Artwork",
         "published_at": "2026-10-18T14:42:37Z",
-        "downloads": 202,
+        "downloads": 244,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.0"
       },
       "commits": [

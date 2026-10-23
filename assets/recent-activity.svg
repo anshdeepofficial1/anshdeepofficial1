@@ -16,29 +16,29 @@
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
           <text x="52" y="72" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="72" class="bright" font-size="10">Add files via upload</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">dbd3226 · Oct 20</text>
+          <text x="145" y="72" class="bright" font-size="10">chore(deps): bump the gradle-dependencies group across 1 directory with…</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">af55251 · Oct 22</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
-          <text x="52" y="106" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="106" class="bright" font-size="10">docs(badges): update latest release badge to v2.1.2 and refresh downloa…</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">cc83d19 · Oct 19</text>
+          <text x="52" y="106" class="repo" font-size="9">VYBE</text>
+          <text x="145" y="106" class="bright" font-size="10">chore(deps): bump the github-actions group across 1 directory with 4 up…</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">a424d4b · Oct 22</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
           <text x="52" y="140" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="140" class="bright" font-size="10">style(readme): modernize SVG badges and responsive alignment across mob…</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">def07ca · Oct 19</text>
+          <text x="145" y="140" class="bright" font-size="10">docs: update release notes for v2.1.4</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">83d530a · Oct 22</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="174" class="bright" font-size="10">release: VYBE 0.14.0 instant playback and immersive artwork</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">399d677 · Oct 18</text>
+          <text x="52" y="174" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="174" class="bright" font-size="10">feat(episodes): auto-align current story arc, smooth episode list scrol…</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">1b9553b · Oct 22</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>

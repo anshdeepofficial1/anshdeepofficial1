@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-22T11:53:13+00:00",
+  "generated_at": "2026-10-23T11:39:24+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 20,
+      "stars": 21,
       "forks": 1,
-      "issues": 0,
-      "pushed_at": "2026-10-22T05:00:36Z",
+      "issues": 2,
+      "pushed_at": "2026-10-23T05:01:44Z",
       "release": {
-        "tag": "v2.1.2",
-        "name": "AniDash v2.1.2",
-        "published_at": "2026-10-19T17:59:44Z",
-        "downloads": 994,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.2"
+        "tag": "v2.1.4",
+        "name": "AniDash v2.1.4",
+        "published_at": "2026-10-22T17:38:41Z",
+        "downloads": 434,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.4"
       },
       "commits": [
         {
-          "sha": "cc83d19",
-          "message": "docs(badges): update latest release badge to v2.1.2 and refresh download counts",
-          "date": "2026-10-19T18:01:20Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/cc83d19ff10188d711bf0256c5eaa64169ac0668"
+          "sha": "83d530a",
+          "message": "docs: update release notes for v2.1.4",
+          "date": "2026-10-22T17:27:21Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/83d530a27e680d6303d22f0883dc44696cc6a4ec"
         },
         {
-          "sha": "def07ca",
-          "message": "style(readme): modernize SVG badges and responsive alignment across mobile and desktop",
-          "date": "2026-10-19T17:35:01Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/def07caa96f9510563a41a77afe2f6feb0c13bcc"
+          "sha": "1b9553b",
+          "message": "feat(episodes): auto-align current story arc, smooth episode list scroll & fix next up episode parity",
+          "date": "2026-10-22T17:21:49Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/1b9553bb8d756d828877fee4f5b2eb2588ec69df"
         },
         {
-          "sha": "ae89dea",
-          "message": "feat(release): AniDash v2.1.2 - universal franchise ordering, in-app feedback, and playback polish",
-          "date": "2026-10-19T17:21:41Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/ae89dea40023b1d570cd19904d5465507a25af2d"
+          "sha": "014df41",
+          "message": "feat(ui/security): add official CodeQL workflow and fix check for updates icon with Material system_update",
+          "date": "2026-10-22T16:22:58Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/014df41fea60cbce14be447e8e76104bd5ebb17c"
         },
         {
-          "sha": "e227d01",
-          "message": "fix: resolve issues #41, #42, #43 and verify #38",
-          "date": "2026-10-19T15:21:51Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/e227d015dcc91103343b56f83d342bc5fbb0f7af"
+          "sha": "e507f1d",
+          "message": "fix(security): resolve CodeQL alerts for Notify workflow permissions and news.js double escaping",
+          "date": "2026-10-22T16:04:44Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/e507f1d6f52064eb5cddcf022756f207f69fec81"
         }
       ]
     },
@@ -57,39 +57,39 @@
       "language": "Kotlin",
       "stars": 2,
       "forks": 0,
-      "issues": 3,
-      "pushed_at": "2026-10-20T16:46:37Z",
+      "issues": 0,
+      "pushed_at": "2026-10-22T17:43:34Z",
       "release": {
-        "tag": "v0.14.0",
-        "name": "VYBE 0.14.0 - Instant Playback and Immersive Artwork",
-        "published_at": "2026-10-18T14:42:37Z",
-        "downloads": 244,
-        "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.0"
+        "tag": "v0.14.1",
+        "name": "VYBE 0.14.1",
+        "published_at": "2026-10-22T17:33:50Z",
+        "downloads": 46,
+        "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
         {
-          "sha": "dbd3226",
-          "message": "Add files via upload",
-          "date": "2026-10-20T02:03:54Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/dbd3226f5508d353ba532754bc12fbb501d899c1"
+          "sha": "af55251",
+          "message": "chore(deps): bump the gradle-dependencies group across 1 directory with 62 updates (#25)",
+          "date": "2026-10-22T17:43:31Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/af552518253f611efa54b15f306263ab9b759486"
         },
         {
-          "sha": "399d677",
-          "message": "release: VYBE 0.14.0 instant playback and immersive artwork",
-          "date": "2026-10-18T14:33:21Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/399d6771ff3f2a533ca2d5b2758af3b8fb516b84"
+          "sha": "a424d4b",
+          "message": "chore(deps): bump the github-actions group across 1 directory with 4 updates (#24)",
+          "date": "2026-10-22T17:43:25Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/a424d4b1423d87567039466a018517b7d80e25c0"
         },
         {
-          "sha": "642a597",
-          "message": "chore: update GitHub sponsor handle",
-          "date": "2026-09-29T13:42:01Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/642a59777f9674e1e8bdae9d5b8ba6b2660b578e"
+          "sha": "a63ce76",
+          "message": "fix(music): real artist credits, radio-on-tap queue, engagement-weighted Speed Dial, one-step YT sign-in",
+          "date": "2026-10-22T17:31:57Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/a63ce76504a26748f7c0e136bd5c856de1bd0136"
         },
         {
-          "sha": "2013fc4",
-          "message": "chore: update VYBE GitHub links",
-          "date": "2026-09-29T13:37:48Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/2013fc4b24b92cc4f28ec1c324658ca42a23ab7a"
+          "sha": "56f72e8",
+          "message": "chore: prune legacy root fix scripts; release notes moved to docs/releases",
+          "date": "2026-10-22T17:31:45Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/56f72e8f639fb34dd760d56d50f1f1031448a444"
         }
       ]
     },
@@ -135,36 +135,36 @@
   ],
   "recent_activity": [
     {
-      "sha": "dbd3226",
-      "message": "Add files via upload",
-      "date": "2026-10-20T02:03:54Z",
-      "url": "https://github.com/anshdeepofficial1/VYBE/commit/dbd3226f5508d353ba532754bc12fbb501d899c1",
+      "sha": "af55251",
+      "message": "chore(deps): bump the gradle-dependencies group across 1 directory with 62 updates (#25)",
+      "date": "2026-10-22T17:43:31Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/af552518253f611efa54b15f306263ab9b759486",
       "project": "VYBE",
       "repo": "VYBE"
     },
     {
-      "sha": "cc83d19",
-      "message": "docs(badges): update latest release badge to v2.1.2 and refresh download counts",
-      "date": "2026-10-19T18:01:20Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/cc83d19ff10188d711bf0256c5eaa64169ac0668",
-      "project": "AniDash",
-      "repo": "AniDash"
-    },
-    {
-      "sha": "def07ca",
-      "message": "style(readme): modernize SVG badges and responsive alignment across mobile and desktop",
-      "date": "2026-10-19T17:35:01Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/def07caa96f9510563a41a77afe2f6feb0c13bcc",
-      "project": "AniDash",
-      "repo": "AniDash"
-    },
-    {
-      "sha": "399d677",
-      "message": "release: VYBE 0.14.0 instant playback and immersive artwork",
-      "date": "2026-10-18T14:33:21Z",
-      "url": "https://github.com/anshdeepofficial1/VYBE/commit/399d6771ff3f2a533ca2d5b2758af3b8fb516b84",
+      "sha": "a424d4b",
+      "message": "chore(deps): bump the github-actions group across 1 directory with 4 updates (#24)",
+      "date": "2026-10-22T17:43:25Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/a424d4b1423d87567039466a018517b7d80e25c0",
       "project": "VYBE",
       "repo": "VYBE"
+    },
+    {
+      "sha": "83d530a",
+      "message": "docs: update release notes for v2.1.4",
+      "date": "2026-10-22T17:27:21Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/83d530a27e680d6303d22f0883dc44696cc6a4ec",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "1b9553b",
+      "message": "feat(episodes): auto-align current story arc, smooth episode list scroll & fix next up episode parity",
+      "date": "2026-10-22T17:21:49Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/1b9553bb8d756d828877fee4f5b2eb2588ec69df",
+      "project": "AniDash",
+      "repo": "AniDash"
     },
     {
       "sha": "db6f0d6",

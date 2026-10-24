@@ -1,7 +1,7 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-23T11:39:24+00:00",
-  "active_project": "AniDash",
+  "generated_at": "2026-10-24T11:01:14+00:00",
+  "active_project": "VYBE",
   "projects": [
     {
       "repo": "AniDash",
@@ -12,13 +12,13 @@
       "language": "Dart",
       "stars": 21,
       "forks": 1,
-      "issues": 2,
-      "pushed_at": "2026-10-23T05:01:44Z",
+      "issues": 3,
+      "pushed_at": "2026-10-24T04:46:39Z",
       "release": {
         "tag": "v2.1.4",
         "name": "AniDash v2.1.4",
         "published_at": "2026-10-22T17:38:41Z",
-        "downloads": 434,
+        "downloads": 919,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.4"
       },
       "commits": [
@@ -58,15 +58,27 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "pushed_at": "2026-10-22T17:43:34Z",
+      "pushed_at": "2026-10-24T07:18:21Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 46,
+        "downloads": 70,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
+        {
+          "sha": "2ab021c",
+          "message": "chore(deps): bump the gradle-dependencies group with 2 updates (#26)",
+          "date": "2026-10-24T07:18:16Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/2ab021cec43f89ae5457eeeec97287382d9e4ae8"
+        },
+        {
+          "sha": "4039110",
+          "message": "docs: restore all README badges and fallback links",
+          "date": "2026-10-24T07:16:25Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/4039110b178c46514ed4cbca358b1f2250e5f124"
+        },
         {
           "sha": "af55251",
           "message": "chore(deps): bump the gradle-dependencies group across 1 directory with 62 updates (#25)",
@@ -78,18 +90,6 @@
           "message": "chore(deps): bump the github-actions group across 1 directory with 4 updates (#24)",
           "date": "2026-10-22T17:43:25Z",
           "url": "https://github.com/anshdeepofficial1/VYBE/commit/a424d4b1423d87567039466a018517b7d80e25c0"
-        },
-        {
-          "sha": "a63ce76",
-          "message": "fix(music): real artist credits, radio-on-tap queue, engagement-weighted Speed Dial, one-step YT sign-in",
-          "date": "2026-10-22T17:31:57Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/a63ce76504a26748f7c0e136bd5c856de1bd0136"
-        },
-        {
-          "sha": "56f72e8",
-          "message": "chore: prune legacy root fix scripts; release notes moved to docs/releases",
-          "date": "2026-10-22T17:31:45Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/56f72e8f639fb34dd760d56d50f1f1031448a444"
         }
       ]
     },
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "af55251",
-      "message": "chore(deps): bump the gradle-dependencies group across 1 directory with 62 updates (#25)",
-      "date": "2026-10-22T17:43:31Z",
-      "url": "https://github.com/anshdeepofficial1/VYBE/commit/af552518253f611efa54b15f306263ab9b759486",
+      "sha": "2ab021c",
+      "message": "chore(deps): bump the gradle-dependencies group with 2 updates (#26)",
+      "date": "2026-10-24T07:18:16Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/2ab021cec43f89ae5457eeeec97287382d9e4ae8",
       "project": "VYBE",
       "repo": "VYBE"
     },
     {
-      "sha": "a424d4b",
-      "message": "chore(deps): bump the github-actions group across 1 directory with 4 updates (#24)",
-      "date": "2026-10-22T17:43:25Z",
-      "url": "https://github.com/anshdeepofficial1/VYBE/commit/a424d4b1423d87567039466a018517b7d80e25c0",
+      "sha": "4039110",
+      "message": "docs: restore all README badges and fallback links",
+      "date": "2026-10-24T07:16:25Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/4039110b178c46514ed4cbca358b1f2250e5f124",
       "project": "VYBE",
       "repo": "VYBE"
     },

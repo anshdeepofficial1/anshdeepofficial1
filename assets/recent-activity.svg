@@ -15,30 +15,30 @@
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
-          <text x="52" y="72" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="72" class="bright" font-size="10">chore(deps): bump the gradle-dependencies group with 2 updates (#26)</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">2ab021c · Oct 24</text>
+          <text x="52" y="72" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="72" class="bright" font-size="10">feat(issues): in-app issue viewer, comment replies, new issue notificat…</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">98a988c · Oct 25</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
-          <text x="52" y="106" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="106" class="bright" font-size="10">docs: restore all README badges and fallback links</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">4039110 · Oct 24</text>
+          <text x="52" y="106" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="106" class="bright" font-size="10">feat(v2.1.5): add auto-enable subtitle toggle, dynamic genre language d…</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">d105613 · Oct 25</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
-          <text x="52" y="140" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="140" class="bright" font-size="10">docs: update release notes for v2.1.4</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">83d530a · Oct 22</text>
+          <text x="52" y="140" class="repo" font-size="9">VYBE</text>
+          <text x="145" y="140" class="bright" font-size="10">chore(deps): bump the gradle-dependencies group with 2 updates (#26)</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">2ab021c · Oct 24</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="174" class="bright" font-size="10">feat(episodes): auto-align current story arc, smooth episode list scrol…</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">1b9553b · Oct 22</text>
+          <text x="52" y="174" class="repo" font-size="9">VYBE</text>
+          <text x="145" y="174" class="bright" font-size="10">docs: restore all README badges and fallback links</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">4039110 · Oct 24</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>

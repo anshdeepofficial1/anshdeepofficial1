@@ -1,7 +1,7 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-24T11:01:14+00:00",
-  "active_project": "VYBE",
+  "generated_at": "2026-10-25T11:29:46+00:00",
+  "active_project": "AniDash",
   "projects": [
     {
       "repo": "AniDash",
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 21,
+      "stars": 23,
       "forks": 1,
-      "issues": 3,
-      "pushed_at": "2026-10-24T04:46:39Z",
+      "issues": 0,
+      "pushed_at": "2026-10-25T05:04:19Z",
       "release": {
-        "tag": "v2.1.4",
-        "name": "AniDash v2.1.4",
-        "published_at": "2026-10-22T17:38:41Z",
-        "downloads": 919,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.4"
+        "tag": "v2.1.5",
+        "name": "AniDash v2.1.5",
+        "published_at": "2026-10-25T05:04:19Z",
+        "downloads": 230,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.5"
       },
       "commits": [
+        {
+          "sha": "98a988c",
+          "message": "feat(issues): in-app issue viewer, comment replies, new issue notifications & auto-subtitles default (v2.1.5)",
+          "date": "2026-10-25T04:52:37Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/98a988c4e101ab498ced67caf0bb442e5bce0139"
+        },
+        {
+          "sha": "d105613",
+          "message": "feat(v2.1.5): add auto-enable subtitle toggle, dynamic genre language detection & interactive app tour",
+          "date": "2026-10-25T04:41:00Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/d1056130ef26ee09a2b7ef8a3d23189bca4b817a"
+        },
+        {
+          "sha": "79d3bd2",
+          "message": "fix: resolve subtitles, audio languages, and download issues (v2.1.5)",
+          "date": "2026-10-25T04:16:23Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/79d3bd2949238f9f045d38e4fc3de1062c6ff24d"
+        },
         {
           "sha": "83d530a",
           "message": "docs: update release notes for v2.1.4",
           "date": "2026-10-22T17:27:21Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/83d530a27e680d6303d22f0883dc44696cc6a4ec"
-        },
-        {
-          "sha": "1b9553b",
-          "message": "feat(episodes): auto-align current story arc, smooth episode list scroll & fix next up episode parity",
-          "date": "2026-10-22T17:21:49Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/1b9553bb8d756d828877fee4f5b2eb2588ec69df"
-        },
-        {
-          "sha": "014df41",
-          "message": "feat(ui/security): add official CodeQL workflow and fix check for updates icon with Material system_update",
-          "date": "2026-10-22T16:22:58Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/014df41fea60cbce14be447e8e76104bd5ebb17c"
-        },
-        {
-          "sha": "e507f1d",
-          "message": "fix(security): resolve CodeQL alerts for Notify workflow permissions and news.js double escaping",
-          "date": "2026-10-22T16:04:44Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/e507f1d6f52064eb5cddcf022756f207f69fec81"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 70,
+        "downloads": 90,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,6 +135,22 @@
   ],
   "recent_activity": [
     {
+      "sha": "98a988c",
+      "message": "feat(issues): in-app issue viewer, comment replies, new issue notifications & auto-subtitles default (v2.1.5)",
+      "date": "2026-10-25T04:52:37Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/98a988c4e101ab498ced67caf0bb442e5bce0139",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "d105613",
+      "message": "feat(v2.1.5): add auto-enable subtitle toggle, dynamic genre language detection & interactive app tour",
+      "date": "2026-10-25T04:41:00Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/d1056130ef26ee09a2b7ef8a3d23189bca4b817a",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
       "sha": "2ab021c",
       "message": "chore(deps): bump the gradle-dependencies group with 2 updates (#26)",
       "date": "2026-10-24T07:18:16Z",
@@ -149,22 +165,6 @@
       "url": "https://github.com/anshdeepofficial1/VYBE/commit/4039110b178c46514ed4cbca358b1f2250e5f124",
       "project": "VYBE",
       "repo": "VYBE"
-    },
-    {
-      "sha": "83d530a",
-      "message": "docs: update release notes for v2.1.4",
-      "date": "2026-10-22T17:27:21Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/83d530a27e680d6303d22f0883dc44696cc6a4ec",
-      "project": "AniDash",
-      "repo": "AniDash"
-    },
-    {
-      "sha": "1b9553b",
-      "message": "feat(episodes): auto-align current story arc, smooth episode list scroll & fix next up episode parity",
-      "date": "2026-10-22T17:21:49Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/1b9553bb8d756d828877fee4f5b2eb2588ec69df",
-      "project": "AniDash",
-      "repo": "AniDash"
     },
     {
       "sha": "db6f0d6",

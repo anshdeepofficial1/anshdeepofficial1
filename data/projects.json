@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-25T11:29:46+00:00",
+  "generated_at": "2026-10-26T13:03:42+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 23,
+      "stars": 24,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-10-25T05:04:19Z",
+      "pushed_at": "2026-10-26T04:57:47Z",
       "release": {
-        "tag": "v2.1.5",
-        "name": "AniDash v2.1.5",
-        "published_at": "2026-10-25T05:04:19Z",
-        "downloads": 230,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.5"
+        "tag": "v2.1.6",
+        "name": "AniDash v2.1.6",
+        "published_at": "2026-10-25T13:01:56Z",
+        "downloads": 540,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.6"
       },
       "commits": [
         {
-          "sha": "98a988c",
-          "message": "feat(issues): in-app issue viewer, comment replies, new issue notifications & auto-subtitles default (v2.1.5)",
-          "date": "2026-10-25T04:52:37Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/98a988c4e101ab498ced67caf0bb442e5bce0139"
+          "sha": "a53d330",
+          "message": "ci: trigger Android release build for v2.1.6",
+          "date": "2026-10-25T12:33:59Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a53d330cd5c8e0cf4e2a0c55d12cf35cc4749494"
         },
         {
-          "sha": "d105613",
-          "message": "feat(v2.1.5): add auto-enable subtitle toggle, dynamic genre language detection & interactive app tour",
-          "date": "2026-10-25T04:41:00Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/d1056130ef26ee09a2b7ef8a3d23189bca4b817a"
+          "sha": "b78823c",
+          "message": "feat(v2.1.6): fix jump to time button, in-app feedback tracking & developer replies, reliable manga sources, and remove experimental settings",
+          "date": "2026-10-25T12:33:07Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/b78823caef6de252b51fa8ec147635bdb37dddf8"
         },
         {
-          "sha": "79d3bd2",
-          "message": "fix: resolve subtitles, audio languages, and download issues (v2.1.5)",
-          "date": "2026-10-25T04:16:23Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/79d3bd2949238f9f045d38e4fc3de1062c6ff24d"
+          "sha": "6b9e69f",
+          "message": "fix(app): declare video category, remove microphone permission, disable app tour, remove check updates from about, and enhance in-app feedback viewer",
+          "date": "2026-10-25T11:54:57Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/6b9e69fcc2600e58b3c4336b271da5daf277c5c9"
         },
         {
-          "sha": "83d530a",
-          "message": "docs: update release notes for v2.1.4",
-          "date": "2026-10-22T17:27:21Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/83d530a27e680d6303d22f0883dc44696cc6a4ec"
+          "sha": "76d5c6e",
+          "message": "Update SECURITY.md",
+          "date": "2026-10-25T11:49:15Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/76d5c6e21eb208d2d256307a5f7724a237dfb532"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 90,
+        "downloads": 107,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "98a988c",
-      "message": "feat(issues): in-app issue viewer, comment replies, new issue notifications & auto-subtitles default (v2.1.5)",
-      "date": "2026-10-25T04:52:37Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/98a988c4e101ab498ced67caf0bb442e5bce0139",
+      "sha": "a53d330",
+      "message": "ci: trigger Android release build for v2.1.6",
+      "date": "2026-10-25T12:33:59Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a53d330cd5c8e0cf4e2a0c55d12cf35cc4749494",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "d105613",
-      "message": "feat(v2.1.5): add auto-enable subtitle toggle, dynamic genre language detection & interactive app tour",
-      "date": "2026-10-25T04:41:00Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/d1056130ef26ee09a2b7ef8a3d23189bca4b817a",
+      "sha": "b78823c",
+      "message": "feat(v2.1.6): fix jump to time button, in-app feedback tracking & developer replies, reliable manga sources, and remove experimental settings",
+      "date": "2026-10-25T12:33:07Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/b78823caef6de252b51fa8ec147635bdb37dddf8",
       "project": "AniDash",
       "repo": "AniDash"
     },

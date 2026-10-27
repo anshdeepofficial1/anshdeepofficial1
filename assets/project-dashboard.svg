@@ -23,23 +23,23 @@
           <line x1="40" y1="112" x2="270" y2="112" stroke="#21262d"/>
 
           <text x="40" y="137" class="key">STARS</text>
-          <text x="40" y="161" class="metric">24</text>
+          <text x="40" y="161" class="metric">25</text>
           <text x="109" y="137" class="key">FORKS</text>
           <text x="109" y="161" class="metric">1</text>
           <text x="178" y="137" class="key">ISSUES</text>
-          <text x="178" y="161" class="metric">0</text>
+          <text x="178" y="161" class="metric">1</text>
 
           <line x1="40" y1="178" x2="270" y2="178" stroke="#21262d"/>
           <text x="40" y="199" class="key">LATEST RELEASE</text>
           <text x="40" y="222" class="bright" font-size="12" font-weight="700">v2.1.6</text>
-          <text x="270" y="222" text-anchor="end" class="muted" font-size="8">Oct 26</text>
+          <text x="270" y="222" text-anchor="end" class="muted" font-size="8">Oct 27</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".35s" begin="0.36s" fill="freeze"/>
           <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur=".35s" begin="0.36s" fill="freeze"/>
           <rect x="299" y="54" width="262" height="190" rx="14" fill="#0d1117" stroke="#30363d"/>
           <text x="315" y="77" class="bright" font-size="14" font-weight="800">VYBE</text>
-          <text x="540" y="74" text-anchor="end" class="muted" font-size="8">updated Oct 24</text>
+          <text x="540" y="74" text-anchor="end" class="muted" font-size="8">updated Oct 26</text>
           <text x="315" y="100" class="muted" font-size="9">Kotlin · vybetune.vercel.app</text>
           <line x1="315" y1="112" x2="545" y2="112" stroke="#21262d"/>
 
@@ -48,12 +48,12 @@
           <text x="384" y="137" class="key">FORKS</text>
           <text x="384" y="161" class="metric">0</text>
           <text x="453" y="137" class="key">ISSUES</text>
-          <text x="453" y="161" class="metric">0</text>
+          <text x="453" y="161" class="metric">1</text>
 
           <line x1="315" y1="178" x2="545" y2="178" stroke="#21262d"/>
           <text x="315" y="199" class="key">LATEST RELEASE</text>
           <text x="315" y="222" class="bright" font-size="12" font-weight="700">v0.14.1</text>
-          <text x="545" y="222" text-anchor="end" class="muted" font-size="8">Oct 24</text>
+          <text x="545" y="222" text-anchor="end" class="muted" font-size="8">Oct 26</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".35s" begin="0.54s" fill="freeze"/>

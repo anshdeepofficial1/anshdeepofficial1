@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-26T13:03:42+00:00",
+  "generated_at": "2026-10-27T12:11:52+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,18 +10,24 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 24,
+      "stars": 25,
       "forks": 1,
-      "issues": 0,
-      "pushed_at": "2026-10-26T04:57:47Z",
+      "issues": 1,
+      "pushed_at": "2026-10-27T11:53:51Z",
       "release": {
         "tag": "v2.1.6",
         "name": "AniDash v2.1.6",
         "published_at": "2026-10-25T13:01:56Z",
-        "downloads": 540,
+        "downloads": 810,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.6"
       },
       "commits": [
+        {
+          "sha": "8333615",
+          "message": "fix: resolve infinite loading and source selection for Hindi and Aniyomi extensions",
+          "date": "2026-10-27T11:53:41Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/8333615363ff09f995d8390444ecdbe7323bafbf"
+        },
         {
           "sha": "a53d330",
           "message": "ci: trigger Android release build for v2.1.6",
@@ -39,12 +45,6 @@
           "message": "fix(app): declare video category, remove microphone permission, disable app tour, remove check updates from about, and enhance in-app feedback viewer",
           "date": "2026-10-25T11:54:57Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/6b9e69fcc2600e58b3c4336b271da5daf277c5c9"
-        },
-        {
-          "sha": "76d5c6e",
-          "message": "Update SECURITY.md",
-          "date": "2026-10-25T11:49:15Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/76d5c6e21eb208d2d256307a5f7724a237dfb532"
         }
       ]
     },
@@ -57,13 +57,13 @@
       "language": "Kotlin",
       "stars": 2,
       "forks": 0,
-      "issues": 0,
-      "pushed_at": "2026-10-24T07:18:21Z",
+      "issues": 1,
+      "pushed_at": "2026-10-26T16:36:32Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 107,
+        "downloads": 119,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "a53d330",
-      "message": "ci: trigger Android release build for v2.1.6",
-      "date": "2026-10-25T12:33:59Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a53d330cd5c8e0cf4e2a0c55d12cf35cc4749494",
+      "sha": "8333615",
+      "message": "fix: resolve infinite loading and source selection for Hindi and Aniyomi extensions",
+      "date": "2026-10-27T11:53:41Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/8333615363ff09f995d8390444ecdbe7323bafbf",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "b78823c",
-      "message": "feat(v2.1.6): fix jump to time button, in-app feedback tracking & developer replies, reliable manga sources, and remove experimental settings",
-      "date": "2026-10-25T12:33:07Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/b78823caef6de252b51fa8ec147635bdb37dddf8",
+      "sha": "a53d330",
+      "message": "ci: trigger Android release build for v2.1.6",
+      "date": "2026-10-25T12:33:59Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a53d330cd5c8e0cf4e2a0c55d12cf35cc4749494",
       "project": "AniDash",
       "repo": "AniDash"
     },

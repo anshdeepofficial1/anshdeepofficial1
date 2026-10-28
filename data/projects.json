@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-27T12:11:52+00:00",
+  "generated_at": "2026-10-28T12:55:07+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,39 +12,39 @@
       "language": "Dart",
       "stars": 25,
       "forks": 1,
-      "issues": 1,
-      "pushed_at": "2026-10-27T11:53:51Z",
+      "issues": 0,
+      "pushed_at": "2026-10-28T05:54:31Z",
       "release": {
-        "tag": "v2.1.6",
-        "name": "AniDash v2.1.6",
-        "published_at": "2026-10-25T13:01:56Z",
-        "downloads": 810,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v2.1.6"
+        "tag": "v3.2.1",
+        "name": "AniDash v3.2.1",
+        "published_at": "2026-10-28T02:29:07Z",
+        "downloads": 316,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.2.1"
       },
       "commits": [
         {
-          "sha": "8333615",
-          "message": "fix: resolve infinite loading and source selection for Hindi and Aniyomi extensions",
-          "date": "2026-10-27T11:53:41Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/8333615363ff09f995d8390444ecdbe7323bafbf"
+          "sha": "a20a49b",
+          "message": "fix(v3.2.1): fix hindi extension matching, continue watching fallback, player dub badge, and MAL oauth",
+          "date": "2026-10-28T02:27:44Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a20a49ba382f246e09c9933e84b1a63ffba8cf5a"
         },
         {
-          "sha": "a53d330",
-          "message": "ci: trigger Android release build for v2.1.6",
-          "date": "2026-10-25T12:33:59Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a53d330cd5c8e0cf4e2a0c55d12cf35cc4749494"
+          "sha": "df6b6e4",
+          "message": "fix(v3.2.0): fix source switching persistence, extension routing, header display, and clean seasons",
+          "date": "2026-10-27T18:53:27Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/df6b6e4ea1a167f6759708ea7665bfe4486eb481"
         },
         {
-          "sha": "b78823c",
-          "message": "feat(v2.1.6): fix jump to time button, in-app feedback tracking & developer replies, reliable manga sources, and remove experimental settings",
-          "date": "2026-10-25T12:33:07Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/b78823caef6de252b51fa8ec147635bdb37dddf8"
+          "sha": "33a0025",
+          "message": "fix(v3.1.0): prevent auto-scroll jump to bottom, fix source selection toggle & official server routing",
+          "date": "2026-10-27T18:07:04Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/33a002586610609fb5e8d38f476cee0fddbb36ad"
         },
         {
-          "sha": "6b9e69f",
-          "message": "fix(app): declare video category, remove microphone permission, disable app tour, remove check updates from about, and enhance in-app feedback viewer",
-          "date": "2026-10-25T11:54:57Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/6b9e69fcc2600e58b3c4336b271da5daf277c5c9"
+          "sha": "90b25e5",
+          "message": "feat(v3.0.0): add deep linking, official server logos, hindi auto-fallback and release 4 APK variants",
+          "date": "2026-10-27T17:10:09Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/90b25e5352e7090bddab9de0d7b097ab5bf4d411"
         }
       ]
     },
@@ -58,12 +58,12 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-10-26T16:36:32Z",
+      "pushed_at": "2026-10-27T16:34:08Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 119,
+        "downloads": 148,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "8333615",
-      "message": "fix: resolve infinite loading and source selection for Hindi and Aniyomi extensions",
-      "date": "2026-10-27T11:53:41Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/8333615363ff09f995d8390444ecdbe7323bafbf",
+      "sha": "a20a49b",
+      "message": "fix(v3.2.1): fix hindi extension matching, continue watching fallback, player dub badge, and MAL oauth",
+      "date": "2026-10-28T02:27:44Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a20a49ba382f246e09c9933e84b1a63ffba8cf5a",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "a53d330",
-      "message": "ci: trigger Android release build for v2.1.6",
-      "date": "2026-10-25T12:33:59Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a53d330cd5c8e0cf4e2a0c55d12cf35cc4749494",
+      "sha": "df6b6e4",
+      "message": "fix(v3.2.0): fix source switching persistence, extension routing, header display, and clean seasons",
+      "date": "2026-10-27T18:53:27Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/df6b6e4ea1a167f6759708ea7665bfe4486eb481",
       "project": "AniDash",
       "repo": "AniDash"
     },

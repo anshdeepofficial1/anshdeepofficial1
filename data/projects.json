@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-28T12:55:07+00:00",
+  "generated_at": "2026-10-29T13:01:31+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 25,
+      "stars": 27,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-10-28T05:54:31Z",
+      "pushed_at": "2026-10-29T13:00:59Z",
       "release": {
-        "tag": "v3.2.1",
-        "name": "AniDash v3.2.1",
-        "published_at": "2026-10-28T02:29:07Z",
-        "downloads": 316,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.2.1"
+        "tag": "v3.2.2",
+        "name": "AniDash v3.2.2 — Extensions UI, Player Stability & Hindi Stream Fixes",
+        "published_at": "2026-10-29T01:55:54Z",
+        "downloads": 353,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.2.2"
       },
       "commits": [
         {
-          "sha": "a20a49b",
-          "message": "fix(v3.2.1): fix hindi extension matching, continue watching fallback, player dub badge, and MAL oauth",
-          "date": "2026-10-28T02:27:44Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/a20a49ba382f246e09c9933e84b1a63ffba8cf5a"
+          "sha": "c63e883",
+          "message": "feat(v3.2.3): hide anicore, immersive video status bar, fix portrait jump to time & about play button, clean extension repos, dynamic download size, and hide dev feedback",
+          "date": "2026-10-29T13:00:50Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/c63e88361ef93c22aba7efb88e2c28b5552aca9e"
         },
         {
-          "sha": "df6b6e4",
-          "message": "fix(v3.2.0): fix source switching persistence, extension routing, header display, and clean seasons",
-          "date": "2026-10-27T18:53:27Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/df6b6e4ea1a167f6759708ea7665bfe4486eb481"
+          "sha": "674d725",
+          "message": "fix: resolve player buffering, downloads navigation, episode caching, tracker persistence, and issues #71 & #72",
+          "date": "2026-10-29T12:35:01Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/674d7253ba5c44f4d16827787d4810e71464818d"
         },
         {
-          "sha": "33a0025",
-          "message": "fix(v3.1.0): prevent auto-scroll jump to bottom, fix source selection toggle & official server routing",
-          "date": "2026-10-27T18:07:04Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/33a002586610609fb5e8d38f476cee0fddbb36ad"
+          "sha": "caa37d1",
+          "message": "docs: add release notes for v3.2.2",
+          "date": "2026-10-29T01:56:17Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/caa37d18e879368841dbd24f1890471cfdd49b24"
         },
         {
-          "sha": "90b25e5",
-          "message": "feat(v3.0.0): add deep linking, official server logos, hindi auto-fallback and release 4 APK variants",
-          "date": "2026-10-27T17:10:09Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/90b25e5352e7090bddab9de0d7b097ab5bf4d411"
+          "sha": "be70274",
+          "message": "feat(v3.2.2): extensions overhaul, backup export fix, player & PiP stability, Hindi streaming improvements",
+          "date": "2026-10-29T01:45:23Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/be70274172a0c837b2298b16f9bbea3f9b281a41"
         }
       ]
     },
@@ -58,12 +58,12 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-10-27T16:34:08Z",
+      "pushed_at": "2026-10-28T16:35:14Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 148,
+        "downloads": 159,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "a20a49b",
-      "message": "fix(v3.2.1): fix hindi extension matching, continue watching fallback, player dub badge, and MAL oauth",
-      "date": "2026-10-28T02:27:44Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/a20a49ba382f246e09c9933e84b1a63ffba8cf5a",
+      "sha": "c63e883",
+      "message": "feat(v3.2.3): hide anicore, immersive video status bar, fix portrait jump to time & about play button, clean extension repos, dynamic download size, and hide dev feedback",
+      "date": "2026-10-29T13:00:50Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/c63e88361ef93c22aba7efb88e2c28b5552aca9e",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "df6b6e4",
-      "message": "fix(v3.2.0): fix source switching persistence, extension routing, header display, and clean seasons",
-      "date": "2026-10-27T18:53:27Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/df6b6e4ea1a167f6759708ea7665bfe4486eb481",
+      "sha": "674d725",
+      "message": "fix: resolve player buffering, downloads navigation, episode caching, tracker persistence, and issues #71 & #72",
+      "date": "2026-10-29T12:35:01Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/674d7253ba5c44f4d16827787d4810e71464818d",
       "project": "AniDash",
       "repo": "AniDash"
     },

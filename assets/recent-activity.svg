@@ -16,15 +16,15 @@
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
           <text x="52" y="72" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="72" class="bright" font-size="10">fix(v3.2.1): fix hindi extension matching, continue watching fallback,…</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">a20a49b · Oct 28</text>
+          <text x="145" y="72" class="bright" font-size="10">feat(v3.2.3): hide anicore, immersive video status bar, fix portrait ju…</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">c63e883 · Oct 29</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
           <text x="52" y="106" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="106" class="bright" font-size="10">fix(v3.2.0): fix source switching persistence, extension routing, heade…</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">df6b6e4 · Oct 27</text>
+          <text x="145" y="106" class="bright" font-size="10">fix: resolve player buffering, downloads navigation, episode caching, t…</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">674d725 · Oct 29</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>

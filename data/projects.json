@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-29T13:01:31+00:00",
+  "generated_at": "2026-10-30T12:56:01+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,39 +12,39 @@
       "language": "Dart",
       "stars": 27,
       "forks": 1,
-      "issues": 0,
-      "pushed_at": "2026-10-29T13:00:59Z",
+      "issues": 1,
+      "pushed_at": "2026-10-30T08:15:50Z",
       "release": {
-        "tag": "v3.2.2",
-        "name": "AniDash v3.2.2 — Extensions UI, Player Stability & Hindi Stream Fixes",
-        "published_at": "2026-10-29T01:55:54Z",
-        "downloads": 353,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.2.2"
+        "tag": "v3.2.6",
+        "name": "AniDash v3.2.6 — Direct Download Controls, UI Overlap Fixes & Downloader Optimizations",
+        "published_at": "2026-10-30T08:15:37Z",
+        "downloads": 96,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.2.6"
       },
       "commits": [
         {
-          "sha": "c63e883",
-          "message": "feat(v3.2.3): hide anicore, immersive video status bar, fix portrait jump to time & about play button, clean extension repos, dynamic download size, and hide dev feedback",
-          "date": "2026-10-29T13:00:50Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/c63e88361ef93c22aba7efb88e2c28b5552aca9e"
+          "sha": "35eb918",
+          "message": "fix(details): resolve header overlap on scroll, minimize FAB on downward scroll, add direct download controls for episodes, and optimize HLS download worker concurrency",
+          "date": "2026-10-30T07:51:53Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/35eb918212d239d36295b0b5b5ce6814a6d84b9e"
         },
         {
-          "sha": "674d725",
-          "message": "fix: resolve player buffering, downloads navigation, episode caching, tracker persistence, and issues #71 & #72",
-          "date": "2026-10-29T12:35:01Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/674d7253ba5c44f4d16827787d4810e71464818d"
+          "sha": "66b3e13",
+          "message": "Merge pull request #78 from anshdeepofficial1/dependabot/github_actions/github/codeql-action-4",
+          "date": "2026-10-30T07:27:34Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/66b3e1318f0a462f6e3e873861c9a82a563fdc09"
         },
         {
-          "sha": "caa37d1",
-          "message": "docs: add release notes for v3.2.2",
-          "date": "2026-10-29T01:56:17Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/caa37d18e879368841dbd24f1890471cfdd49b24"
+          "sha": "c00296e",
+          "message": "ci(security): bump github/codeql-action from 3 to 4",
+          "date": "2026-10-29T21:56:14Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/c00296e12d1d594f05ad430584bf24402e475b66"
         },
         {
-          "sha": "be70274",
-          "message": "feat(v3.2.2): extensions overhaul, backup export fix, player & PiP stability, Hindi streaming improvements",
-          "date": "2026-10-29T01:45:23Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/be70274172a0c837b2298b16f9bbea3f9b281a41"
+          "sha": "2b50c10",
+          "message": "fix(ci): add network retries with backoff in readme badge updater",
+          "date": "2026-10-29T15:23:07Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/2b50c10fc2a8ab3420dd3b4f89971dc9091c97f9"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 159,
+        "downloads": 169,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "c63e883",
-      "message": "feat(v3.2.3): hide anicore, immersive video status bar, fix portrait jump to time & about play button, clean extension repos, dynamic download size, and hide dev feedback",
-      "date": "2026-10-29T13:00:50Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/c63e88361ef93c22aba7efb88e2c28b5552aca9e",
+      "sha": "35eb918",
+      "message": "fix(details): resolve header overlap on scroll, minimize FAB on downward scroll, add direct download controls for episodes, and optimize HLS download worker concurrency",
+      "date": "2026-10-30T07:51:53Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/35eb918212d239d36295b0b5b5ce6814a6d84b9e",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "674d725",
-      "message": "fix: resolve player buffering, downloads navigation, episode caching, tracker persistence, and issues #71 & #72",
-      "date": "2026-10-29T12:35:01Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/674d7253ba5c44f4d16827787d4810e71464818d",
+      "sha": "66b3e13",
+      "message": "Merge pull request #78 from anshdeepofficial1/dependabot/github_actions/github/codeql-action-4",
+      "date": "2026-10-30T07:27:34Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/66b3e1318f0a462f6e3e873861c9a82a563fdc09",
       "project": "AniDash",
       "repo": "AniDash"
     },

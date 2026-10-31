@@ -16,15 +16,15 @@
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
           <text x="52" y="72" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="72" class="bright" font-size="10">fix(details): resolve header overlap on scroll, minimize FAB on downwar…</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">35eb918 · Oct 30</text>
+          <text x="145" y="72" class="bright" font-size="10">feat(v3.3.0): official JustAnime default, player video freeze fix, and…</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">4f16bae · Oct 31</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
           <text x="52" y="106" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="106" class="bright" font-size="10">Merge pull request #78 from anshdeepofficial1/dependabot/github_actions…</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">66b3e13 · Oct 30</text>
+          <text x="145" y="106" class="bright" font-size="10">feat(website): high-contrast nav CTA button, multi-audio SUB/DUB/Hindi…</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">1c395dc · Oct 31</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>

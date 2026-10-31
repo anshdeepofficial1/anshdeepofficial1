@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-30T12:56:01+00:00",
+  "generated_at": "2026-10-31T12:29:48+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,39 +12,39 @@
       "language": "Dart",
       "stars": 27,
       "forks": 1,
-      "issues": 1,
-      "pushed_at": "2026-10-30T08:15:50Z",
+      "issues": 0,
+      "pushed_at": "2026-10-31T12:05:26Z",
       "release": {
-        "tag": "v3.2.6",
-        "name": "AniDash v3.2.6 — Direct Download Controls, UI Overlap Fixes & Downloader Optimizations",
-        "published_at": "2026-10-30T08:15:37Z",
-        "downloads": 96,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.2.6"
+        "tag": "v3.3.0",
+        "name": "AniDash v3.3.0 — Official JustAnime Default, Player Video Freeze Fix & Pure Contributors",
+        "published_at": "2026-10-31T12:05:11Z",
+        "downloads": 18,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.0"
       },
       "commits": [
         {
-          "sha": "35eb918",
-          "message": "fix(details): resolve header overlap on scroll, minimize FAB on downward scroll, add direct download controls for episodes, and optimize HLS download worker concurrency",
-          "date": "2026-10-30T07:51:53Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/35eb918212d239d36295b0b5b5ce6814a6d84b9e"
+          "sha": "4f16bae",
+          "message": "feat(v3.3.0): official JustAnime default, player video freeze fix, and bump to v3.3.0",
+          "date": "2026-10-31T11:42:14Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/4f16baeecf1b270b3041f1df5edd9ad563872397"
         },
         {
-          "sha": "66b3e13",
-          "message": "Merge pull request #78 from anshdeepofficial1/dependabot/github_actions/github/codeql-action-4",
-          "date": "2026-10-30T07:27:34Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/66b3e1318f0a462f6e3e873861c9a82a563fdc09"
+          "sha": "1c395dc",
+          "message": "feat(website): high-contrast nav CTA button, multi-audio SUB/DUB/Hindi showcase, and comprehensive feature guide",
+          "date": "2026-10-31T06:14:33Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/1c395dcad6b1dbbc077511cffbcd4f648331a291"
         },
         {
-          "sha": "c00296e",
-          "message": "ci(security): bump github/codeql-action from 3 to 4",
-          "date": "2026-10-29T21:56:14Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/c00296e12d1d594f05ad430584bf24402e475b66"
+          "sha": "c0bc9dc",
+          "message": "chore: bump version to 3.2.7+32700 and clean up extension screen lints",
+          "date": "2026-10-31T05:45:36Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/c0bc9dc0ffb4ef6c202e20661afd03070644e8b2"
         },
         {
-          "sha": "2b50c10",
-          "message": "fix(ci): add network retries with backoff in readme badge updater",
-          "date": "2026-10-29T15:23:07Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/2b50c10fc2a8ab3420dd3b4f89971dc9091c97f9"
+          "sha": "2a8369a",
+          "message": "feat(website): elevate styling, modern dark cyberpunk palette, architecture download cards, and v3.2.6 features",
+          "date": "2026-10-31T05:40:08Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/2a8369ada4b135dadac74b832459d3a01303343a"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 169,
+        "downloads": 182,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "35eb918",
-      "message": "fix(details): resolve header overlap on scroll, minimize FAB on downward scroll, add direct download controls for episodes, and optimize HLS download worker concurrency",
-      "date": "2026-10-30T07:51:53Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/35eb918212d239d36295b0b5b5ce6814a6d84b9e",
+      "sha": "4f16bae",
+      "message": "feat(v3.3.0): official JustAnime default, player video freeze fix, and bump to v3.3.0",
+      "date": "2026-10-31T11:42:14Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/4f16baeecf1b270b3041f1df5edd9ad563872397",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "66b3e13",
-      "message": "Merge pull request #78 from anshdeepofficial1/dependabot/github_actions/github/codeql-action-4",
-      "date": "2026-10-30T07:27:34Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/66b3e1318f0a462f6e3e873861c9a82a563fdc09",
+      "sha": "1c395dc",
+      "message": "feat(website): high-contrast nav CTA button, multi-audio SUB/DUB/Hindi showcase, and comprehensive feature guide",
+      "date": "2026-10-31T06:14:33Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/1c395dcad6b1dbbc077511cffbcd4f648331a291",
       "project": "AniDash",
       "repo": "AniDash"
     },

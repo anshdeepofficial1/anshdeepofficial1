@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-10-31T12:29:48+00:00",
+  "generated_at": "2026-11-01T13:24:59+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 27,
+      "stars": 28,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-10-31T12:05:26Z",
+      "pushed_at": "2026-11-01T12:06:05Z",
       "release": {
-        "tag": "v3.3.0",
-        "name": "AniDash v3.3.0 — Official JustAnime Default, Player Video Freeze Fix & Pure Contributors",
-        "published_at": "2026-10-31T12:05:11Z",
-        "downloads": 18,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.0"
+        "tag": "v3.3.2",
+        "name": "AniDash v3.3.2",
+        "published_at": "2026-11-01T07:46:41Z",
+        "downloads": 194,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.2"
       },
       "commits": [
         {
-          "sha": "4f16bae",
-          "message": "feat(v3.3.0): official JustAnime default, player video freeze fix, and bump to v3.3.0",
-          "date": "2026-10-31T11:42:14Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/4f16baeecf1b270b3041f1df5edd9ad563872397"
+          "sha": "030def9",
+          "message": "test(downloads,extensions): add unit tests for duplicate quality fix, dub detection and extension catalog mapping",
+          "date": "2026-11-01T12:05:59Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/030def9190024d21fd113b357f3be0fe332d526c"
         },
         {
-          "sha": "1c395dc",
-          "message": "feat(website): high-contrast nav CTA button, multi-audio SUB/DUB/Hindi showcase, and comprehensive feature guide",
-          "date": "2026-10-31T06:14:33Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/1c395dcad6b1dbbc077511cffbcd4f648331a291"
+          "sha": "749c4e4",
+          "message": "fix(downloads,extensions): resolve quality duplication, enhance dub fallback and add extension catalog provider browsing (#80, #81)",
+          "date": "2026-11-01T11:55:03Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/749c4e458566bcdf04f9ea8212beaa4062449257"
         },
         {
-          "sha": "c0bc9dc",
-          "message": "chore: bump version to 3.2.7+32700 and clean up extension screen lints",
-          "date": "2026-10-31T05:45:36Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/c0bc9dc0ffb4ef6c202e20661afd03070644e8b2"
+          "sha": "0dc8e8f",
+          "message": "Move Watch website to standalone repository",
+          "date": "2026-11-01T11:20:32Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/0dc8e8f97f23286edb9ddf6082d41703ec1323e0"
         },
         {
-          "sha": "2a8369a",
-          "message": "feat(website): elevate styling, modern dark cyberpunk palette, architecture download cards, and v3.2.6 features",
-          "date": "2026-10-31T05:40:08Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/2a8369ada4b135dadac74b832459d3a01303343a"
+          "sha": "45a1d9a",
+          "message": "Build standalone AniDash Watch PWA",
+          "date": "2026-11-01T11:11:11Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/45a1d9a190cf0d9ca4522aa48da6cdb35dfa2b46"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 182,
+        "downloads": 193,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "4f16bae",
-      "message": "feat(v3.3.0): official JustAnime default, player video freeze fix, and bump to v3.3.0",
-      "date": "2026-10-31T11:42:14Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/4f16baeecf1b270b3041f1df5edd9ad563872397",
+      "sha": "030def9",
+      "message": "test(downloads,extensions): add unit tests for duplicate quality fix, dub detection and extension catalog mapping",
+      "date": "2026-11-01T12:05:59Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/030def9190024d21fd113b357f3be0fe332d526c",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "1c395dc",
-      "message": "feat(website): high-contrast nav CTA button, multi-audio SUB/DUB/Hindi showcase, and comprehensive feature guide",
-      "date": "2026-10-31T06:14:33Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/1c395dcad6b1dbbc077511cffbcd4f648331a291",
+      "sha": "749c4e4",
+      "message": "fix(downloads,extensions): resolve quality duplication, enhance dub fallback and add extension catalog provider browsing (#80, #81)",
+      "date": "2026-11-01T11:55:03Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/749c4e458566bcdf04f9ea8212beaa4062449257",
       "project": "AniDash",
       "repo": "AniDash"
     },

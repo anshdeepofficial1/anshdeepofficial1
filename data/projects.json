@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-01T13:24:59+00:00",
+  "generated_at": "2026-11-02T15:53:07+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,15 +13,21 @@
       "stars": 28,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-01T12:06:05Z",
+      "pushed_at": "2026-11-02T14:46:51Z",
       "release": {
-        "tag": "v3.3.2",
-        "name": "AniDash v3.3.2",
-        "published_at": "2026-11-01T07:46:41Z",
-        "downloads": 194,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.2"
+        "tag": "v3.3.3",
+        "name": "AniDash v3.3.3 — 120s Forward Buffer & Continue Watching Startup Fix",
+        "published_at": "2026-11-02T14:46:31Z",
+        "downloads": 56,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.3"
       },
       "commits": [
+        {
+          "sha": "d10211c",
+          "message": "fix(player,home): ensure minimum 120s forward buffer, prioritize time over size thresholds, and prevent continue watching flicker on app startup (v3.3.3)",
+          "date": "2026-11-02T14:15:56Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/d10211ccf8fc451a2555f74fbfa482637f30a3e6"
+        },
         {
           "sha": "030def9",
           "message": "test(downloads,extensions): add unit tests for duplicate quality fix, dub detection and extension catalog mapping",
@@ -39,12 +45,6 @@
           "message": "Move Watch website to standalone repository",
           "date": "2026-11-01T11:20:32Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/0dc8e8f97f23286edb9ddf6082d41703ec1323e0"
-        },
-        {
-          "sha": "45a1d9a",
-          "message": "Build standalone AniDash Watch PWA",
-          "date": "2026-11-01T11:11:11Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/45a1d9a190cf0d9ca4522aa48da6cdb35dfa2b46"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 193,
+        "downloads": 210,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -101,7 +101,7 @@
       "description": "A modern, secure, and user-friendly web application for transferring text and files between devices without requiring login or registration. Built with vanilla JavaScript, Supabase, and Tailwind CSS.",
       "language": "TypeScript",
       "stars": 0,
-      "forks": 0,
+      "forks": 1,
       "issues": 0,
       "pushed_at": "2026-10-20T02:28:53Z",
       "release": null,
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "030def9",
-      "message": "test(downloads,extensions): add unit tests for duplicate quality fix, dub detection and extension catalog mapping",
-      "date": "2026-11-01T12:05:59Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/030def9190024d21fd113b357f3be0fe332d526c",
+      "sha": "d10211c",
+      "message": "fix(player,home): ensure minimum 120s forward buffer, prioritize time over size thresholds, and prevent continue watching flicker on app startup (v3.3.3)",
+      "date": "2026-11-02T14:15:56Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/d10211ccf8fc451a2555f74fbfa482637f30a3e6",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "749c4e4",
-      "message": "fix(downloads,extensions): resolve quality duplication, enhance dub fallback and add extension catalog provider browsing (#80, #81)",
-      "date": "2026-11-01T11:55:03Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/749c4e458566bcdf04f9ea8212beaa4062449257",
+      "sha": "030def9",
+      "message": "test(downloads,extensions): add unit tests for duplicate quality fix, dub detection and extension catalog mapping",
+      "date": "2026-11-01T12:05:59Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/030def9190024d21fd113b357f3be0fe332d526c",
       "project": "AniDash",
       "repo": "AniDash"
     },

@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-02T15:53:07+00:00",
+  "generated_at": "2026-11-03T14:14:58+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,12 +13,12 @@
       "stars": 28,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-02T14:46:51Z",
+      "pushed_at": "2026-11-03T06:58:10Z",
       "release": {
         "tag": "v3.3.3",
         "name": "AniDash v3.3.3 — 120s Forward Buffer & Continue Watching Startup Fix",
         "published_at": "2026-11-02T14:46:31Z",
-        "downloads": 56,
+        "downloads": 499,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.3"
       },
       "commits": [
@@ -58,12 +58,12 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-10-28T16:35:14Z",
+      "pushed_at": "2026-11-02T16:37:17Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 210,
+        "downloads": 219,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [

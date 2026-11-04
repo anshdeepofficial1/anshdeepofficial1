@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-03T14:14:58+00:00",
+  "generated_at": "2026-11-04T14:32:30+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,16 +12,22 @@
       "language": "Dart",
       "stars": 28,
       "forks": 1,
-      "issues": 0,
-      "pushed_at": "2026-11-03T06:58:10Z",
+      "issues": 1,
+      "pushed_at": "2026-11-04T12:26:23Z",
       "release": {
-        "tag": "v3.3.3",
-        "name": "AniDash v3.3.3 — 120s Forward Buffer & Continue Watching Startup Fix",
-        "published_at": "2026-11-02T14:46:31Z",
-        "downloads": 499,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.3"
+        "tag": "v3.3.4",
+        "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
+        "published_at": "2026-11-04T12:24:46Z",
+        "downloads": 83,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
+        {
+          "sha": "6116175",
+          "message": "fix(sources,player): authoritative user source selection, hindi dub availability detection & gray-out, and anikoto stream resolution (v3.3.4)",
+          "date": "2026-11-04T12:15:40Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/6116175bc9ff723f4fbc223bf02363381965ef76"
+        },
         {
           "sha": "d10211c",
           "message": "fix(player,home): ensure minimum 120s forward buffer, prioritize time over size thresholds, and prevent continue watching flicker on app startup (v3.3.3)",
@@ -39,12 +45,6 @@
           "message": "fix(downloads,extensions): resolve quality duplication, enhance dub fallback and add extension catalog provider browsing (#80, #81)",
           "date": "2026-11-01T11:55:03Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/749c4e458566bcdf04f9ea8212beaa4062449257"
-        },
-        {
-          "sha": "0dc8e8f",
-          "message": "Move Watch website to standalone repository",
-          "date": "2026-11-01T11:20:32Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/0dc8e8f97f23286edb9ddf6082d41703ec1323e0"
         }
       ]
     },
@@ -58,12 +58,12 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-02T16:37:17Z",
+      "pushed_at": "2026-11-03T16:35:27Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 219,
+        "downloads": 225,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,18 +135,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "d10211c",
-      "message": "fix(player,home): ensure minimum 120s forward buffer, prioritize time over size thresholds, and prevent continue watching flicker on app startup (v3.3.3)",
-      "date": "2026-11-02T14:15:56Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/d10211ccf8fc451a2555f74fbfa482637f30a3e6",
+      "sha": "6116175",
+      "message": "fix(sources,player): authoritative user source selection, hindi dub availability detection & gray-out, and anikoto stream resolution (v3.3.4)",
+      "date": "2026-11-04T12:15:40Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/6116175bc9ff723f4fbc223bf02363381965ef76",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "030def9",
-      "message": "test(downloads,extensions): add unit tests for duplicate quality fix, dub detection and extension catalog mapping",
-      "date": "2026-11-01T12:05:59Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/030def9190024d21fd113b357f3be0fe332d526c",
+      "sha": "d10211c",
+      "message": "fix(player,home): ensure minimum 120s forward buffer, prioritize time over size thresholds, and prevent continue watching flicker on app startup (v3.3.3)",
+      "date": "2026-11-02T14:15:56Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/d10211ccf8fc451a2555f74fbfa482637f30a3e6",
       "project": "AniDash",
       "repo": "AniDash"
     },

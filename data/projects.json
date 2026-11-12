@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-11T14:23:16+00:00",
+  "generated_at": "2026-11-12T15:15:18+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,38 +13,38 @@
       "stars": 29,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-11T06:42:51Z",
+      "pushed_at": "2026-11-12T07:23:32Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 1368,
+        "downloads": 1487,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
         {
-          "sha": "9236309",
-          "message": "docs: add XERJ Corpus Hub contributor badge",
-          "date": "2026-11-05T12:40:34Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/92363092b124dfefa9ded09b60c6b440edbc1a98"
+          "sha": "52294d3",
+          "message": "Make web homepage preview clickable and add direct Open Web App button",
+          "date": "2026-11-12T05:47:19Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/52294d34072d5ad47739c463c2a5c781267ad413"
         },
         {
-          "sha": "6116175",
-          "message": "fix(sources,player): authoritative user source selection, hindi dub availability detection & gray-out, and anikoto stream resolution (v3.3.4)",
-          "date": "2026-11-04T12:15:40Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/6116175bc9ff723f4fbc223bf02363381965ef76"
+          "sha": "786854f",
+          "message": "Fix homepage preview URL for the current React router",
+          "date": "2026-11-12T05:36:44Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/786854f118bd2c9074cf35a48f06248e00a3b0d5"
         },
         {
-          "sha": "d10211c",
-          "message": "fix(player,home): ensure minimum 120s forward buffer, prioritize time over size thresholds, and prevent continue watching flicker on app startup (v3.3.3)",
-          "date": "2026-11-02T14:15:56Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/d10211ccf8fc451a2555f74fbfa482637f30a3e6"
+          "sha": "f9a1de5",
+          "message": "Show actual AniDash web homepage in a non-interactive responsive browser preview",
+          "date": "2026-11-12T05:30:24Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/f9a1de5a740c8f4549077ab615e9511838cecb70"
         },
         {
-          "sha": "030def9",
-          "message": "test(downloads,extensions): add unit tests for duplicate quality fix, dub detection and extension catalog mapping",
-          "date": "2026-11-01T12:05:59Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/030def9190024d21fd113b357f3be0fe332d526c"
+          "sha": "729d01e",
+          "message": "Refine site background and rebuild release archive with formatted notes and version navigation",
+          "date": "2026-11-12T05:27:44Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/729d01e3088b65ad36ba9f476ad60713a1370327"
         }
       ]
     },
@@ -58,15 +58,21 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-09T16:34:17Z",
+      "pushed_at": "2026-11-12T06:07:44Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 264,
+        "downloads": 269,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
+        {
+          "sha": "a33e963",
+          "message": "Redesign VYBE Tune with UNSLOP listening-room design",
+          "date": "2026-11-12T06:07:44Z",
+          "url": "https://github.com/anshdeepofficial1/VYBE/commit/a33e9631c7ed2295af91537fdc5034ff69529fd2"
+        },
         {
           "sha": "2ab021c",
           "message": "chore(deps): bump the gradle-dependencies group with 2 updates (#26)",
@@ -84,12 +90,6 @@
           "message": "chore(deps): bump the gradle-dependencies group across 1 directory with 62 updates (#25)",
           "date": "2026-10-22T17:43:31Z",
           "url": "https://github.com/anshdeepofficial1/VYBE/commit/af552518253f611efa54b15f306263ab9b759486"
-        },
-        {
-          "sha": "a424d4b",
-          "message": "chore(deps): bump the github-actions group across 1 directory with 4 updates (#24)",
-          "date": "2026-10-22T17:43:25Z",
-          "url": "https://github.com/anshdeepofficial1/VYBE/commit/a424d4b1423d87567039466a018517b7d80e25c0"
         }
       ]
     },
@@ -135,18 +135,26 @@
   ],
   "recent_activity": [
     {
-      "sha": "9236309",
-      "message": "docs: add XERJ Corpus Hub contributor badge",
-      "date": "2026-11-05T12:40:34Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/92363092b124dfefa9ded09b60c6b440edbc1a98",
+      "sha": "a33e963",
+      "message": "Redesign VYBE Tune with UNSLOP listening-room design",
+      "date": "2026-11-12T06:07:44Z",
+      "url": "https://github.com/anshdeepofficial1/VYBE/commit/a33e9631c7ed2295af91537fdc5034ff69529fd2",
+      "project": "VYBE",
+      "repo": "VYBE"
+    },
+    {
+      "sha": "52294d3",
+      "message": "Make web homepage preview clickable and add direct Open Web App button",
+      "date": "2026-11-12T05:47:19Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/52294d34072d5ad47739c463c2a5c781267ad413",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "6116175",
-      "message": "fix(sources,player): authoritative user source selection, hindi dub availability detection & gray-out, and anikoto stream resolution (v3.3.4)",
-      "date": "2026-11-04T12:15:40Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/6116175bc9ff723f4fbc223bf02363381965ef76",
+      "sha": "786854f",
+      "message": "Fix homepage preview URL for the current React router",
+      "date": "2026-11-12T05:36:44Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/786854f118bd2c9074cf35a48f06248e00a3b0d5",
       "project": "AniDash",
       "repo": "AniDash"
     },
@@ -155,14 +163,6 @@
       "message": "chore(deps): bump the gradle-dependencies group with 2 updates (#26)",
       "date": "2026-10-24T07:18:16Z",
       "url": "https://github.com/anshdeepofficial1/VYBE/commit/2ab021cec43f89ae5457eeeec97287382d9e4ae8",
-      "project": "VYBE",
-      "repo": "VYBE"
-    },
-    {
-      "sha": "4039110",
-      "message": "docs: restore all README badges and fallback links",
-      "date": "2026-10-24T07:16:25Z",
-      "url": "https://github.com/anshdeepofficial1/VYBE/commit/4039110b178c46514ed4cbca358b1f2250e5f124",
       "project": "VYBE",
       "repo": "VYBE"
     },

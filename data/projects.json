@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-12T15:15:18+00:00",
+  "generated_at": "2026-11-13T14:35:25+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,12 +13,12 @@
       "stars": 29,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-12T07:23:32Z",
+      "pushed_at": "2026-11-13T06:55:21Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 1487,
+        "downloads": 1576,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
@@ -58,12 +58,12 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-12T06:07:44Z",
+      "pushed_at": "2026-11-12T16:33:54Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 269,
+        "downloads": 274,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [

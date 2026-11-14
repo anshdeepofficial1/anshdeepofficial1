@@ -38,67 +38,31 @@ def truncate(value: str, limit: int) -> str:
     return value if len(value) <= limit else value[: limit - 1].rstrip() + "…"
 
 
+def panel(height: int, title: str, meta: str, body: str) -> str:
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="{height}" viewBox="0 0 860 {height}"><style>text{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}.title{{fill:#39d353;font-size:12px;font-weight:700;letter-spacing:.8px}}.muted{{fill:#8b949e;font-size:11px}}.value{{fill:#f0f6fc;font-size:28px;font-weight:700}}.label{{fill:#c9d1d9;font-size:11px}}.bright{{fill:#f0f6fc;font-size:13px;font-weight:700}}</style><rect x=".5" y=".5" width="859" height="{height-1}" rx="18" fill="#0d1117" stroke="#30363d"/><text x="24" y="27" class="title">{esc(title)}</text><text x="836" y="27" class="muted" text-anchor="end">{esc(meta)}</text><line x1="24" y1="43" x2="836" y2="43" stroke="#21262d"/>{body}</svg>''' + "\n"
+
+
+def metric_cards(metrics, height=81):
+    out = []
+    for i, (label, value) in enumerate(metrics):
+        x = 24 + i * 206
+        shown = f"{value:,}" if isinstance(value, int) else value
+        out.append(f'<rect x="{x}" y="58" width="194" height="{height}" rx="11" fill="#161b22" stroke="#30363d"/><text x="{x+13}" y="80" class="muted">{esc(label)}</text><text x="{x+13}" y="{112 if height==72 else 115}" class="value">{esc(shown)}</text>')
+    return "".join(out)
+
+
 def render_projects(payload: dict) -> None:
     projects = payload.get("projects", [])
-    active = payload.get("active_project")
-
-    cards = []
-    starts = [24, 299, 574]
-    for i, project in enumerate(projects[:3]):
-        x = starts[i]
-        is_active = project.get("repo") == active
-        release = project.get("release")
-        release_text = release.get("tag") if release else "web"
-        release_label = "LATEST RELEASE" if release else "DELIVERY"
-        update = fmt_date(project.get("pushed_at"))
-        homepage = host(project.get("homepage"))
-        badge = (
-            f'<rect x="{x+171}" y="61" width="70" height="20" rx="10" fill="#0e4429" stroke="#238636"/>'
-            f'<text x="{x+206}" y="75" text-anchor="middle" class="mono green" font-size="8" font-weight="700">ACTIVE</text>'
-            if is_active else
-            f'<text x="{x+241}" y="74" text-anchor="end" class="muted" font-size="8">updated {update}</text>'
-        )
-        begin = .18 + i * .18
-        cards.append(f'''
-        <g opacity="0">
-          <animate attributeName="opacity" from="0" to="1" dur=".35s" begin="{begin:.2f}s" fill="freeze"/>
-          <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur=".35s" begin="{begin:.2f}s" fill="freeze"/>
-          <rect x="{x}" y="54" width="262" height="190" rx="14" fill="#0d1117" stroke="#30363d"/>
-          <text x="{x+16}" y="77" class="bright" font-size="14" font-weight="800">{esc(project.get("label"))}</text>
-          {badge}
-          <text x="{x+16}" y="100" class="muted" font-size="9">{esc(project.get("language"))} · {esc(homepage)}</text>
-          <line x1="{x+16}" y1="112" x2="{x+246}" y2="112" stroke="#21262d"/>
-
-          <text x="{x+16}" y="137" class="key">STARS</text>
-          <text x="{x+16}" y="161" class="metric">{int(project.get("stars") or 0)}</text>
-          <text x="{x+85}" y="137" class="key">FORKS</text>
-          <text x="{x+85}" y="161" class="metric">{int(project.get("forks") or 0)}</text>
-          <text x="{x+154}" y="137" class="key">ISSUES</text>
-          <text x="{x+154}" y="161" class="metric">{int(project.get("issues") or 0)}</text>
-
-          <line x1="{x+16}" y1="178" x2="{x+246}" y2="178" stroke="#21262d"/>
-          <text x="{x+16}" y="199" class="key">{release_label}</text>
-          <text x="{x+16}" y="222" class="bright" font-size="12" font-weight="700">{esc(release_text)}</text>
-          <text x="{x+246}" y="222" text-anchor="end" class="muted" font-size="8">{esc(update)}</text>
-        </g>''')
-
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="270" viewBox="0 0 860 270">
-<style>
-.mono,.key,.metric,.bright,.muted{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}
-.key{{fill:#39d353;font-size:8px;font-weight:700;letter-spacing:.8px}}
-.metric{{fill:#f0f6fc;font-size:18px;font-weight:800}}
-.bright{{fill:#f0f6fc;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}
-.muted{{fill:#8b949e;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}
-.green{{fill:#39d353}}
-</style>
-<rect x=".5" y=".5" width="859" height="269" rx="18" fill="#0d1117" stroke="#30363d"/>
-<circle cx="18" cy="18" r="4" fill="#ff5f56"/><circle cx="32" cy="18" r="4" fill="#ffbd2e"/><circle cx="46" cy="18" r="4" fill="#27c93f"/>
-<text x="64" y="22" class="muted" font-size="10">anshdeep@github ~ $ projects --live</text>
-<text x="836" y="22" text-anchor="end" class="muted" font-size="9">repo metrics · daily refresh</text>
-<line x1="20" y1="42" x2="840" y2="42" stroke="#21262d"/>
-{''.join(cards)}
-</svg>'''
-    PROJECT_OUT.write_text(svg + "\n", encoding="utf-8")
+    body = metric_cards([("TRACKED PROJECTS", len(projects)), ("STARS", sum(int(p.get("stars") or 0) for p in projects)), ("FORKS", sum(int(p.get("forks") or 0) for p in projects)), ("OPEN ISSUES", sum(int(p.get("issues") or 0) for p in projects))], 72)
+    body += '<text x="32" y="158" class="title">REPOSITORY</text><text x="292" y="158" class="muted">LANGUAGE</text><text x="455" y="158" class="muted">STARS</text><text x="527" y="158" class="muted">FORKS</text><text x="615" y="158" class="muted">RELEASE</text><text x="824" y="158" class="muted" text-anchor="end">UPDATED</text>'
+    for i, p in enumerate(projects):
+        y = 187 + i * 30
+        fill = "#161b22" if i % 2 == 0 else "#0d1117"
+        release = truncate((p.get("release") or {}).get("tag") or "—", 20)
+        body += f'<rect x="24" y="{y-18}" width="812" height="27" rx="5" fill="{fill}"/><text x="32" y="{y}" class="bright">{esc(truncate(p.get("label") or "repo", 28))}</text><text x="292" y="{y}" class="label">{esc(truncate(p.get("language") or "—", 18))}</text><text x="455" y="{y}" class="label">{int(p.get("stars") or 0)}</text><text x="527" y="{y}" class="label">{int(p.get("forks") or 0)}</text><text x="615" y="{y}" class="label">{esc(release)}</text><text x="824" y="{y}" text-anchor="end" class="muted">{esc(fmt_date(p.get("pushed_at")))}</text>'
+    height = 203 + len(projects)*30
+    body += f'<text x="24" y="{height-15}" class="muted">Source: GitHub repository metadata · releases and default-branch activity</text>'
+    PROJECT_OUT.write_text(panel(height, "REPOSITORY OVERVIEW", "daily refresh", body), encoding="utf-8")
 
 
 def render_activity(payload: dict) -> None:

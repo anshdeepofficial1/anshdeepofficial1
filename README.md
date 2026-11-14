@@ -35,20 +35,39 @@ Software development · Data science · Digital creation
 
 [All repositories ↗](https://github.com/anshdeepofficial1?tab=repositories)
 
-## 02 — Development activity
+## 02 — Contribution activity
 
 <p align="center">
-<img src="./assets/contrib-heatmap.svg" width="860" alt="Live GitHub contribution activity" />
+<a href="https://github.com/anshdeepofficial1?tab=overview"><img src="./assets/contrib-heatmap.svg" width="860" alt="Live GitHub contribution heatmap" /></a>
 </p>
 
-<details>
-<summary>View recent development activity</summary>
+<p align="center">
+<img src="./assets/info-card.svg" width="860" alt="Contribution insights: activity, streaks and monthly contribution chart" />
+</p>
 
-<p align="center"><img src="./assets/recent-activity.svg" width="860" alt="Recent commits across my projects" /></p>
+## 03 — Repository intelligence
 
-</details>
+<p align="center">
+<img src="./assets/project-dashboard.svg" width="860" alt="Live repository metrics, stars, forks, releases and update dates" />
+</p>
 
-## 03 — About
+<sub>Metrics reflect the tracked public repositories, refreshed automatically by GitHub Actions.</sub>
+
+## 04 — Recent development
+
+<p align="center">
+<img src="./assets/recent-activity.svg" width="860" alt="Latest development activity across tracked projects" />
+</p>
+
+[Explore repositories and releases ↗](https://github.com/anshdeepofficial1?tab=repositories)
+
+## 05 — Engineering toolkit
+
+<p align="center">
+<img src="./assets/stack-board.svg" width="860" alt="Mobile, web, systems, data and deployment toolkit" />
+</p>
+
+## 06 — About
 
 I'm a **BCA (Hons. with Research) Data Science student at Chandigarh University**, building mobile applications, full-stack web products and experimental systems. I focus on thoughtful interfaces, reliable software and practical automation.
 

@@ -90,83 +90,38 @@ def render_heatmap(payload: dict) -> None:
     HEATMAP.write_text(svg + "\n", encoding="utf-8")
 
 
+def panel(height: int, title: str, meta: str, body: str) -> str:
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="{height}" viewBox="0 0 860 {height}"><style>text{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}.title{{fill:#39d353;font-size:12px;font-weight:700;letter-spacing:.8px}}.muted{{fill:#8b949e;font-size:11px}}.value{{fill:#f0f6fc;font-size:28px;font-weight:700}}.label{{fill:#c9d1d9;font-size:11px}}.bright{{fill:#f0f6fc;font-size:13px;font-weight:700}}</style><rect x=".5" y=".5" width="859" height="{height-1}" rx="18" fill="#0d1117" stroke="#30363d"/><text x="24" y="27" class="title">{esc(title)}</text><text x="836" y="27" class="muted" text-anchor="end">{esc(meta)}</text><line x1="24" y1="43" x2="836" y2="43" stroke="#21262d"/>{body}</svg>''' + "\n"
+
+
+def metric_cards(metrics, height=81):
+    out = []
+    for i, (label, value) in enumerate(metrics):
+        x = 24 + i * 206
+        shown = f"{value:,}" if isinstance(value, int) else value
+        out.append(f'<rect x="{x}" y="58" width="194" height="{height}" rx="11" fill="#161b22" stroke="#30363d"/><text x="{x+13}" y="80" class="muted">{esc(label)}</text><text x="{x+13}" y="{112 if height==72 else 115}" class="value">{esc(shown)}</text>')
+    return "".join(out)
+
+
 def render_info(payload: dict) -> None:
     stats = payload.get("stats", {})
-    total = int(stats.get("total") or 0)
-    active = int(stats.get("active_days") or 0)
-    current = int(stats.get("current_streak") or 0)
-    longest = int(stats.get("longest_streak") or 0)
-    best = stats.get("best_day") or {}
-    best_count = int(best.get("count") or 0)
-    best_date = best.get("date") or "—"
-
-    monthly = list((stats.get("monthly_totals") or {}).items())[-6:]
-    max_value = max([v for _, v in monthly], default=1)
-    bars = []
+    total = payload.get("raw_total")
+    if total is None:
+        total = sum(int(d.get("count", 0)) for d in payload.get("days", []))
+    body = metric_cards([("CONTRIBUTIONS", int(total)), ("ACTIVE DAYS", int(stats.get("active_days", 0))), ("CURRENT STREAK", f'{stats.get("current_streak", 0)}d'), ("LONGEST STREAK", f'{stats.get("longest_streak", 0)}d')])
+    monthly = sorted((stats.get("monthly_totals") or {}).items())[-12:]
+    maximum = max(1, *(int(v) for _, v in monthly)) if monthly else 1
+    body += '<text x="24" y="166" class="title">MONTHLY CONTRIBUTIONS</text><text x="836" y="166" class="muted" text-anchor="end">12-month activity · current month to date</text><line x1="24" y1="294" x2="836" y2="294" stroke="#30363d"/>'
     for i, (month, value) in enumerate(monthly):
-        x = 274 + i * 31
-        h = max(4, int(72 * value / max_value))
-        y = 346 - h
-        begin = 1.15 + i * 0.08
-        bars.append(
-            f'<rect x="{x}" y="{y}" width="17" height="{h}" rx="4" fill="#238636" opacity="0">'
-            f'<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="{begin:.2f}s" fill="freeze"/>'
-            f'<animate attributeName="height" from="0" to="{h}" dur=".45s" begin="{begin:.2f}s" fill="freeze"/>'
-            f'<animate attributeName="y" from="346" to="{y}" dur=".45s" begin="{begin:.2f}s" fill="freeze"/>'
-            f'</rect><text x="{x+8.5}" y="364" text-anchor="middle" class="muted" font-size="7">{esc(month[5:])}</text>'
-        )
-
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="490" height="390" viewBox="0 0 490 390">
-<style>
-.mono{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}
-.key{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:9px;font-weight:700;fill:#39d353;letter-spacing:1px}}
-.val{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#c9d1d9}}
-.big{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:21px;font-weight:800;fill:#f0f6fc}}
-.muted{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}}
-</style>
-<rect x=".5" y=".5" width="489" height="389" rx="18" fill="#0d1117" stroke="#30363d"/>
-<circle cx="18" cy="18" r="4" fill="#ff5f56"/><circle cx="32" cy="18" r="4" fill="#ffbd2e"/><circle cx="46" cy="18" r="4" fill="#27c93f"/>
-<text x="64" y="22" class="muted" font-size="10">anshdeep@github ~ $ neofetch --stats</text>
-<line x1="20" y1="42" x2="470" y2="42" stroke="#21262d"/>
-
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".2s" fill="freeze"/>
-<text x="26" y="68" class="key">ANSHDEEP SINGH</text>
-<text x="26" y="88" class="val">Developer · Data Science · Android · Web · AI</text>
-</g>
-
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".4s" fill="freeze"/>
-<rect x="24" y="105" width="102" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="36" y="126" class="key">CONTRIB</text><text x="36" y="157" class="big">{total:,}</text>
-<rect x="134" y="105" width="102" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="146" y="126" class="key">ACTIVE DAYS</text><text x="146" y="157" class="big">{active}</text>
-<rect x="244" y="105" width="102" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="256" y="126" class="key">CURRENT</text><text x="256" y="157" class="big">{current}d</text>
-<rect x="354" y="105" width="112" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="366" y="126" class="key">LONGEST</text><text x="366" y="157" class="big">{longest}d</text>
-</g>
-
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".72s" fill="freeze"/>
-<rect x="24" y="194" width="206" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="36" y="216" class="key">BEST DAY</text>
-<text x="36" y="244" class="big">{best_count}</text>
-<text x="91" y="244" class="muted" font-size="9">{esc(best_date)}</text>
-
-<rect x="238" y="194" width="228" height="78" rx="11" fill="#161b22" stroke="#30363d"/>
-<text x="250" y="216" class="key">BUILD MODE</text>
-<text x="250" y="242" class="val">ship → measure → refine</text>
-<text x="250" y="260" class="muted" font-size="9">product-minded · UI-focused · iterative</text>
-</g>
-
-<text x="24" y="302" class="key">LAST 6 MONTHS</text>
-<line x1="24" y1="346" x2="248" y2="346" stroke="#21262d"/>
-<text x="24" y="326" class="muted" font-size="9">activity volume</text>
-{''.join(bars)}
-<line x1="262" y1="346" x2="468" y2="346" stroke="#21262d"/>
-<circle cx="28" cy="371" r="4" fill="#39d353"><animate attributeName="opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
-<text x="42" y="375" class="muted" font-size="9">status: shipping · data refreshes daily</text>
-<text x="462" y="375" text-anchor="end" class="mono" font-size="9" fill="#39d353">ONLINE</text>
-</svg>'''
-    INFO.write_text(svg + "\n", encoding="utf-8")
+        value = int(value)
+        x = 35 + i * 67
+        h = max(2, round(92 * value / maximum)) if value else 0
+        color = "#39d353" if i == len(monthly)-1 else "#238636"
+        label = datetime.strptime(month, "%Y-%m").strftime("%b")
+        body += f'<rect x="{x}" y="{294-h}" width="42" height="{h}" rx="4" fill="{color}"/><text x="{x+21}" y="{max(190,287-h)}" class="muted" text-anchor="middle">{value}</text><text x="{x+21}" y="314" class="muted" text-anchor="middle">{label}</text>'
+    best = stats.get("best_day") or {}
+    body += f'<text x="24" y="347" class="muted">Best day: {esc(best.get("count", 0))} contributions · {esc(best.get("date", "—"))}</text><text x="836" y="347" class="muted" text-anchor="end">Source: GitHub contribution calendar</text>'
+    INFO.write_text(panel(365, "CONTRIBUTION INSIGHTS", "daily refresh", body), encoding="utf-8")
 
 
 def main() -> None:

@@ -15,44 +15,44 @@
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
-          <text x="52" y="72" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="72" class="bright" font-size="10">feat(router): support deep link query parameters and intent extras from…</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">e3a9680 · Nov 14</text>
+          <text x="52" y="72" class="repo" font-size="9">ZYLO</text>
+          <text x="145" y="72" class="bright" font-size="10">feat(release): ZYLO v2.2.1 - download controls &amp; modal, cast filmograph…</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">da3dd21 · Nov 14</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
-          <text x="52" y="106" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="106" class="bright" font-size="10">Redesign VYBE Tune with UNSLOP listening-room design</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">a33e963 · Nov 12</text>
+          <text x="52" y="106" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="106" class="bright" font-size="10">feat(router): support deep link query parameters and intent extras from…</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">e3a9680 · Nov 14</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
-          <text x="52" y="140" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="140" class="bright" font-size="10">Make web homepage preview clickable and add direct Open Web App button</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">52294d3 · Nov 12</text>
+          <text x="52" y="140" class="repo" font-size="9">ZYLO</text>
+          <text x="145" y="140" class="bright" font-size="10">feat(v2.2.0): production release with parity across Android and Web, QR…</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">b71ccb1 · Nov 14</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="174" class="bright" font-size="10">chore(deps): bump the gradle-dependencies group with 2 updates (#26)</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">2ab021c · Oct 24</text>
+          <text x="52" y="174" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="174" class="bright" font-size="10">fix(player): distinguish optional subtitle access errors from denied vi…</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">a5e864d · Nov 13</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>
           <circle cx="34" cy="205" r="4" fill="#39d353"/>
-          <text x="52" y="208" class="repo" font-size="9">Copy Cloud</text>
-          <text x="145" y="208" class="bright" font-size="10">chore: update GitHub sponsor handle</text>
-          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">db6f0d6 · Sep 29</text>
+          <text x="52" y="208" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="208" class="bright" font-size="10">fix(player): default autoplay and stable English caption selection with…</text>
+          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">bdf62ad · Nov 13</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.71s" fill="freeze"/>
           <circle cx="34" cy="239" r="4" fill="#39d353"/>
-          <text x="52" y="242" class="repo" font-size="9">Copy Cloud</text>
-          <text x="145" y="242" class="bright" font-size="10">chore: update official profile links</text>
-          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">0597e0c · Sep 29</text>
+          <text x="52" y="242" class="repo" font-size="9">VYBE</text>
+          <text x="145" y="242" class="bright" font-size="10">Redesign VYBE Tune with UNSLOP listening-room design</text>
+          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">a33e963 · Nov 12</text>
         </g>
 <text x="24" y="272" class="muted" font-size="9">showing a mixed timeline across the featured repositories</text>
 <rect x="808" y="260" width="8" height="14" rx="1" fill="#39d353"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>

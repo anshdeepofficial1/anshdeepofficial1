@@ -1,7 +1,7 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-14T11:05:44+00:00",
-  "active_project": "AniDash",
+  "generated_at": "2026-11-14T11:06:18+00:00",
+  "active_project": "NOVA",
   "projects": [
     {
       "repo": "AniDash",
@@ -131,9 +131,341 @@
           "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/3e60c28b95b8a803ba0efba283d4198909599587"
         }
       ]
+    },
+    {
+      "repo": "ZYLO",
+      "label": "ZYLO",
+      "url": "https://github.com/anshdeepofficial1/ZYLO",
+      "homepage": "https://zylod.vercel.app",
+      "description": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "pushed_at": "2026-11-14T06:54:24Z",
+      "release": {
+        "tag": "v2.2.1",
+        "name": "ZYLO v2.2.1 — Production Release",
+        "published_at": "2026-11-14T06:41:28Z",
+        "downloads": 3,
+        "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.1"
+      },
+      "commits": [
+        {
+          "sha": "da3dd21",
+          "message": "feat(release): ZYLO v2.2.1 - download controls & modal, cast filmography, regional catalogs, AniDash deep link parity, player buffering",
+          "date": "2026-11-14T06:37:32Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/da3dd21b0b2c84a30a8f49e779884ec4a673c16f"
+        },
+        {
+          "sha": "b71ccb1",
+          "message": "feat(v2.2.0): production release with parity across Android and Web, QR login fix, and Nxsha integration",
+          "date": "2026-11-14T05:19:19Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/b71ccb1242b251a329815c4eb86ce20c3d6c2c42"
+        },
+        {
+          "sha": "48d4b94",
+          "message": "chore(release): bump version to 2.1.0 (code 210) for in-app updater",
+          "date": "2026-11-13T19:07:59Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/48d4b943bd2b421e9f11dcddfb69c3e10cfe0317"
+        },
+        {
+          "sha": "862b3ec",
+          "message": "feat(streams): integrate 20 Nxsha multi-audio and embed servers into ZYLO app and website",
+          "date": "2026-11-13T18:36:18Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/862b3ec4c3563972dcf6112be5cdd7fa4d201262"
+        }
+      ]
+    },
+    {
+      "repo": "NOVA",
+      "label": "NOVA OS",
+      "url": "https://github.com/anshdeepofficial1/NOVA",
+      "homepage": null,
+      "description": null,
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "issues": 9,
+      "pushed_at": "2026-11-14T10:29:00Z",
+      "release": null,
+      "commits": [
+        {
+          "sha": "79583aa",
+          "message": "Phase 2: require CRLF-safe production firstboot marker in VM acceptance",
+          "date": "2026-11-08T03:37:27Z",
+          "url": "https://github.com/anshdeepofficial1/NOVA/commit/79583aad9dab3f0e5c9bdcb677f51c37bb166806"
+        },
+        {
+          "sha": "8d094ed",
+          "message": "docs(phase2): record verified UEFI/BIOS installed-disk pass and keep open gates explicit",
+          "date": "2026-11-07T13:46:00Z",
+          "url": "https://github.com/anshdeepofficial1/NOVA/commit/8d094edd6aad0ce5ed908c86305dc28125716cb4"
+        },
+        {
+          "sha": "9d484dc",
+          "message": "feat(phase2): installed first-boot initialization and rebuilt-ISO acceptance",
+          "date": "2026-11-07T13:38:31Z",
+          "url": "https://github.com/anshdeepofficial1/NOVA/commit/9d484dc552acbdb50f2f04fd876cccfcad616b4d"
+        },
+        {
+          "sha": "fbbe5da",
+          "message": "test(phase2): verify real production first-boot marker on rebuilt installed ISO",
+          "date": "2026-11-07T13:30:28Z",
+          "url": "https://github.com/anshdeepofficial1/NOVA/commit/fbbe5da555487ff2adb4f95c70a5c5ab0f360833"
+        }
+      ]
+    },
+    {
+      "repo": "SocialBoost",
+      "label": "SocialBoost",
+      "url": "https://github.com/anshdeepofficial1/SocialBoost",
+      "homepage": "https://socialboostweb.vercel.app/",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "forks": 1,
+      "issues": 1,
+      "pushed_at": "2026-11-09T06:39:24Z",
+      "release": null,
+      "commits": [
+        {
+          "sha": "ca0ba3c",
+          "message": "Explain YouTube token rejection in sync results",
+          "date": "2026-10-28T14:34:09Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost/commit/ca0ba3c696bb25d5c0d6dacf11db233b37e18576"
+        },
+        {
+          "sha": "5f84957",
+          "message": "Fix stable timezone option ordering",
+          "date": "2026-10-28T14:34:01Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost/commit/5f849573ef18bff2e47e9e44bb9431551cdc4b5c"
+        },
+        {
+          "sha": "bba7006",
+          "message": "Hide completed Overview actions to clarify remaining setup",
+          "date": "2026-10-28T14:33:52Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost/commit/bba700645f54fe729a961c343a9416b5fe3e34f7"
+        },
+        {
+          "sha": "42eabb9",
+          "message": "Distinguish stale YouTube provider data from fresh syncs",
+          "date": "2026-10-28T14:33:48Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost/commit/42eabb97bfbb924ca578f2e43a791d20249a1939"
+        }
+      ]
+    },
+    {
+      "repo": "Pitchcraft",
+      "label": "Pitchcraft",
+      "url": "https://github.com/anshdeepofficial1/Pitchcraft",
+      "homepage": "",
+      "description": null,
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "pushed_at": "2026-10-11T17:49:22Z",
+      "release": {
+        "tag": "v1.0.2",
+        "name": "Pitchcraft 1.0.2",
+        "published_at": "2026-10-10T12:28:20Z",
+        "downloads": 4,
+        "url": "https://github.com/anshdeepofficial1/Pitchcraft/releases/tag/v1.0.2"
+      },
+      "commits": [
+        {
+          "sha": "8b79ee8",
+          "message": "merge: integrate reference-first premium UI rebuild",
+          "date": "2026-10-11T17:36:54Z",
+          "url": "https://github.com/anshdeepofficial1/Pitchcraft/commit/8b79ee87cce129a11f8149ddf8b2baccdc385808"
+        },
+        {
+          "sha": "9efa7a5",
+          "message": "test: use eight temporary emulator photos to verify actual two-column masonry",
+          "date": "2026-10-11T11:47:28Z",
+          "url": "https://github.com/anshdeepofficial1/Pitchcraft/commit/9efa7a50c945fbbb6c0223231044253d2854cbaa"
+        },
+        {
+          "sha": "f8afd47",
+          "message": "design: refine cinematic hero overlap so both glass captions remain readable",
+          "date": "2026-10-11T11:47:15Z",
+          "url": "https://github.com/anshdeepofficial1/Pitchcraft/commit/f8afd47292f5866584147aef5ec652efb15057a3"
+        },
+        {
+          "sha": "1cca531",
+          "message": "design: make initial view state match persistent masonry default",
+          "date": "2026-10-11T11:46:55Z",
+          "url": "https://github.com/anshdeepofficial1/Pitchcraft/commit/1cca531b98958d2ba2cd4647445cb679db849b6e"
+        }
+      ]
+    },
+    {
+      "repo": "AniDash-Website",
+      "label": "AniDash Web",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website",
+      "homepage": "https://anidashgo.vercel.app",
+      "description": null,
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "pushed_at": "2026-11-13T07:46:48Z",
+      "release": null,
+      "commits": [
+        {
+          "sha": "a5e864d",
+          "message": "fix(player): distinguish optional subtitle access errors from denied video or audio",
+          "date": "2026-11-13T07:46:48Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/a5e864d7c9dbca2743f8d6965713884a5d11b063"
+        },
+        {
+          "sha": "bdf62ad",
+          "message": "fix(player): default autoplay and stable English caption selection with media-clock timing",
+          "date": "2026-11-13T06:44:31Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bdf62ade3aca45637ce0ced8b4910424727eecdc"
+        },
+        {
+          "sha": "b3f1351",
+          "message": "fix(watch): consolidate duplicate episode cards and simplify source controls",
+          "date": "2026-11-13T06:41:32Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/b3f135163a63a828b6e5513d1a73bafd6ad70431"
+        },
+        {
+          "sha": "b212069",
+          "message": "fix(player): distinguish network access denial from buffering and avoid false stall overlays",
+          "date": "2026-11-13T06:38:57Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/b21206926a2d5f9250bae8d658b4dfcb81aba712"
+        }
+      ]
+    },
+    {
+      "repo": "darkanimewalls",
+      "label": "Dark Anime Walls",
+      "url": "https://github.com/anshdeepofficial1/darkanimewalls",
+      "homepage": "https://darkanimewalls.vercel.app",
+      "description": "High-quality anime wallpapers with a clean browsing and download experience.",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "pushed_at": "2026-11-11T04:06:47Z",
+      "release": null,
+      "commits": [
+        {
+          "sha": "a6d6a68",
+          "message": "fix: Dark Anime Walls Google site identity and SEO landing pages",
+          "date": "2026-10-09T03:16:48Z",
+          "url": "https://github.com/anshdeepofficial1/darkanimewalls/commit/a6d6a681f6d78df0bb6230f3864ff0fc88630580"
+        },
+        {
+          "sha": "9823ef8",
+          "message": "chore: update GitHub sponsor handle",
+          "date": "2026-09-29T13:41:22Z",
+          "url": "https://github.com/anshdeepofficial1/darkanimewalls/commit/9823ef831dc28b2813db6c7becc02e94e5212672"
+        },
+        {
+          "sha": "3641b71",
+          "message": "chore: update support links",
+          "date": "2026-09-29T13:36:10Z",
+          "url": "https://github.com/anshdeepofficial1/darkanimewalls/commit/3641b71d0f19463ac47b9804d1b82bb28d9ff077"
+        },
+        {
+          "sha": "5783de4",
+          "message": "chore: update GitHub profile links",
+          "date": "2026-09-29T13:33:36Z",
+          "url": "https://github.com/anshdeepofficial1/darkanimewalls/commit/5783de40948a17f0a68e42fcf7dc5752f0cac39e"
+        }
+      ]
+    },
+    {
+      "repo": "ZMB",
+      "label": "ZMB",
+      "url": "https://github.com/anshdeepofficial1/ZMB",
+      "homepage": null,
+      "description": "Fully automated interactive zombie-apocalypse Reels channel - GitHub Actions + Instagram Graph API, 0-dollar stack",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 4,
+      "pushed_at": "2026-11-14T04:09:39Z",
+      "release": null,
+      "commits": [
+        {
+          "sha": "0748fac",
+          "message": "animation: apply true English narration and safe subtitles to 3D Max intro, not rejected realistic video",
+          "date": "2026-11-09T07:46:08Z",
+          "url": "https://github.com/anshdeepofficial1/ZMB/commit/0748fac89f82728054a88068742705a42a9c8c91"
+        },
+        {
+          "sha": "980102e",
+          "message": "animation: free LTX 4s moving shot now uses approved-for-test animated Max PNG, immutable SHA and no realistic source",
+          "date": "2026-11-09T07:42:38Z",
+          "url": "https://github.com/anshdeepofficial1/ZMB/commit/980102ead3a6f9e14420fc80ccf44ab7d9ff28f5"
+        },
+        {
+          "sha": "431b99d",
+          "message": "animation: regenerate adult-driver-only midnight 3D frame and validate zero-cost animation provenance",
+          "date": "2026-11-09T07:38:35Z",
+          "url": "https://github.com/anshdeepofficial1/ZMB/commit/431b99dec1addc635074f0c9ed74d181a54d548d"
+        },
+        {
+          "sha": "b7e49cc",
+          "message": "animation: run GitHub's free FLUX generator with 3D feature-film style and tests",
+          "date": "2026-11-09T07:32:02Z",
+          "url": "https://github.com/anshdeepofficial1/ZMB/commit/b7e49cc6e6edb023159792c5b9a585a4a20e0368"
+        }
+      ]
+    },
+    {
+      "repo": "SocialBoost-APP",
+      "label": "SocialBoost App",
+      "url": "https://github.com/anshdeepofficial1/SocialBoost-APP",
+      "homepage": null,
+      "description": null,
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "pushed_at": "2026-11-09T06:25:24Z",
+      "release": null,
+      "commits": [
+        {
+          "sha": "99b65a0",
+          "message": "Fix emulator smoke script to run line-wise under runner shell",
+          "date": "2026-11-09T06:25:22Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost-APP/commit/99b65a0d8f83e58cc09c1f93fcc1b58534ea88d6"
+        },
+        {
+          "sha": "1693006",
+          "message": "Add real YouTube competitor research to native Studio",
+          "date": "2026-11-09T06:22:31Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost-APP/commit/1693006a151a1c4cb40b67f91ce2291a2c21ae24"
+        },
+        {
+          "sha": "af6c2b1",
+          "message": "Refine premium editorial SocialBoost home and creator visual language",
+          "date": "2026-11-09T06:21:47Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost-APP/commit/af6c2b15e3c5d5fdb64cf0dbce4d67f684eda771"
+        },
+        {
+          "sha": "698fb64",
+          "message": "Add real Android 35 emulator launch smoke and screenshot artifact",
+          "date": "2026-11-09T06:19:32Z",
+          "url": "https://github.com/anshdeepofficial1/SocialBoost-APP/commit/698fb641a64910d436b206ff3aa92c553365618f"
+        }
+      ]
     }
   ],
   "recent_activity": [
+    {
+      "sha": "da3dd21",
+      "message": "feat(release): ZYLO v2.2.1 - download controls & modal, cast filmography, regional catalogs, AniDash deep link parity, player buffering",
+      "date": "2026-11-14T06:37:32Z",
+      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/da3dd21b0b2c84a30a8f49e779884ec4a673c16f",
+      "project": "ZYLO",
+      "repo": "ZYLO"
+    },
     {
       "sha": "e3a9680",
       "message": "feat(router): support deep link query parameters and intent extras from ZYLO",
@@ -143,44 +475,36 @@
       "repo": "AniDash"
     },
     {
+      "sha": "b71ccb1",
+      "message": "feat(v2.2.0): production release with parity across Android and Web, QR login fix, and Nxsha integration",
+      "date": "2026-11-14T05:19:19Z",
+      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/b71ccb1242b251a329815c4eb86ce20c3d6c2c42",
+      "project": "ZYLO",
+      "repo": "ZYLO"
+    },
+    {
+      "sha": "a5e864d",
+      "message": "fix(player): distinguish optional subtitle access errors from denied video or audio",
+      "date": "2026-11-13T07:46:48Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/a5e864d7c9dbca2743f8d6965713884a5d11b063",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
+      "sha": "bdf62ad",
+      "message": "fix(player): default autoplay and stable English caption selection with media-clock timing",
+      "date": "2026-11-13T06:44:31Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bdf62ade3aca45637ce0ced8b4910424727eecdc",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
       "sha": "a33e963",
       "message": "Redesign VYBE Tune with UNSLOP listening-room design",
       "date": "2026-11-12T06:07:44Z",
       "url": "https://github.com/anshdeepofficial1/VYBE/commit/a33e9631c7ed2295af91537fdc5034ff69529fd2",
       "project": "VYBE",
       "repo": "VYBE"
-    },
-    {
-      "sha": "52294d3",
-      "message": "Make web homepage preview clickable and add direct Open Web App button",
-      "date": "2026-11-12T05:47:19Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/52294d34072d5ad47739c463c2a5c781267ad413",
-      "project": "AniDash",
-      "repo": "AniDash"
-    },
-    {
-      "sha": "2ab021c",
-      "message": "chore(deps): bump the gradle-dependencies group with 2 updates (#26)",
-      "date": "2026-10-24T07:18:16Z",
-      "url": "https://github.com/anshdeepofficial1/VYBE/commit/2ab021cec43f89ae5457eeeec97287382d9e4ae8",
-      "project": "VYBE",
-      "repo": "VYBE"
-    },
-    {
-      "sha": "db6f0d6",
-      "message": "chore: update GitHub sponsor handle",
-      "date": "2026-09-29T13:41:18Z",
-      "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/db6f0d6a5574af9202b32663783c04fb356ba420",
-      "project": "Copy Cloud",
-      "repo": "Copy-Cloud"
-    },
-    {
-      "sha": "0597e0c",
-      "message": "chore: update official profile links",
-      "date": "2026-09-29T13:36:11Z",
-      "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/0597e0ceaed6a1727ef4381d28fa9a01cbddcede",
-      "project": "Copy Cloud",
-      "repo": "Copy-Cloud"
     }
   ]
 }

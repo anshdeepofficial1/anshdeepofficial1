@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://anshdeepofficial1.vercel.app/"><img src="https://raw.githubusercontent.com/anshdeepofficial1/Portfolio/main/public/as-logo-white.png" width="100" alt="AS — Anshdeep Singh" /></a>
+
 # Anshdeep Singh
 
 **Building software at the intersection of engineering and design.**

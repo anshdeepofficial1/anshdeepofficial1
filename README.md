@@ -57,21 +57,19 @@ Software development · Data science · Digital creation
 
 ## 05 — Engineering toolkit
 
-**Mobile development**  
-Flutter · Dart · Kotlin · Jetpack Compose · Android
-
-**Web development**  
-HTML · CSS · JavaScript · TypeScript · React · Next.js · PWA
-
-**Systems & data**  
-Rust · Tauri · Linux · Python · FastAPI · SQL · PostgreSQL
-
-**Deployment & automation**  
-GitHub · GitHub Actions · Vercel · CI/CD
+<p align="center">
+<img src="./assets/stack-board.svg" width="860" alt="Engineering toolkit — mobile, web, systems, data and deployment technologies" />
+</p>
 
 ## 06 — About
 
-I'm a **BCA (Hons. with Research) Data Science student at Chandigarh University**, building mobile applications, full-stack web products and experimental systems. I focus on thoughtful interfaces, reliable software and practical automation.
+**Software Developer · Data Science Student · Digital Creator**
+
+I build mobile applications, full-stack web products and experimental systems, bringing together thoughtful interfaces, reliable engineering and practical automation.
+
+**Education:** BCA (Hons. with Research) in Data Science · Chandigarh University  
+**Focus:** Application development · Systems engineering · Automation  
+**Approach:** Design with intent, build for reliability, and improve continuously.
 
 
 ---

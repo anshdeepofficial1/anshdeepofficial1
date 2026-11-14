@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-14T11:06:18+00:00",
+  "generated_at": "2026-11-14T13:31:58+00:00",
   "active_project": "NOVA",
   "projects": [
     {
@@ -18,7 +18,7 @@
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 1658,
+        "downloads": 1677,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 277,
+        "downloads": 278,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -187,7 +187,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 9,
-      "pushed_at": "2026-11-14T10:29:00Z",
+      "pushed_at": "2026-11-14T12:26:51Z",
       "release": null,
       "commits": [
         {

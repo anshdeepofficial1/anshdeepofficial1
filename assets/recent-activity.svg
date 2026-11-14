@@ -15,23 +15,23 @@
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
-          <text x="52" y="72" class="repo" font-size="9">VYBE</text>
-          <text x="145" y="72" class="bright" font-size="10">Redesign VYBE Tune with UNSLOP listening-room design</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">a33e963 · Nov 12</text>
+          <text x="52" y="72" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="72" class="bright" font-size="10">feat(router): support deep link query parameters and intent extras from…</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">e3a9680 · Nov 14</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
-          <text x="52" y="106" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="106" class="bright" font-size="10">Make web homepage preview clickable and add direct Open Web App button</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">52294d3 · Nov 12</text>
+          <text x="52" y="106" class="repo" font-size="9">VYBE</text>
+          <text x="145" y="106" class="bright" font-size="10">Redesign VYBE Tune with UNSLOP listening-room design</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">a33e963 · Nov 12</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
           <text x="52" y="140" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="140" class="bright" font-size="10">Fix homepage preview URL for the current React router</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">786854f · Nov 12</text>
+          <text x="145" y="140" class="bright" font-size="10">Make web homepage preview clickable and add direct Open Web App button</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">52294d3 · Nov 12</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>

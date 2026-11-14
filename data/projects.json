@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-13T14:35:25+00:00",
+  "generated_at": "2026-11-14T11:05:44+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,15 +13,21 @@
       "stars": 29,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-13T06:55:21Z",
+      "pushed_at": "2026-11-14T06:41:16Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 1576,
+        "downloads": 1658,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
+        {
+          "sha": "e3a9680",
+          "message": "feat(router): support deep link query parameters and intent extras from ZYLO",
+          "date": "2026-11-14T05:43:20Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/e3a9680ddf71636f779946f995347398560a62d2"
+        },
         {
           "sha": "52294d3",
           "message": "Make web homepage preview clickable and add direct Open Web App button",
@@ -39,12 +45,6 @@
           "message": "Show actual AniDash web homepage in a non-interactive responsive browser preview",
           "date": "2026-11-12T05:30:24Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/f9a1de5a740c8f4549077ab615e9511838cecb70"
-        },
-        {
-          "sha": "729d01e",
-          "message": "Refine site background and rebuild release archive with formatted notes and version navigation",
-          "date": "2026-11-12T05:27:44Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/729d01e3088b65ad36ba9f476ad60713a1370327"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 274,
+        "downloads": 277,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -135,6 +135,14 @@
   ],
   "recent_activity": [
     {
+      "sha": "e3a9680",
+      "message": "feat(router): support deep link query parameters and intent extras from ZYLO",
+      "date": "2026-11-14T05:43:20Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/e3a9680ddf71636f779946f995347398560a62d2",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
       "sha": "a33e963",
       "message": "Redesign VYBE Tune with UNSLOP listening-room design",
       "date": "2026-11-12T06:07:44Z",
@@ -147,14 +155,6 @@
       "message": "Make web homepage preview clickable and add direct Open Web App button",
       "date": "2026-11-12T05:47:19Z",
       "url": "https://github.com/anshdeepofficial1/AniDash/commit/52294d34072d5ad47739c463c2a5c781267ad413",
-      "project": "AniDash",
-      "repo": "AniDash"
-    },
-    {
-      "sha": "786854f",
-      "message": "Fix homepage preview URL for the current React router",
-      "date": "2026-11-12T05:36:44Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/786854f118bd2c9074cf35a48f06248e00a3b0d5",
       "project": "AniDash",
       "repo": "AniDash"
     },

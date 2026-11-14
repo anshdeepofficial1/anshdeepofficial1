@@ -15,6 +15,14 @@ PROJECTS = [
     {"repo": "AniDash", "label": "AniDash"},
     {"repo": "VYBE", "label": "VYBE"},
     {"repo": "Copy-Cloud", "label": "Copy Cloud"},
+    {"repo": "ZYLO", "label": "ZYLO"},
+    {"repo": "NOVA", "label": "NOVA OS"},
+    {"repo": "SocialBoost", "label": "SocialBoost"},
+    {"repo": "Pitchcraft", "label": "Pitchcraft"},
+    {"repo": "AniDash-Website", "label": "AniDash Web"},
+    {"repo": "darkanimewalls", "label": "Dark Anime Walls"},
+    {"repo": "ZMB", "label": "ZMB"},
+    {"repo": "SocialBoost-APP", "label": "SocialBoost App"},
 ]
 
 

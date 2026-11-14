@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-14T14:15:38+00:00",
+  "generated_at": "2026-11-14T14:23:40+00:00",
   "active_project": "NOVA",
   "projects": [
     {
@@ -18,7 +18,7 @@
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 1683,
+        "downloads": 1684,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [

@@ -54,6 +54,26 @@ Software development · Data science · Digital creation
 
 [Explore repositories and releases ↗](https://github.com/anshdeepofficial1?tab=repositories)
 
+
+## 05 — Engineering toolkit
+
+**Mobile development**  
+Flutter · Dart · Kotlin · Jetpack Compose · Android
+
+**Web development**  
+HTML · CSS · JavaScript · TypeScript · React · Next.js · PWA
+
+**Systems & data**  
+Rust · Tauri · Linux · Python · FastAPI · SQL · PostgreSQL
+
+**Deployment & automation**  
+GitHub · GitHub Actions · Vercel · CI/CD
+
+## 06 — About
+
+I'm a **BCA (Hons. with Research) Data Science student at Chandigarh University**, building mobile applications, full-stack web products and experimental systems. I focus on thoughtful interfaces, reliable software and practical automation.
+
+
 ---
 
 <div align="center">

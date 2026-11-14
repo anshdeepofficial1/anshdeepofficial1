@@ -24,13 +24,6 @@ Software development · Data science · Digital creation
 </p>
 <p align="center"><a href="https://copycloud.me/">CopyCloud website</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="https://zylod.vercel.app/home">ZYLO web app</a></p>
 
-<p align="center">
-<a href="https://github.com/anshdeepofficial1/NOVA"><img src="./assets/profile-v8/nova.svg" width="48%" alt="NOVA OS — Experimental Linux desktop OS" /></a>&nbsp;
-<a href="https://github.com/anshdeepofficial1/SocialBoost"><img src="./assets/profile-v8/socialboost.svg" width="48%" alt="SocialBoost — Creator analytics &amp; planning" /></a>
-</p>
-<p align="center"><a href="https://github.com/anshdeepofficial1/NOVA#product-architecture">NOVA architecture</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="https://socialboostweb.vercel.app/">SocialBoost website</a></p>
-
-
 **Also building:** [Pitchcraft](https://github.com/anshdeepofficial1/Pitchcraft) · [DarkAnimeWalls](https://github.com/anshdeepofficial1/darkanimewalls) · [ZMB](https://github.com/anshdeepofficial1/ZMB) · [SocialBoost Android](https://github.com/anshdeepofficial1/SocialBoost-APP)
 
 [All repositories ↗](https://github.com/anshdeepofficial1?tab=repositories)
@@ -60,18 +53,6 @@ Software development · Data science · Digital creation
 </p>
 
 [Explore repositories and releases ↗](https://github.com/anshdeepofficial1?tab=repositories)
-
-## 05 — Engineering toolkit
-
-<p align="center">
-<img src="./assets/stack-board.svg" width="860" alt="Mobile, web, systems, data and deployment toolkit" />
-</p>
-
-## 06 — About
-
-I'm a **BCA (Hons. with Research) Data Science student at Chandigarh University**, building mobile applications, full-stack web products and experimental systems. I focus on thoughtful interfaces, reliable software and practical automation.
-
-<sub>Flutter · Dart · Kotlin · TypeScript · React · Next.js · Python · SQL · Rust · GitHub Actions</sub>
 
 ---
 

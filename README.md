@@ -28,7 +28,7 @@ Software development · Data science · Digital creation
 
 **Also building:** [Pitchcraft](https://github.com/anshdeepofficial1/Pitchcraft) · [DarkAnimeWalls](https://github.com/anshdeepofficial1/darkanimewalls) · [ZMB](https://github.com/anshdeepofficial1/ZMB) · [SocialBoost Android](https://github.com/anshdeepofficial1/SocialBoost-APP)
 
-[All repositories ↗](https://github.com/anshdeepofficial1?tab=repositories)
+[All repositories ↗](https://github.com/anshdeepofficial1?tab=repositories) · [Full project directory](https://anshdeepofficial1.vercel.app/work)
 
 ## 02 — Contribution activity
 
@@ -65,9 +65,11 @@ Software development · Data science · Digital creation
 
 ## 06 — About
 
-**Software Developer · Data Science Student · Digital Creator**
+**Software Developer · Data Science Student · Video Editor**
 
-I build mobile applications, full-stack web products and experimental systems, bringing together thoughtful interfaces, reliable engineering and practical automation.
+I’m Anshdeep Singh (anshdeepofficial1), a software developer, independent video editor and BCA Data Science student. I build mobile applications, full-stack web products and experimental systems, bringing together thoughtful interfaces, reliable engineering and practical automation.
+
+[Official biography](https://anshdeepofficial1.vercel.app/about) · [Video editing portfolio](https://anshdeepofficial1.vercel.app/editing)
 
 **Education:** BCA (Hons. with Research) in Data Science · Chandigarh University  
 **Focus:** Application development · Systems engineering · Automation  

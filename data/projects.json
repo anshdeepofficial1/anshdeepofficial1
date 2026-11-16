@@ -1,7 +1,7 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-15T13:56:22+00:00",
-  "active_project": "Copy-Cloud",
+  "generated_at": "2026-11-16T15:47:26+00:00",
+  "active_project": "NOVA",
   "projects": [
     {
       "repo": "AniDash",
@@ -13,12 +13,12 @@
       "stars": 29,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-15T13:36:34Z",
+      "pushed_at": "2026-11-16T06:45:12Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 1793,
+        "downloads": 1890,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 285,
+        "downloads": 295,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -136,44 +136,44 @@
       "repo": "ZYLO",
       "label": "ZYLO",
       "url": "https://github.com/anshdeepofficial1/ZYLO",
-      "homepage": "https://zylod.vercel.app",
+      "homepage": "https://zyloweb.vercel.app",
       "description": null,
       "language": "JavaScript",
       "stars": 0,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-15T13:36:53Z",
+      "pushed_at": "2026-11-16T08:01:28Z",
       "release": {
-        "tag": "v2.2.1",
-        "name": "ZYLO v2.2.1 — Production Release",
-        "published_at": "2026-11-14T06:41:28Z",
-        "downloads": 3,
-        "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.1"
+        "tag": "v2.2.3",
+        "name": "ZYLO v2.2.3 — Stream Direct-Play, Active Fallback & Regional Catalogs",
+        "published_at": "2026-11-16T02:59:48Z",
+        "downloads": 4,
+        "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.3"
       },
       "commits": [
+        {
+          "sha": "73dc40f",
+          "message": "Improve public catalog reliability on Safari and Vercel (#12)",
+          "date": "2026-11-16T08:01:27Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/73dc40feeb59a8391b854a1412890f8b03619394"
+        },
+        {
+          "sha": "19e53c7",
+          "message": "feat(release): ZYLO v2.2.3 - stream direct-play, working servers fallback & regional catalog posters (versionCode 223)",
+          "date": "2026-11-16T02:57:19Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/19e53c700dafe70ddc52b11aaf78bdced0980a5a"
+        },
+        {
+          "sha": "e1b3af3",
+          "message": "feat(release): ZYLO v2.2.2 - production release (versionCode 222)",
+          "date": "2026-11-15T17:06:35Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/e1b3af3349cd67aed28aea6983a0e890dd616e84"
+        },
         {
           "sha": "80d9d52",
           "message": "Link public project to official developer profile",
           "date": "2026-11-15T13:36:52Z",
           "url": "https://github.com/anshdeepofficial1/ZYLO/commit/80d9d525a4e70f9aabfaca65634d4f79ce8059fd"
-        },
-        {
-          "sha": "fb7d6a5",
-          "message": "fix(web): open native ZYLO Home before optional sign-in",
-          "date": "2026-11-14T15:55:02Z",
-          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/fb7d6a5b92c6eb1aeab705c57a604bfbf9efe7fd"
-        },
-        {
-          "sha": "b923d2c",
-          "message": "fix(web): regional TMDB catalog and verified edition discovery",
-          "date": "2026-11-14T15:41:24Z",
-          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/b923d2c71d9b46b0eedf2481ceeb81f18c1c4de4"
-        },
-        {
-          "sha": "da3dd21",
-          "message": "feat(release): ZYLO v2.2.1 - download controls & modal, cast filmography, regional catalogs, AniDash deep link parity, player buffering",
-          "date": "2026-11-14T06:37:32Z",
-          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/da3dd21b0b2c84a30a8f49e779884ec4a673c16f"
         }
       ]
     },
@@ -187,7 +187,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 9,
-      "pushed_at": "2026-11-15T13:36:58Z",
+      "pushed_at": "2026-11-16T11:22:07Z",
       "release": null,
       "commits": [
         {
@@ -309,8 +309,8 @@
       "language": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "issues": 1,
-      "pushed_at": "2026-11-15T13:37:00Z",
+      "issues": 2,
+      "pushed_at": "2026-11-16T08:01:15Z",
       "release": null,
       "commits": [
         {
@@ -388,7 +388,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 5,
-      "pushed_at": "2026-11-15T13:36:45Z",
+      "pushed_at": "2026-11-16T04:24:42Z",
       "release": null,
       "commits": [
         {
@@ -459,6 +459,22 @@
   ],
   "recent_activity": [
     {
+      "sha": "73dc40f",
+      "message": "Improve public catalog reliability on Safari and Vercel (#12)",
+      "date": "2026-11-16T08:01:27Z",
+      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/73dc40feeb59a8391b854a1412890f8b03619394",
+      "project": "ZYLO",
+      "repo": "ZYLO"
+    },
+    {
+      "sha": "19e53c7",
+      "message": "feat(release): ZYLO v2.2.3 - stream direct-play, working servers fallback & regional catalog posters (versionCode 223)",
+      "date": "2026-11-16T02:57:19Z",
+      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/19e53c700dafe70ddc52b11aaf78bdced0980a5a",
+      "project": "ZYLO",
+      "repo": "ZYLO"
+    },
+    {
       "sha": "3c37fd4",
       "message": "Link public project to official developer profile",
       "date": "2026-11-15T13:37:02Z",
@@ -489,22 +505,6 @@
       "url": "https://github.com/anshdeepofficial1/SocialBoost/commit/fecce8bac2d8ef725bed8b4fa21cc962deaebe62",
       "project": "SocialBoost",
       "repo": "SocialBoost"
-    },
-    {
-      "sha": "80d9d52",
-      "message": "Link public project to official developer profile",
-      "date": "2026-11-15T13:36:52Z",
-      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/80d9d525a4e70f9aabfaca65634d4f79ce8059fd",
-      "project": "ZYLO",
-      "repo": "ZYLO"
-    },
-    {
-      "sha": "79a2a6c",
-      "message": "Link public project to official developer profile",
-      "date": "2026-11-15T13:36:45Z",
-      "url": "https://github.com/anshdeepofficial1/ZMB/commit/79a2a6cebf15164908e5e9e6c376bf10d2568c84",
-      "project": "ZMB",
-      "repo": "ZMB"
     }
   ]
 }

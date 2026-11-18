@@ -16,43 +16,43 @@
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
           <text x="52" y="72" class="repo" font-size="9">ZYLO</text>
-          <text x="145" y="72" class="bright" font-size="10">fix(release): ZYLO v2.2.4 - multi-stream failover, friendly errors, reg…</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">8001cd0 · Nov 17</text>
+          <text x="145" y="72" class="bright" font-size="10">chore(release): bump ZYLO to 2.2.5 (versionCode 225)</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">26d47df · Nov 18</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
           <text x="52" y="106" class="repo" font-size="9">ZYLO</text>
-          <text x="145" y="106" class="bright" font-size="10">feat(release): ZYLO v2.2.4 playback and discovery fixes</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">d97c51f · Nov 16</text>
+          <text x="145" y="106" class="bright" font-size="10">fix(playback): reliable replay, verified sources and real downloads</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">6611025 · Nov 18</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
-          <text x="52" y="140" class="repo" font-size="9">SocialBoost…</text>
-          <text x="145" y="140" class="bright" font-size="10">Link public project to official developer profile</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">3c37fd4 · Nov 15</text>
+          <text x="52" y="140" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="140" class="bright" font-size="10">Movie pages: poster hero before play, movie-specific labels</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">d8de57c · Nov 18</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
           <text x="52" y="174" class="repo" font-size="9">AniDash Web</text>
-          <text x="145" y="174" class="bright" font-size="10">Link public project to official developer profile</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">ce722ef · Nov 15</text>
+          <text x="145" y="174" class="bright" font-size="10">Player: retry transient segment errors, restore generous HLS timeouts</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">036be5f · Nov 18</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>
           <circle cx="34" cy="205" r="4" fill="#39d353"/>
-          <text x="52" y="208" class="repo" font-size="9">NOVA OS</text>
+          <text x="52" y="208" class="repo" font-size="9">SocialBoost…</text>
           <text x="145" y="208" class="bright" font-size="10">Link public project to official developer profile</text>
-          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">386eed8 · Nov 15</text>
+          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">3c37fd4 · Nov 15</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.71s" fill="freeze"/>
           <circle cx="34" cy="239" r="4" fill="#39d353"/>
-          <text x="52" y="242" class="repo" font-size="9">SocialBoost</text>
+          <text x="52" y="242" class="repo" font-size="9">NOVA OS</text>
           <text x="145" y="242" class="bright" font-size="10">Link public project to official developer profile</text>
-          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">fecce8b · Nov 15</text>
+          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">386eed8 · Nov 15</text>
         </g>
 <text x="24" y="272" class="muted" font-size="9">showing a mixed timeline across the featured repositories</text>
 <rect x="808" y="260" width="8" height="14" rx="1" fill="#39d353"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>

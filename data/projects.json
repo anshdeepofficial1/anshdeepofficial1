@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-18T15:40:09+00:00",
+  "generated_at": "2026-11-19T15:45:07+00:00",
   "active_project": "ZYLO",
   "projects": [
     {
@@ -13,12 +13,12 @@
       "stars": 29,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-18T07:40:46Z",
+      "pushed_at": "2026-11-19T07:37:20Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 2060,
+        "downloads": 2143,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 302,
+        "downloads": 306,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -142,38 +142,38 @@
       "stars": 0,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-18T14:23:57Z",
+      "pushed_at": "2026-11-19T07:56:15Z",
       "release": {
-        "tag": "v2.2.5",
-        "name": "ZYLO v2.2.5 - Production Release",
-        "published_at": "2026-11-18T14:23:57Z",
-        "downloads": 7,
-        "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.5"
+        "tag": "v2.2.6",
+        "name": "ZYLO v2.2.6 - Production Release",
+        "published_at": "2026-11-19T05:31:24Z",
+        "downloads": 5,
+        "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.6"
       },
       "commits": [
+        {
+          "sha": "9e6b0f0",
+          "message": "Organize ZYLO store screenshots and add README gallery",
+          "date": "2026-11-19T07:56:12Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/9e6b0f0387d267917d21712dec769f2eb5c1aa57"
+        },
+        {
+          "sha": "cbcbccf",
+          "message": "Add files via upload",
+          "date": "2026-11-19T07:55:11Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/cbcbccfdc1491fcbba7826a734b25975f9b1ea7a"
+        },
+        {
+          "sha": "53e62c3",
+          "message": "feat(release): ZYLO v2.2.6 - OTT gating, AniDash-style downloads & 100s forward buffer (versionCode 226)",
+          "date": "2026-11-19T05:19:02Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/53e62c3109cf900699153ed9ce39a32d56ae4c47"
+        },
         {
           "sha": "26d47df",
           "message": "chore(release): bump ZYLO to 2.2.5 (versionCode 225)",
           "date": "2026-11-18T14:11:57Z",
           "url": "https://github.com/anshdeepofficial1/ZYLO/commit/26d47dff6914dad5899247f5a296869b824b3129"
-        },
-        {
-          "sha": "6611025",
-          "message": "fix(playback): reliable replay, verified sources and real downloads",
-          "date": "2026-11-18T13:50:52Z",
-          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/66110254185afe048fa17c9490f070672f179854"
-        },
-        {
-          "sha": "8001cd0",
-          "message": "fix(release): ZYLO v2.2.4 - multi-stream failover, friendly errors, regional catalog posters & legacy folder purge (versionCode 224)",
-          "date": "2026-11-17T14:16:42Z",
-          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/8001cd0144b1527836814cc3a0d97f6b8eefbbd5"
-        },
-        {
-          "sha": "d97c51f",
-          "message": "feat(release): ZYLO v2.2.4 playback and discovery fixes",
-          "date": "2026-11-16T16:02:04Z",
-          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/d97c51fb628f971d7420795eaddaa47317255021"
         }
       ]
     },
@@ -187,7 +187,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 9,
-      "pushed_at": "2026-11-17T21:33:55Z",
+      "pushed_at": "2026-11-19T03:55:48Z",
       "release": null,
       "commits": [
         {
@@ -310,32 +310,32 @@
       "stars": 0,
       "forks": 0,
       "issues": 2,
-      "pushed_at": "2026-11-18T13:35:23Z",
+      "pushed_at": "2026-11-19T04:37:21Z",
       "release": null,
       "commits": [
         {
-          "sha": "d8de57c",
-          "message": "Movie pages: poster hero before play, movie-specific labels",
-          "date": "2026-11-18T13:35:22Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/d8de57cf8536915e281cb9512496d5329a9af32b"
+          "sha": "bbb67b9",
+          "message": "Hindi: season-aware matching (Dr. Stone etc.), SUB/DUB labels, Momo always visible",
+          "date": "2026-11-19T04:37:19Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bbb67b959ddb37ae4b8a75cde338a88194c1371c"
         },
         {
-          "sha": "036be5f",
-          "message": "Player: retry transient segment errors, restore generous HLS timeouts",
-          "date": "2026-11-18T13:08:40Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/036be5f49656bc54b04e8e4e18521d55416483fa"
+          "sha": "298f589",
+          "message": "Languages & external players section, one-time notice, muted autoplay, Momo default",
+          "date": "2026-11-19T04:29:25Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/298f58992c6a4533895860f664c228d5f9aeef37"
         },
         {
-          "sha": "a24deef",
-          "message": "Player: never auto-switch to external embed players",
-          "date": "2026-11-18T12:44:22Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/a24deef2d154fb9d900ff15cc55d2b04dcd0681a"
+          "sha": "ec36e3e",
+          "message": "Fix Vercel deploy: stay under the 12-function limit",
+          "date": "2026-11-19T04:11:55Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/ec36e3ea77b0f069c64b483a784564567b5c77b5"
         },
         {
-          "sha": "4f9f486",
-          "message": "Player: SUB/DUB embed buttons, hide dead servers, faster failover",
-          "date": "2026-11-18T12:40:09Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/4f9f486adb873ef4c1f7652ce3e00809ce39708a"
+          "sha": "a21d682",
+          "message": "Hide MegaPlay/Megavid/AniXo; add Hindi dub players from animehindi.fun",
+          "date": "2026-11-19T04:08:07Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/a21d68236a4a517196625b61bbcf324a3c9c354b"
         }
       ]
     },
@@ -388,7 +388,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 5,
-      "pushed_at": "2026-11-18T03:50:51Z",
+      "pushed_at": "2026-11-19T03:56:11Z",
       "release": null,
       "commits": [
         {
@@ -459,34 +459,34 @@
   ],
   "recent_activity": [
     {
-      "sha": "26d47df",
-      "message": "chore(release): bump ZYLO to 2.2.5 (versionCode 225)",
-      "date": "2026-11-18T14:11:57Z",
-      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/26d47dff6914dad5899247f5a296869b824b3129",
+      "sha": "9e6b0f0",
+      "message": "Organize ZYLO store screenshots and add README gallery",
+      "date": "2026-11-19T07:56:12Z",
+      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/9e6b0f0387d267917d21712dec769f2eb5c1aa57",
       "project": "ZYLO",
       "repo": "ZYLO"
     },
     {
-      "sha": "6611025",
-      "message": "fix(playback): reliable replay, verified sources and real downloads",
-      "date": "2026-11-18T13:50:52Z",
-      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/66110254185afe048fa17c9490f070672f179854",
+      "sha": "cbcbccf",
+      "message": "Add files via upload",
+      "date": "2026-11-19T07:55:11Z",
+      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/cbcbccfdc1491fcbba7826a734b25975f9b1ea7a",
       "project": "ZYLO",
       "repo": "ZYLO"
     },
     {
-      "sha": "d8de57c",
-      "message": "Movie pages: poster hero before play, movie-specific labels",
-      "date": "2026-11-18T13:35:22Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/d8de57cf8536915e281cb9512496d5329a9af32b",
+      "sha": "bbb67b9",
+      "message": "Hindi: season-aware matching (Dr. Stone etc.), SUB/DUB labels, Momo always visible",
+      "date": "2026-11-19T04:37:19Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bbb67b959ddb37ae4b8a75cde338a88194c1371c",
       "project": "AniDash Web",
       "repo": "AniDash-Website"
     },
     {
-      "sha": "036be5f",
-      "message": "Player: retry transient segment errors, restore generous HLS timeouts",
-      "date": "2026-11-18T13:08:40Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/036be5f49656bc54b04e8e4e18521d55416483fa",
+      "sha": "298f589",
+      "message": "Languages & external players section, one-time notice, muted autoplay, Momo default",
+      "date": "2026-11-19T04:29:25Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/298f58992c6a4533895860f664c228d5f9aeef37",
       "project": "AniDash Web",
       "repo": "AniDash-Website"
     },

@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-19T15:45:07+00:00",
+  "generated_at": "2026-11-20T15:27:51+00:00",
   "active_project": "ZYLO",
   "projects": [
     {
@@ -13,12 +13,12 @@
       "stars": 29,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-19T07:37:20Z",
+      "pushed_at": "2026-11-20T07:28:35Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 2143,
+        "downloads": 2234,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
@@ -58,12 +58,12 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-16T16:35:20Z",
+      "pushed_at": "2026-11-19T16:36:10Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 306,
+        "downloads": 310,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -103,9 +103,21 @@
       "stars": 0,
       "forks": 1,
       "issues": 2,
-      "pushed_at": "2026-11-15T13:44:39Z",
+      "pushed_at": "2026-11-20T11:44:00Z",
       "release": null,
       "commits": [
+        {
+          "sha": "43143b4",
+          "message": "fix: force attachment downloads for retrieved CopyCloud files",
+          "date": "2026-11-20T11:44:00Z",
+          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/43143b4a92be219ccd49937593c29167d30dde1a"
+        },
+        {
+          "sha": "82fd1f7",
+          "message": "fix: force attachment downloads for retrieved CopyCloud files",
+          "date": "2026-11-20T11:43:57Z",
+          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/82fd1f72af26045a9657c1bd9c2faeda65c75605"
+        },
         {
           "sha": "b451b4e",
           "message": "Link public project to official developer profile",
@@ -117,18 +129,6 @@
           "message": "chore: update GitHub sponsor handle",
           "date": "2026-09-29T13:41:18Z",
           "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/db6f0d6a5574af9202b32663783c04fb356ba420"
-        },
-        {
-          "sha": "0597e0c",
-          "message": "chore: update official profile links",
-          "date": "2026-09-29T13:36:11Z",
-          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/0597e0ceaed6a1727ef4381d28fa9a01cbddcede"
-        },
-        {
-          "sha": "1bdc1ec",
-          "message": "chore: update official profile links",
-          "date": "2026-09-29T13:36:04Z",
-          "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/1bdc1ecc4902d827d4fe2c44e7e56474d653d5a4"
         }
       ]
     },
@@ -142,15 +142,21 @@
       "stars": 0,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-19T07:56:15Z",
+      "pushed_at": "2026-11-20T11:49:10Z",
       "release": {
-        "tag": "v2.2.6",
-        "name": "ZYLO v2.2.6 - Production Release",
-        "published_at": "2026-11-19T05:31:24Z",
-        "downloads": 5,
-        "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.6"
+        "tag": "v2.2.7",
+        "name": "ZYLO v2.2.7",
+        "published_at": "2026-11-20T11:49:10Z",
+        "downloads": 3,
+        "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.7"
       },
       "commits": [
+        {
+          "sha": "b3b5bd6",
+          "message": "fix(release): harden playback and ship ZYLO v2.2.7",
+          "date": "2026-11-20T11:47:47Z",
+          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/b3b5bd68b2787f81a0e0337360a4b92a32cc8e1e"
+        },
         {
           "sha": "9e6b0f0",
           "message": "Organize ZYLO store screenshots and add README gallery",
@@ -168,12 +174,6 @@
           "message": "feat(release): ZYLO v2.2.6 - OTT gating, AniDash-style downloads & 100s forward buffer (versionCode 226)",
           "date": "2026-11-19T05:19:02Z",
           "url": "https://github.com/anshdeepofficial1/ZYLO/commit/53e62c3109cf900699153ed9ce39a32d56ae4c47"
-        },
-        {
-          "sha": "26d47df",
-          "message": "chore(release): bump ZYLO to 2.2.5 (versionCode 225)",
-          "date": "2026-11-18T14:11:57Z",
-          "url": "https://github.com/anshdeepofficial1/ZYLO/commit/26d47dff6914dad5899247f5a296869b824b3129"
         }
       ]
     },
@@ -310,32 +310,32 @@
       "stars": 0,
       "forks": 0,
       "issues": 2,
-      "pushed_at": "2026-11-19T04:37:21Z",
+      "pushed_at": "2026-11-20T11:34:39Z",
       "release": null,
       "commits": [
         {
-          "sha": "bbb67b9",
-          "message": "Hindi: season-aware matching (Dr. Stone etc.), SUB/DUB labels, Momo always visible",
-          "date": "2026-11-19T04:37:19Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bbb67b959ddb37ae4b8a75cde338a88194c1371c"
+          "sha": "e23bdac",
+          "message": "Full card menu: watch, list status, remove from list, share/copy/open; Continue Watching remove (right-click + X)",
+          "date": "2026-11-20T11:34:38Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/e23bdacd30be7538add0f3d4d8d5be2c983ee9b4"
         },
         {
-          "sha": "298f589",
-          "message": "Languages & external players section, one-time notice, muted autoplay, Momo default",
-          "date": "2026-11-19T04:29:25Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/298f58992c6a4533895860f664c228d5f9aeef37"
+          "sha": "13d7da2",
+          "message": "Playback: faster source start, next-episode prefetch, resume next episode when left in last 30s",
+          "date": "2026-11-20T11:28:09Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/13d7da225b66952ec40d964461dd7a6b5649e013"
         },
         {
-          "sha": "ec36e3e",
-          "message": "Fix Vercel deploy: stay under the 12-function limit",
-          "date": "2026-11-19T04:11:55Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/ec36e3ea77b0f069c64b483a784564567b5c77b5"
+          "sha": "0fa8415",
+          "message": "AniList: keep login across refresh (cached session, retries, IndexedDB backup); search: franchise results in release order",
+          "date": "2026-11-20T03:26:26Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/0fa84157a3d017b6b613162514077dc5f9bd896e"
         },
         {
-          "sha": "a21d682",
-          "message": "Hide MegaPlay/Megavid/AniXo; add Hindi dub players from animehindi.fun",
-          "date": "2026-11-19T04:08:07Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/a21d68236a4a517196625b61bbcf324a3c9c354b"
+          "sha": "3dc4f92",
+          "message": "Cards: season/format, 18+ and rating tags; search grouped into Series/Movies/Other in release order",
+          "date": "2026-11-20T03:02:05Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/3dc4f92c7d937403647f38f7ff2902a9e4d09cfd"
         }
       ]
     },
@@ -459,52 +459,52 @@
   ],
   "recent_activity": [
     {
+      "sha": "b3b5bd6",
+      "message": "fix(release): harden playback and ship ZYLO v2.2.7",
+      "date": "2026-11-20T11:47:47Z",
+      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/b3b5bd68b2787f81a0e0337360a4b92a32cc8e1e",
+      "project": "ZYLO",
+      "repo": "ZYLO"
+    },
+    {
+      "sha": "43143b4",
+      "message": "fix: force attachment downloads for retrieved CopyCloud files",
+      "date": "2026-11-20T11:44:00Z",
+      "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/43143b4a92be219ccd49937593c29167d30dde1a",
+      "project": "Copy Cloud",
+      "repo": "Copy-Cloud"
+    },
+    {
+      "sha": "82fd1f7",
+      "message": "fix: force attachment downloads for retrieved CopyCloud files",
+      "date": "2026-11-20T11:43:57Z",
+      "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/82fd1f72af26045a9657c1bd9c2faeda65c75605",
+      "project": "Copy Cloud",
+      "repo": "Copy-Cloud"
+    },
+    {
+      "sha": "e23bdac",
+      "message": "Full card menu: watch, list status, remove from list, share/copy/open; Continue Watching remove (right-click + X)",
+      "date": "2026-11-20T11:34:38Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/e23bdacd30be7538add0f3d4d8d5be2c983ee9b4",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
+      "sha": "13d7da2",
+      "message": "Playback: faster source start, next-episode prefetch, resume next episode when left in last 30s",
+      "date": "2026-11-20T11:28:09Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/13d7da225b66952ec40d964461dd7a6b5649e013",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
       "sha": "9e6b0f0",
       "message": "Organize ZYLO store screenshots and add README gallery",
       "date": "2026-11-19T07:56:12Z",
       "url": "https://github.com/anshdeepofficial1/ZYLO/commit/9e6b0f0387d267917d21712dec769f2eb5c1aa57",
       "project": "ZYLO",
       "repo": "ZYLO"
-    },
-    {
-      "sha": "cbcbccf",
-      "message": "Add files via upload",
-      "date": "2026-11-19T07:55:11Z",
-      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/cbcbccfdc1491fcbba7826a734b25975f9b1ea7a",
-      "project": "ZYLO",
-      "repo": "ZYLO"
-    },
-    {
-      "sha": "bbb67b9",
-      "message": "Hindi: season-aware matching (Dr. Stone etc.), SUB/DUB labels, Momo always visible",
-      "date": "2026-11-19T04:37:19Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bbb67b959ddb37ae4b8a75cde338a88194c1371c",
-      "project": "AniDash Web",
-      "repo": "AniDash-Website"
-    },
-    {
-      "sha": "298f589",
-      "message": "Languages & external players section, one-time notice, muted autoplay, Momo default",
-      "date": "2026-11-19T04:29:25Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/298f58992c6a4533895860f664c228d5f9aeef37",
-      "project": "AniDash Web",
-      "repo": "AniDash-Website"
-    },
-    {
-      "sha": "3c37fd4",
-      "message": "Link public project to official developer profile",
-      "date": "2026-11-15T13:37:02Z",
-      "url": "https://github.com/anshdeepofficial1/SocialBoost-APP/commit/3c37fd40a5846236bde33760daaaeee2794038f9",
-      "project": "SocialBoost App",
-      "repo": "SocialBoost-APP"
-    },
-    {
-      "sha": "386eed8",
-      "message": "Link public project to official developer profile",
-      "date": "2026-11-15T13:36:58Z",
-      "url": "https://github.com/anshdeepofficial1/NOVA/commit/386eed879afbd11a6d58fa45561851d345958428",
-      "project": "NOVA OS",
-      "repo": "NOVA"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-20T15:27:51+00:00",
-  "active_project": "ZYLO",
+  "generated_at": "2026-11-21T14:39:42+00:00",
+  "active_project": "AniDash",
   "projects": [
     {
       "repo": "AniDash",
@@ -13,12 +13,12 @@
       "stars": 29,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-20T07:28:35Z",
+      "pushed_at": "2026-11-21T07:23:11Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 2234,
+        "downloads": 2316,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 310,
+        "downloads": 317,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -147,7 +147,7 @@
         "tag": "v2.2.7",
         "name": "ZYLO v2.2.7",
         "published_at": "2026-11-20T11:49:10Z",
-        "downloads": 3,
+        "downloads": 4,
         "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.7"
       },
       "commits": [
@@ -388,7 +388,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 5,
-      "pushed_at": "2026-11-19T03:56:11Z",
+      "pushed_at": "2026-11-21T04:09:33Z",
       "release": null,
       "commits": [
         {

@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-21T14:39:42+00:00",
+  "generated_at": "2026-11-22T14:35:09+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,15 +10,15 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 29,
+      "stars": 30,
       "forks": 1,
-      "issues": 0,
-      "pushed_at": "2026-11-21T07:23:11Z",
+      "issues": 1,
+      "pushed_at": "2026-11-22T07:03:41Z",
       "release": {
         "tag": "v3.3.4",
         "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
         "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 2316,
+        "downloads": 2385,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
       },
       "commits": [
@@ -147,7 +147,7 @@
         "tag": "v2.2.7",
         "name": "ZYLO v2.2.7",
         "published_at": "2026-11-20T11:49:10Z",
-        "downloads": 4,
+        "downloads": 5,
         "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.7"
       },
       "commits": [

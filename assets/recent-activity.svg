@@ -15,44 +15,44 @@
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
-          <text x="52" y="72" class="repo" font-size="9">ZYLO</text>
-          <text x="145" y="72" class="bright" font-size="10">fix(release): harden playback and ship ZYLO v2.2.7</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">b3b5bd6 · Nov 20</text>
+          <text x="52" y="72" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="72" class="bright" font-size="10">fix(sources): restore provider playback and live health</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">78ab050 · Nov 23</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
-          <text x="52" y="106" class="repo" font-size="9">Copy Cloud</text>
-          <text x="145" y="106" class="bright" font-size="10">fix: force attachment downloads for retrieved CopyCloud files</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">43143b4 · Nov 20</text>
+          <text x="52" y="106" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="106" class="bright" font-size="10">Add JustAnime probe diagnostics (action=probe)</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">8325c38 · Nov 23</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
-          <text x="52" y="140" class="repo" font-size="9">Copy Cloud</text>
-          <text x="145" y="140" class="bright" font-size="10">fix: force attachment downloads for retrieved CopyCloud files</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">82fd1f7 · Nov 20</text>
+          <text x="52" y="140" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="140" class="bright" font-size="10">When every built-in server fails: plain-language status per provider +…</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">7b2bb55 · Nov 23</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">AniDash Web</text>
-          <text x="145" y="174" class="bright" font-size="10">Full card menu: watch, list status, remove from list, share/copy/open;…</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">e23bdac · Nov 20</text>
+          <text x="52" y="174" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="174" class="bright" font-size="10">fix(android): restore updates and episode scrolling</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">87a2955 · Nov 23</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>
           <circle cx="34" cy="205" r="4" fill="#39d353"/>
-          <text x="52" y="208" class="repo" font-size="9">AniDash Web</text>
-          <text x="145" y="208" class="bright" font-size="10">Playback: faster source start, next-episode prefetch, resume next episo…</text>
-          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">13d7da2 · Nov 20</text>
+          <text x="52" y="208" class="repo" font-size="9">ZYLO</text>
+          <text x="145" y="208" class="bright" font-size="10">fix(release): harden playback and ship ZYLO v2.2.7</text>
+          <text x="808" y="208" text-anchor="end" class="muted" font-size="8">b3b5bd6 · Nov 20</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.71s" fill="freeze"/>
           <circle cx="34" cy="239" r="4" fill="#39d353"/>
-          <text x="52" y="242" class="repo" font-size="9">ZYLO</text>
-          <text x="145" y="242" class="bright" font-size="10">Organize ZYLO store screenshots and add README gallery</text>
-          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">9e6b0f0 · Nov 19</text>
+          <text x="52" y="242" class="repo" font-size="9">Copy Cloud</text>
+          <text x="145" y="242" class="bright" font-size="10">fix: force attachment downloads for retrieved CopyCloud files</text>
+          <text x="808" y="242" text-anchor="end" class="muted" font-size="8">43143b4 · Nov 20</text>
         </g>
 <text x="24" y="272" class="muted" font-size="9">showing a mixed timeline across the featured repositories</text>
 <rect x="808" y="260" width="8" height="14" rx="1" fill="#39d353"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>

@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-22T14:35:09+00:00",
+  "generated_at": "2026-11-23T18:09:07+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 30,
+      "stars": 31,
       "forks": 1,
-      "issues": 1,
-      "pushed_at": "2026-11-22T07:03:41Z",
+      "issues": 0,
+      "pushed_at": "2026-11-23T17:24:50Z",
       "release": {
-        "tag": "v3.3.4",
-        "name": "AniDash v3.3.4 — Authoritative Source Selection & Hindi Dub Availability",
-        "published_at": "2026-11-04T12:24:46Z",
-        "downloads": 2385,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.4"
+        "tag": "v3.3.6",
+        "name": "AniDash v3.3.6",
+        "published_at": "2026-11-23T17:24:51Z",
+        "downloads": 32,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.6"
       },
       "commits": [
         {
-          "sha": "28e1423",
-          "message": "Link public project to official developer profile",
-          "date": "2026-11-15T13:36:34Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/28e1423c775f0cadf6acb6287cec2eb7c73d9e58"
+          "sha": "78ab050",
+          "message": "fix(sources): restore provider playback and live health",
+          "date": "2026-11-23T16:59:36Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/78ab050782c0e179639331290609cfcfefefe2d0"
         },
         {
-          "sha": "e3a9680",
-          "message": "feat(router): support deep link query parameters and intent extras from ZYLO",
-          "date": "2026-11-14T05:43:20Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/e3a9680ddf71636f779946f995347398560a62d2"
+          "sha": "87a2955",
+          "message": "fix(android): restore updates and episode scrolling",
+          "date": "2026-11-23T11:13:05Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/87a29552a92fa69d56d219e2caf8c3bc59ac4a80"
         },
         {
-          "sha": "52294d3",
-          "message": "Make web homepage preview clickable and add direct Open Web App button",
-          "date": "2026-11-12T05:47:19Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/52294d34072d5ad47739c463c2a5c781267ad413"
+          "sha": "18d30c4",
+          "message": "ci: skip optional Discord notification when unconfigured",
+          "date": "2026-11-22T19:20:49Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/18d30c451845514afba0f80cbc6933beb0564171"
         },
         {
-          "sha": "786854f",
-          "message": "Fix homepage preview URL for the current React router",
-          "date": "2026-11-12T05:36:44Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/786854f118bd2c9074cf35a48f06248e00a3b0d5"
+          "sha": "5165d9b",
+          "message": "fix(android): restore clean Media3 release compilation",
+          "date": "2026-11-22T18:58:42Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/5165d9bb19611210bbd6044aa52b868ac089c26b"
         }
       ]
     },
@@ -58,12 +58,12 @@
       "stars": 2,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-19T16:36:10Z",
+      "pushed_at": "2026-11-23T16:37:26Z",
       "release": {
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 317,
+        "downloads": 325,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -310,32 +310,32 @@
       "stars": 0,
       "forks": 0,
       "issues": 2,
-      "pushed_at": "2026-11-20T11:34:39Z",
+      "pushed_at": "2026-11-23T16:07:18Z",
       "release": null,
       "commits": [
         {
-          "sha": "e23bdac",
-          "message": "Full card menu: watch, list status, remove from list, share/copy/open; Continue Watching remove (right-click + X)",
-          "date": "2026-11-20T11:34:38Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/e23bdacd30be7538add0f3d4d8d5be2c983ee9b4"
+          "sha": "8325c38",
+          "message": "Add JustAnime probe diagnostics (action=probe)",
+          "date": "2026-11-23T16:07:16Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/8325c38b1b7f088e6a43a4f28b5978b23c119620"
         },
         {
-          "sha": "13d7da2",
-          "message": "Playback: faster source start, next-episode prefetch, resume next episode when left in last 30s",
-          "date": "2026-11-20T11:28:09Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/13d7da225b66952ec40d964461dd7a6b5649e013"
+          "sha": "7b2bb55",
+          "message": "When every built-in server fails: plain-language status per provider + one-tap external servers",
+          "date": "2026-11-23T11:39:23Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/7b2bb5572ff5b0a591fe7738c3fa75394d7337c1"
         },
         {
-          "sha": "0fa8415",
-          "message": "AniList: keep login across refresh (cached session, retries, IndexedDB backup); search: franchise results in release order",
-          "date": "2026-11-20T03:26:26Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/0fa84157a3d017b6b613162514077dc5f9bd896e"
+          "sha": "057970c",
+          "message": "AniKoto: use the app's own hosts (animepahe.pw, anikoto.pw) and stay on the mirror that found the show",
+          "date": "2026-11-23T11:34:38Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/057970c782e19ef5a24f79b239290cf5ca657b21"
         },
         {
-          "sha": "3dc4f92",
-          "message": "Cards: season/format, 18+ and rating tags; search grouped into Series/Movies/Other in release order",
-          "date": "2026-11-20T03:02:05Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/3dc4f92c7d937403647f38f7ff2902a9e4d09cfd"
+          "sha": "369c986",
+          "message": "AniList sign-in: capture the token on any page (Redirect URL may be the site root)",
+          "date": "2026-11-23T11:28:26Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/369c986250b631f685108012466aa1da550ec3ec"
         }
       ]
     },
@@ -349,7 +349,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 1,
-      "pushed_at": "2026-11-15T13:36:32Z",
+      "pushed_at": "2026-11-23T07:45:19Z",
       "release": null,
       "commits": [
         {
@@ -388,7 +388,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 5,
-      "pushed_at": "2026-11-21T04:09:33Z",
+      "pushed_at": "2026-11-23T04:26:44Z",
       "release": null,
       "commits": [
         {
@@ -459,6 +459,38 @@
   ],
   "recent_activity": [
     {
+      "sha": "78ab050",
+      "message": "fix(sources): restore provider playback and live health",
+      "date": "2026-11-23T16:59:36Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/78ab050782c0e179639331290609cfcfefefe2d0",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "8325c38",
+      "message": "Add JustAnime probe diagnostics (action=probe)",
+      "date": "2026-11-23T16:07:16Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/8325c38b1b7f088e6a43a4f28b5978b23c119620",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
+      "sha": "7b2bb55",
+      "message": "When every built-in server fails: plain-language status per provider + one-tap external servers",
+      "date": "2026-11-23T11:39:23Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/7b2bb5572ff5b0a591fe7738c3fa75394d7337c1",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
+      "sha": "87a2955",
+      "message": "fix(android): restore updates and episode scrolling",
+      "date": "2026-11-23T11:13:05Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/87a29552a92fa69d56d219e2caf8c3bc59ac4a80",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
       "sha": "b3b5bd6",
       "message": "fix(release): harden playback and ship ZYLO v2.2.7",
       "date": "2026-11-20T11:47:47Z",
@@ -473,38 +505,6 @@
       "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/43143b4a92be219ccd49937593c29167d30dde1a",
       "project": "Copy Cloud",
       "repo": "Copy-Cloud"
-    },
-    {
-      "sha": "82fd1f7",
-      "message": "fix: force attachment downloads for retrieved CopyCloud files",
-      "date": "2026-11-20T11:43:57Z",
-      "url": "https://github.com/anshdeepofficial1/Copy-Cloud/commit/82fd1f72af26045a9657c1bd9c2faeda65c75605",
-      "project": "Copy Cloud",
-      "repo": "Copy-Cloud"
-    },
-    {
-      "sha": "e23bdac",
-      "message": "Full card menu: watch, list status, remove from list, share/copy/open; Continue Watching remove (right-click + X)",
-      "date": "2026-11-20T11:34:38Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/e23bdacd30be7538add0f3d4d8d5be2c983ee9b4",
-      "project": "AniDash Web",
-      "repo": "AniDash-Website"
-    },
-    {
-      "sha": "13d7da2",
-      "message": "Playback: faster source start, next-episode prefetch, resume next episode when left in last 30s",
-      "date": "2026-11-20T11:28:09Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/13d7da225b66952ec40d964461dd7a6b5649e013",
-      "project": "AniDash Web",
-      "repo": "AniDash-Website"
-    },
-    {
-      "sha": "9e6b0f0",
-      "message": "Organize ZYLO store screenshots and add README gallery",
-      "date": "2026-11-19T07:56:12Z",
-      "url": "https://github.com/anshdeepofficial1/ZYLO/commit/9e6b0f0387d267917d21712dec769f2eb5c1aa57",
-      "project": "ZYLO",
-      "repo": "ZYLO"
     }
   ]
 }

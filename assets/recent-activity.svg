@@ -16,29 +16,29 @@
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
           <text x="52" y="72" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="72" class="bright" font-size="10">fix(sources): restore provider playback and live health</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">78ab050 · Nov 23</text>
+          <text x="145" y="72" class="bright" font-size="10">Merge PR #86: preserve exact AniList playback position</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">cb73188 · Nov 24</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
-          <text x="52" y="106" class="repo" font-size="9">AniDash Web</text>
-          <text x="145" y="106" class="bright" font-size="10">Add JustAnime probe diagnostics (action=probe)</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">8325c38 · Nov 23</text>
+          <text x="52" y="106" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="106" class="bright" font-size="10">release: add automatic source recovery v3.3.7</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">caf454f · Nov 24</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
           <text x="52" y="140" class="repo" font-size="9">AniDash Web</text>
-          <text x="145" y="140" class="bright" font-size="10">When every built-in server fails: plain-language status per provider +…</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">7b2bb55 · Nov 23</text>
+          <text x="145" y="140" class="bright" font-size="10">Add JustAnime probe diagnostics (action=probe)</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">8325c38 · Nov 23</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="174" class="bright" font-size="10">fix(android): restore updates and episode scrolling</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">87a2955 · Nov 23</text>
+          <text x="52" y="174" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="174" class="bright" font-size="10">When every built-in server fails: plain-language status per provider +…</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">7b2bb55 · Nov 23</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>

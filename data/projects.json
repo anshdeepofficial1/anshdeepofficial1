@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-23T18:09:07+00:00",
+  "generated_at": "2026-11-24T17:45:03+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,41 +10,41 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 31,
+      "stars": 32,
       "forks": 1,
-      "issues": 0,
-      "pushed_at": "2026-11-23T17:24:50Z",
+      "issues": 1,
+      "pushed_at": "2026-11-24T16:17:06Z",
       "release": {
-        "tag": "v3.3.6",
-        "name": "AniDash v3.3.6",
-        "published_at": "2026-11-23T17:24:51Z",
-        "downloads": 32,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.6"
+        "tag": "v3.3.7",
+        "name": "AniDash v3.3.7",
+        "published_at": "2026-11-24T16:09:51Z",
+        "downloads": 42,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.7"
       },
       "commits": [
         {
-          "sha": "78ab050",
-          "message": "fix(sources): restore provider playback and live health",
-          "date": "2026-11-23T16:59:36Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/78ab050782c0e179639331290609cfcfefefe2d0"
+          "sha": "cb73188",
+          "message": "Merge PR #86: preserve exact AniList playback position",
+          "date": "2026-11-24T16:17:03Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/cb7318821c35b54208ee7904c76bdca6e7671191"
         },
         {
-          "sha": "87a2955",
-          "message": "fix(android): restore updates and episode scrolling",
-          "date": "2026-11-23T11:13:05Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/87a29552a92fa69d56d219e2caf8c3bc59ac4a80"
+          "sha": "caf454f",
+          "message": "release: add automatic source recovery v3.3.7",
+          "date": "2026-11-24T15:41:13Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/caf454ffc6187fc133b509ea545541cd873048c9"
         },
         {
-          "sha": "18d30c4",
-          "message": "ci: skip optional Discord notification when unconfigured",
-          "date": "2026-11-22T19:20:49Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/18d30c451845514afba0f80cbc6933beb0564171"
+          "sha": "53ed31f",
+          "message": "Polish episode source status UI",
+          "date": "2026-11-24T15:17:08Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/53ed31f34d5aca5e2240a691c8bfd2dfb92d607d"
         },
         {
-          "sha": "5165d9b",
-          "message": "fix(android): restore clean Media3 release compilation",
-          "date": "2026-11-22T18:58:42Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/5165d9bb19611210bbd6044aa52b868ac089c26b"
+          "sha": "1e6c659",
+          "message": "fix(streaming): clarify provider status and recovery",
+          "date": "2026-11-24T10:01:13Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/1e6c659d8b94a19bdddcc84e8e4b78194334c715"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 325,
+        "downloads": 329,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -309,8 +309,8 @@
       "language": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "issues": 2,
-      "pushed_at": "2026-11-23T16:07:18Z",
+      "issues": 5,
+      "pushed_at": "2026-11-24T11:08:25Z",
       "release": null,
       "commits": [
         {
@@ -459,10 +459,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "78ab050",
-      "message": "fix(sources): restore provider playback and live health",
-      "date": "2026-11-23T16:59:36Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/78ab050782c0e179639331290609cfcfefefe2d0",
+      "sha": "cb73188",
+      "message": "Merge PR #86: preserve exact AniList playback position",
+      "date": "2026-11-24T16:17:03Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/cb7318821c35b54208ee7904c76bdca6e7671191",
+      "project": "AniDash",
+      "repo": "AniDash"
+    },
+    {
+      "sha": "caf454f",
+      "message": "release: add automatic source recovery v3.3.7",
+      "date": "2026-11-24T15:41:13Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/caf454ffc6187fc133b509ea545541cd873048c9",
       "project": "AniDash",
       "repo": "AniDash"
     },
@@ -481,14 +489,6 @@
       "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/7b2bb5572ff5b0a591fe7738c3fa75394d7337c1",
       "project": "AniDash Web",
       "repo": "AniDash-Website"
-    },
-    {
-      "sha": "87a2955",
-      "message": "fix(android): restore updates and episode scrolling",
-      "date": "2026-11-23T11:13:05Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/87a29552a92fa69d56d219e2caf8c3bc59ac4a80",
-      "project": "AniDash",
-      "repo": "AniDash"
     },
     {
       "sha": "b3b5bd6",

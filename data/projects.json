@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-24T17:45:03+00:00",
+  "generated_at": "2026-11-25T17:14:17+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -13,12 +13,12 @@
       "stars": 32,
       "forks": 1,
       "issues": 1,
-      "pushed_at": "2026-11-24T16:17:06Z",
+      "pushed_at": "2026-11-25T08:49:35Z",
       "release": {
         "tag": "v3.3.7",
         "name": "AniDash v3.3.7",
         "published_at": "2026-11-24T16:09:51Z",
-        "downloads": 42,
+        "downloads": 389,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.7"
       },
       "commits": [
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 329,
+        "downloads": 334,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [

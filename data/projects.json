@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-25T17:14:17+00:00",
+  "generated_at": "2026-11-26T16:54:11+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -12,16 +12,22 @@
       "language": "Dart",
       "stars": 32,
       "forks": 1,
-      "issues": 1,
-      "pushed_at": "2026-11-25T08:49:35Z",
+      "issues": 0,
+      "pushed_at": "2026-11-26T08:34:42Z",
       "release": {
-        "tag": "v3.3.7",
-        "name": "AniDash v3.3.7",
-        "published_at": "2026-11-24T16:09:51Z",
-        "downloads": 389,
-        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.7"
+        "tag": "v3.3.8",
+        "name": "AniDash v3.3.8",
+        "published_at": "2026-11-25T19:16:51Z",
+        "downloads": 417,
+        "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.8"
       },
       "commits": [
+        {
+          "sha": "801ea97",
+          "message": "release: fix episode navigation and progress sync v3.3.8",
+          "date": "2026-11-25T18:43:36Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash/commit/801ea97d7979d305ccfd883b2e5e38f5b199fa8f"
+        },
         {
           "sha": "cb73188",
           "message": "Merge PR #86: preserve exact AniList playback position",
@@ -39,12 +45,6 @@
           "message": "Polish episode source status UI",
           "date": "2026-11-24T15:17:08Z",
           "url": "https://github.com/anshdeepofficial1/AniDash/commit/53ed31f34d5aca5e2240a691c8bfd2dfb92d607d"
-        },
-        {
-          "sha": "1e6c659",
-          "message": "fix(streaming): clarify provider status and recovery",
-          "date": "2026-11-24T10:01:13Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash/commit/1e6c659d8b94a19bdddcc84e8e4b78194334c715"
         }
       ]
     },
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 334,
+        "downloads": 338,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -139,7 +139,7 @@
       "homepage": "https://zyloweb.vercel.app",
       "description": null,
       "language": "JavaScript",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "issues": 1,
       "pushed_at": "2026-11-20T11:49:10Z",
@@ -147,7 +147,7 @@
         "tag": "v2.2.7",
         "name": "ZYLO v2.2.7",
         "published_at": "2026-11-20T11:49:10Z",
-        "downloads": 5,
+        "downloads": 198,
         "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.7"
       },
       "commits": [
@@ -186,8 +186,8 @@
       "language": "Shell",
       "stars": 0,
       "forks": 0,
-      "issues": 9,
-      "pushed_at": "2026-11-19T03:55:48Z",
+      "issues": 10,
+      "pushed_at": "2026-11-26T03:55:17Z",
       "release": null,
       "commits": [
         {
@@ -310,7 +310,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 5,
-      "pushed_at": "2026-11-24T11:08:25Z",
+      "pushed_at": "2026-11-25T17:27:23Z",
       "release": null,
       "commits": [
         {
@@ -459,18 +459,18 @@
   ],
   "recent_activity": [
     {
-      "sha": "cb73188",
-      "message": "Merge PR #86: preserve exact AniList playback position",
-      "date": "2026-11-24T16:17:03Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/cb7318821c35b54208ee7904c76bdca6e7671191",
+      "sha": "801ea97",
+      "message": "release: fix episode navigation and progress sync v3.3.8",
+      "date": "2026-11-25T18:43:36Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/801ea97d7979d305ccfd883b2e5e38f5b199fa8f",
       "project": "AniDash",
       "repo": "AniDash"
     },
     {
-      "sha": "caf454f",
-      "message": "release: add automatic source recovery v3.3.7",
-      "date": "2026-11-24T15:41:13Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash/commit/caf454ffc6187fc133b509ea545541cd873048c9",
+      "sha": "cb73188",
+      "message": "Merge PR #86: preserve exact AniList playback position",
+      "date": "2026-11-24T16:17:03Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash/commit/cb7318821c35b54208ee7904c76bdca6e7671191",
       "project": "AniDash",
       "repo": "AniDash"
     },

@@ -1,6 +1,6 @@
 {
   "username": "anshdeepofficial1",
-  "generated_at": "2026-11-26T16:54:11+00:00",
+  "generated_at": "2026-11-27T16:40:11+00:00",
   "active_project": "AniDash",
   "projects": [
     {
@@ -10,15 +10,15 @@
       "homepage": "https://anidashweb.vercel.app",
       "description": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
       "language": "Dart",
-      "stars": 32,
+      "stars": 33,
       "forks": 1,
       "issues": 0,
-      "pushed_at": "2026-11-26T08:34:42Z",
+      "pushed_at": "2026-11-27T08:46:35Z",
       "release": {
         "tag": "v3.3.8",
         "name": "AniDash v3.3.8",
         "published_at": "2026-11-25T19:16:51Z",
-        "downloads": 417,
+        "downloads": 634,
         "url": "https://github.com/anshdeepofficial1/AniDash/releases/tag/v3.3.8"
       },
       "commits": [
@@ -55,7 +55,7 @@
       "homepage": "https://vybetune.vercel.app/",
       "description": "VYBE — a modern Android music player",
       "language": "Kotlin",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "issues": 1,
       "pushed_at": "2026-11-23T16:37:26Z",
@@ -63,7 +63,7 @@
         "tag": "v0.14.1",
         "name": "VYBE 0.14.1",
         "published_at": "2026-10-22T17:33:50Z",
-        "downloads": 338,
+        "downloads": 343,
         "url": "https://github.com/anshdeepofficial1/VYBE/releases/tag/v0.14.1"
       },
       "commits": [
@@ -139,15 +139,15 @@
       "homepage": "https://zyloweb.vercel.app",
       "description": null,
       "language": "JavaScript",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
-      "issues": 1,
+      "issues": 2,
       "pushed_at": "2026-11-20T11:49:10Z",
       "release": {
         "tag": "v2.2.7",
         "name": "ZYLO v2.2.7",
         "published_at": "2026-11-20T11:49:10Z",
-        "downloads": 198,
+        "downloads": 780,
         "url": "https://github.com/anshdeepofficial1/ZYLO/releases/tag/v2.2.7"
       },
       "commits": [
@@ -310,32 +310,32 @@
       "stars": 0,
       "forks": 0,
       "issues": 5,
-      "pushed_at": "2026-11-25T17:27:23Z",
+      "pushed_at": "2026-11-27T03:27:54Z",
       "release": null,
       "commits": [
         {
-          "sha": "8325c38",
-          "message": "Add JustAnime probe diagnostics (action=probe)",
-          "date": "2026-11-23T16:07:16Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/8325c38b1b7f088e6a43a4f28b5978b23c119620"
+          "sha": "88ac9ff",
+          "message": "Merge pull request #20 from anshdeepofficial1/feature/device-pairing",
+          "date": "2026-11-27T03:27:53Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/88ac9ff4c7945748f3f688468f71c031f6e6c441"
         },
         {
-          "sha": "7b2bb55",
-          "message": "When every built-in server fails: plain-language status per provider + one-tap external servers",
-          "date": "2026-11-23T11:39:23Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/7b2bb5572ff5b0a591fe7738c3fa75394d7337c1"
+          "sha": "bb34c25",
+          "message": "Log sanitized pairing failure categories without credentials",
+          "date": "2026-11-27T03:17:42Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bb34c25cb38417f602fb5228b2aa5c4c2d990e4b"
         },
         {
-          "sha": "057970c",
-          "message": "AniKoto: use the app's own hosts (animepahe.pw, anikoto.pw) and stay on the mirror that found the show",
-          "date": "2026-11-23T11:34:38Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/057970c782e19ef5a24f79b239290cf5ca657b21"
+          "sha": "886728e",
+          "message": "Document Vercel managed Redis setup and preview isolation",
+          "date": "2026-11-27T03:14:04Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/886728ef8bf0872785743f523e59a682c70cc10d"
         },
         {
-          "sha": "369c986",
-          "message": "AniList sign-in: capture the token on any page (Redirect URL may be the site root)",
-          "date": "2026-11-23T11:28:26Z",
-          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/369c986250b631f685108012466aa1da550ec3ec"
+          "sha": "e901d0f",
+          "message": "Exercise both Vercel KV and Upstash REST environment configurations",
+          "date": "2026-11-27T03:13:57Z",
+          "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/e901d0fa2f848bfa8af53c2db8e50d57e0318034"
         }
       ]
     },
@@ -459,6 +459,22 @@
   ],
   "recent_activity": [
     {
+      "sha": "88ac9ff",
+      "message": "Merge pull request #20 from anshdeepofficial1/feature/device-pairing",
+      "date": "2026-11-27T03:27:53Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/88ac9ff4c7945748f3f688468f71c031f6e6c441",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
+      "sha": "bb34c25",
+      "message": "Log sanitized pairing failure categories without credentials",
+      "date": "2026-11-27T03:17:42Z",
+      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/bb34c25cb38417f602fb5228b2aa5c4c2d990e4b",
+      "project": "AniDash Web",
+      "repo": "AniDash-Website"
+    },
+    {
       "sha": "801ea97",
       "message": "release: fix episode navigation and progress sync v3.3.8",
       "date": "2026-11-25T18:43:36Z",
@@ -473,22 +489,6 @@
       "url": "https://github.com/anshdeepofficial1/AniDash/commit/cb7318821c35b54208ee7904c76bdca6e7671191",
       "project": "AniDash",
       "repo": "AniDash"
-    },
-    {
-      "sha": "8325c38",
-      "message": "Add JustAnime probe diagnostics (action=probe)",
-      "date": "2026-11-23T16:07:16Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/8325c38b1b7f088e6a43a4f28b5978b23c119620",
-      "project": "AniDash Web",
-      "repo": "AniDash-Website"
-    },
-    {
-      "sha": "7b2bb55",
-      "message": "When every built-in server fails: plain-language status per provider + one-tap external servers",
-      "date": "2026-11-23T11:39:23Z",
-      "url": "https://github.com/anshdeepofficial1/AniDash-Website/commit/7b2bb5572ff5b0a591fe7738c3fa75394d7337c1",
-      "project": "AniDash Web",
-      "repo": "AniDash-Website"
     },
     {
       "sha": "b3b5bd6",

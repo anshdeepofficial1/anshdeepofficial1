@@ -15,30 +15,30 @@
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.16s" fill="freeze"/>
           <circle cx="34" cy="69" r="4" fill="#39d353"/>
-          <text x="52" y="72" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="72" class="bright" font-size="10">release: fix episode navigation and progress sync v3.3.8</text>
-          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">801ea97 · Nov 25</text>
+          <text x="52" y="72" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="72" class="bright" font-size="10">Merge pull request #20 from anshdeepofficial1/feature/device-pairing</text>
+          <text x="808" y="72" text-anchor="end" class="muted" font-size="8">88ac9ff · Nov 27</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.27s" fill="freeze"/>
           <circle cx="34" cy="103" r="4" fill="#39d353"/>
-          <text x="52" y="106" class="repo" font-size="9">AniDash</text>
-          <text x="145" y="106" class="bright" font-size="10">Merge PR #86: preserve exact AniList playback position</text>
-          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">cb73188 · Nov 24</text>
+          <text x="52" y="106" class="repo" font-size="9">AniDash Web</text>
+          <text x="145" y="106" class="bright" font-size="10">Log sanitized pairing failure categories without credentials</text>
+          <text x="808" y="106" text-anchor="end" class="muted" font-size="8">bb34c25 · Nov 27</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.38s" fill="freeze"/>
           <circle cx="34" cy="137" r="4" fill="#39d353"/>
-          <text x="52" y="140" class="repo" font-size="9">AniDash Web</text>
-          <text x="145" y="140" class="bright" font-size="10">Add JustAnime probe diagnostics (action=probe)</text>
-          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">8325c38 · Nov 23</text>
+          <text x="52" y="140" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="140" class="bright" font-size="10">release: fix episode navigation and progress sync v3.3.8</text>
+          <text x="808" y="140" text-anchor="end" class="muted" font-size="8">801ea97 · Nov 25</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.49s" fill="freeze"/>
           <circle cx="34" cy="171" r="4" fill="#39d353"/>
-          <text x="52" y="174" class="repo" font-size="9">AniDash Web</text>
-          <text x="145" y="174" class="bright" font-size="10">When every built-in server fails: plain-language status per provider +…</text>
-          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">7b2bb55 · Nov 23</text>
+          <text x="52" y="174" class="repo" font-size="9">AniDash</text>
+          <text x="145" y="174" class="bright" font-size="10">Merge PR #86: preserve exact AniList playback position</text>
+          <text x="808" y="174" text-anchor="end" class="muted" font-size="8">cb73188 · Nov 24</text>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="0.60s" fill="freeze"/>
